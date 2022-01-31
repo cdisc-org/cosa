@@ -1,23 +1,29 @@
 import React, { useState } from 'react';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
+import Box from '@mui/material/Box';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
 import { Typography } from '@mui/material';
 
 const data = [
   {
+    id: 'odmlib',
     name: 'odmlib',
     description:
       'odmlib is a Python library that simplifies creating and processing ODM and its extensions, such as Define-XML.',
     categories: ['Define-XML', 'ODM', 'Dataset-XML'],
+    logo: 'logo.png',
   },
   {
+    id: 'vde',
     name: 'Visual Define-XML Editor',
     description: 'Visual Editor for Define-XML 2.0 and ARM standards.',
     categories: ['Define-XML', 'ARM'],
+    logo: 'logo.png',
   },
 ];
 
@@ -91,7 +97,11 @@ const Directory: React.FC<IDirectoryProps> = ({
   return (
     <Stack direction="row" sx={{ flex: '1', m: 2 }} spacing={8}>
       <Stack sx={{ ml: 2 }}>
-        <TextField onKeyPress={handleFilterChange} />
+        <TextField
+          size="small"
+          onKeyPress={handleFilterChange}
+          InputProps={{ sx: { backgroundColor: 'white' } }}
+        />
         <List>
           {category !== null && (
             <ListItem disablePadding>
@@ -117,7 +127,7 @@ const Directory: React.FC<IDirectoryProps> = ({
             </ListItem>
           )}
           {categories.map((name) => (
-            <ListItem disablePadding>
+            <ListItem disablePadding key={name}>
               <ListItemButton
                 selected={name === category}
                 onClick={() => {
@@ -144,10 +154,17 @@ const Directory: React.FC<IDirectoryProps> = ({
       </Stack>
       <List>
         {filteredData.map((item) => (
-          <ListItem disablePadding>
+          <ListItem disablePadding key={item.name}>
+            <ListItemIcon>
+              <Box
+                component="img"
+                sx={{ height: 50 }}
+                src={require(`../assets/projects/${item.id}/${item.logo}`)}
+              />
+            </ListItemIcon>
             <ListItemButton
               onClick={() => {
-                handlePageSelect(item.name);
+                handlePageSelect(`project/${item.id}`);
               }}
             >
               <ListItemText primary={item.name} secondary={item.description} />

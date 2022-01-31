@@ -5,6 +5,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Header from './Header';
 import Directory from './Directory';
+import ProjectDescription from './ProjectDescription';
 
 const theme = createTheme({
   components: {
@@ -33,6 +34,9 @@ const App: React.FC = () => {
           <Header onPageUpdate={handlePageChange} />
           {page === 'directory' && (
             <Directory onPageUpdate={handlePageChange} />
+          )}
+          {page.startsWith('project/') && (
+            <ProjectDescription id={page.replace(/project\//, '')} />
           )}
         </Stack>
       </Box>
