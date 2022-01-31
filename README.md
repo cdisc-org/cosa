@@ -1,4 +1,5 @@
 # COSA Directory
 
-Use `npm install` to install
+Run `npm install` once
+
 Use `npm start` to start development
