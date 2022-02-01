@@ -2,7 +2,7 @@ import React from 'react';
 import Stack from '@mui/material/Stack';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
-import { IProject } from '../../common.d';
+import { IProject } from '../../interfaces/common.d';
 
 const labels = {
   projectName: 'Project Name',

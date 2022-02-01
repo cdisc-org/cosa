@@ -2,7 +2,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import { IProject } from '../../common.d';
+import { IProject } from '../../interfaces/common.d';
 
 const labels = {
   problem: 'Problem',

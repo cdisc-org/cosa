@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import ProjectInfo from './ProjectInfo';
 import ProjectAbout from './ProjectAbout';
-import { IProject } from '../../common.d';
+import { IProject } from '../../interfaces/common.d';
 
 interface IProjectDescriptionProps {
   id: string;
