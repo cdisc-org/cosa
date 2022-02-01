@@ -24,13 +24,6 @@ const data = [
     categories: ['Define-XML', 'ODM', 'Dataset-XML'],
   },
   {
-    id: 'studyBuilder',
-    name: 'Study Builder',
-    description:
-      'A new approach to working with studies that once fully implemented will drive end-to-end consistency and more efficient processes.',
-    categories: ['CDISC CT', 'CDASH', 'SDTM', 'ADaM'],
-  },
-  {
     id: 'tplyr',
     name: 'Tplyr',
     description:
@@ -121,29 +114,28 @@ const Directory: React.FC<IDirectoryProps> = ({
           InputProps={{ sx: { backgroundColor: 'white' } }}
         />
         <List>
-          {category !== null && (
-            <ListItem disablePadding>
-              <ListItemButton
-                onClick={() => {
-                  handleSelectCategory(null);
-                }}
-              >
-                <ListItemText
-                  sx={{ width: '100%' }}
-                  primary={
-                    <Stack direction='row' justifyContent='space-between'>
-                      <Typography variant='body2' color='grey.700'>
-                        View All
-                      </Typography>
-                      <Typography variant='subtitle2' color='grey.500'>
-                        {Object.keys(data).length}
-                      </Typography>
-                    </Stack>
-                  }
-                />
-              </ListItemButton>
-            </ListItem>
-          )}
+          <ListItem disablePadding>
+            <ListItemButton
+              onClick={() => {
+                handleSelectCategory(null);
+              }}
+              disabled={category === null}
+            >
+              <ListItemText
+                sx={{ width: '100%' }}
+                primary={
+                  <Stack direction='row' justifyContent='space-between'>
+                    <Typography variant='body2' color='grey.700'>
+                      View All
+                    </Typography>
+                    <Typography variant='subtitle2' color='grey.500'>
+                      {Object.keys(data).length}
+                    </Typography>
+                  </Stack>
+                }
+              />
+            </ListItemButton>
+          </ListItem>
           {categories.map((name) => (
             <ListItem disablePadding key={name}>
               <ListItemButton
@@ -156,10 +148,10 @@ const Directory: React.FC<IDirectoryProps> = ({
                   sx={{ width: '100%' }}
                   primary={
                     <Stack direction='row' justifyContent='space-between'>
-                      <Typography variant='body2' color='grey.700'>
+                      <Typography variant='body2' color='grey.800'>
                         {name}
                       </Typography>
-                      <Typography variant='subtitle2' color='grey.500'>
+                      <Typography variant='subtitle2' color='grey.600'>
                         {categoryCount[name]}
                       </Typography>
                     </Stack>

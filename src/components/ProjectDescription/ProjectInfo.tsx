@@ -3,21 +3,7 @@ import Stack from '@mui/material/Stack';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import { IProject } from '../../interfaces/common.d';
-
-const labels = {
-  projectName: 'Project Name',
-  projectOwner: 'Project Owner',
-  projectContact: 'Project Contact',
-  projectLandingPage: 'Landing Page',
-  projectRepository: 'Repository',
-  programmingLanguage: 'Programming Language',
-  openSourceLicense: 'Open Source License',
-  cdiscStandards: 'CDISC Standards',
-  agreeWithCdiscCodeOfEthics: 'Agree With CDISC Code Of Ethics',
-  maturity: 'Maturity',
-  user: 'User',
-  logoUrl: 'LogoUrl',
-};
+import { labels } from '../../constants/project';
 
 interface IProjectInfoProps {
   projectInfo: IProject['projectInfo'];
@@ -52,8 +38,8 @@ const ProjectInfo: React.FC<IProjectInfoProps> = ({
 
   return (
     <Stack spacing={1}>
-      <Typography variant='subtitle1' color='grey.500'>
-        {labels[id]}
+      <Typography variant='subtitle1' color='grey.600'>
+        {labels.projectInfo[id]}
       </Typography>
       {type === 'link' && (
         <Link href={href} target='_blank' rel='noopener'>

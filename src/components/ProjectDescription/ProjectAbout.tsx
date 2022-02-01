@@ -3,22 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { IProject } from '../../interfaces/common.d';
-
-const labels = {
-  problem: 'Problem',
-  solution: 'Solution',
-  openSourceConsiderations: 'Open Source Considerations',
-  maintenanceModel: 'Maintenance Model',
-  projectSize: 'Project Size',
-  contributors: 'Contributors',
-  users: 'Users',
-  preRequisites: 'Pre-Requisites',
-  projectServiceOptions: 'Project Service Options',
-  sponsors: 'Sponsors',
-  goalsObjectives: 'Goals Objectives',
-  communications: 'Communications',
-  additonalInformation: 'Additonal Information',
-};
+import { labels } from '../../constants/project';
 
 interface IProjectAboutProps {
   description: IProject['detailedDescription'];
@@ -36,7 +21,7 @@ const ProjectAbout: React.FC<IProjectAboutProps> = ({
   return (
     <Stack spacing={1}>
       <Typography variant='h6' color='grey.600'>
-        {labels[id]}
+        {labels.detailedDescription[id]}
       </Typography>
       <ReactMarkdown>{description[id]}</ReactMarkdown>
     </Stack>

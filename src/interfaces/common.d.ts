@@ -9,7 +9,7 @@ export interface IProject {
     openSourceLicense: Array<string>;
     cdiscStandards: Array<string>;
     agreeWithCdiscCodeOfEthics: boolean;
-    maturity: string;
+    projectMaturity: string;
     user: Array<string>;
     logoUrl: string;
   };

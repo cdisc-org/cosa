@@ -16,7 +16,7 @@ projectInfo:
   - SDTM
   - ADaM
   agreeWithCdiscCodeOfEthics: true
-  maturity: Stable (V1)
+  projectMaturity: Stable (V1)
   user: 
   - Study Designer
   - Standards Management

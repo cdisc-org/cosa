@@ -10,6 +10,7 @@ import Logo from '../assets/images/cosaLogo.svg';
 const pages = [
   { name: 'Directory', page: 'directory' },
   { name: 'About', page: 'about' },
+  { name: 'Application', page: 'application' },
 ];
 
 interface IHeaderProps {
@@ -19,7 +20,7 @@ interface IHeaderProps {
 const Header: React.FC<IHeaderProps> = ({ onPageUpdate }: IHeaderProps) => {
   return (
     <AppBar
-      position='static'
+      position='sticky'
       sx={{ height: 65, backgroundColor: 'primary.dark' }}
     >
       <Toolbar disableGutters>

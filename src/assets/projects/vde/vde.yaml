@@ -13,7 +13,7 @@ projectInfo:
   - Define-XML
   - ARM
   agreeWithCdiscCodeOfEthics: true
-  maturity: Stable
+  projectMaturity: Stable
   user: Clinical Programmers
   logoUrl: "./logo.png"
 detailedDescription:
@@ -28,7 +28,7 @@ detailedDescription:
   solution: |-
     VDE is a WYSIWYG editor, which is intended to help develop dataset specifications as a Define-XML document from the very beginning of the dataset development process. It provides users an ability to create from Define-XML documents scratch and update existing documents. To help with the development it implements additional functionality, such as comments, linked codelists, import/export from Excel, XPT processing and etc. Currently the supported standards are Define-XML v3.0 and ARM v1.0 extension, as well as has integration with CDISC Library and implements CDISC Library and NCI/CDISC CT browsers.
 
-    ####List of VDE presentations:
+    #### List of VDE presentations:
     * [Visual Define-XML Editor](https://www.cdisc.org/system/files/all/event/restricted/2018_US/VisualDefine-XMLEditor_Kolosov.pdf) ([presentation](https://www.cdisc.org/system/files/all/event/restricted/2018_US/6C_VisualDefine-XMLEditor_Kolosov.pdf)), CDISC US Interchange 2018.
     * [CDISC Webinar Visual Define-XML Editor](https://www.cdisc.org/events/webinar/cdisc-members-only-webinar-visual-define-xml-editor)
     * [Creating ARM using Visual Define-XML Editor](https://www.youtube.com/watch?v=PIxXMsBxzws&t=1490s), Basel SDE 2020 and CDISC San-Diego User Group meeting

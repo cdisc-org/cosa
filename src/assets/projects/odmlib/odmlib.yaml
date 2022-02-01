@@ -14,7 +14,7 @@ projectInfo:
     - Define-XML
     - ODM
   agreeWithCdiscCodeOfEthics: true
-  maturity: Stable
+  projectMaturity: Stable
   user: Clinical Programmers
   logoUrl: "./logo.png"
 detailedDescription:
