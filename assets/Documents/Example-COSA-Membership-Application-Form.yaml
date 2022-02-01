@@ -5,18 +5,21 @@ projectInfo:
   projectContact:
   - support@defineeditor.com
   - t.me/defineeditor
-  projectLanding Page: www.defineeditor.com
+  projectLandingPage: www.defineeditor.com
   projectRepository: github.com/defineEditor/editor/
-  programmingLanguage: JavaScript
-  openSourceLicense: AGPL-3.0
+  programmingLanguage:
+  - JavaScript
+  openSourceLicense:
+  - AGPL-3.0
   cdiscStandards:
   - Define-XML
   - ARM
   agreeWithCdiscCodeOfEthics: true
-  maturity: Stable
-  user: Clinical Programmers
-  logoUrl: "./vdeLogo.png"
-description:
+  projectMaturity: Stable
+  user:
+  - Clinical Programmers
+  logoUrl: ./vdeLogo.png
+detailedDescription:
   problem: >-
     Define-XML CDISC standard is an ODM-XML-based standard which is used to
     represent dataset specifications (e.g, ADaM or SDTM) in a normalized and machine
@@ -63,4 +66,3 @@ description:
     The interaction with users is organized via a Telegram channel and
     a LinkedIn group. Where possible, it is promoted at conference.
   additonalInformation:  N.A.
-  
