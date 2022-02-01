@@ -95,10 +95,10 @@ const Directory: React.FC<IDirectoryProps> = ({
     });
 
   return (
-    <Stack direction="row" sx={{ flex: '1', m: 2 }} spacing={8}>
+    <Stack direction='row' sx={{ flex: '1', m: 2 }} spacing={8}>
       <Stack sx={{ ml: 2 }}>
         <TextField
-          size="small"
+          size='small'
           onKeyPress={handleFilterChange}
           InputProps={{ sx: { backgroundColor: 'white' } }}
         />
@@ -113,11 +113,11 @@ const Directory: React.FC<IDirectoryProps> = ({
                 <ListItemText
                   sx={{ width: '100%' }}
                   primary={
-                    <Stack direction="row" justifyContent="space-between">
-                      <Typography variant="body2" color="grey.700">
+                    <Stack direction='row' justifyContent='space-between'>
+                      <Typography variant='body2' color='grey.700'>
                         View All
                       </Typography>
-                      <Typography variant="subtitle2" color="grey.500">
+                      <Typography variant='subtitle2' color='grey.500'>
                         {Object.keys(data).length}
                       </Typography>
                     </Stack>
@@ -137,11 +137,11 @@ const Directory: React.FC<IDirectoryProps> = ({
                 <ListItemText
                   sx={{ width: '100%' }}
                   primary={
-                    <Stack direction="row" justifyContent="space-between">
-                      <Typography variant="body2" color="grey.700">
+                    <Stack direction='row' justifyContent='space-between'>
+                      <Typography variant='body2' color='grey.700'>
                         {name}
                       </Typography>
-                      <Typography variant="subtitle2" color="grey.500">
+                      <Typography variant='subtitle2' color='grey.500'>
                         {categoryCount[name]}
                       </Typography>
                     </Stack>
@@ -157,7 +157,7 @@ const Directory: React.FC<IDirectoryProps> = ({
           <ListItem disablePadding key={item.name}>
             <ListItemIcon>
               <Box
-                component="img"
+                component='img'
                 sx={{ height: 50 }}
                 src={require(`../assets/projects/${item.id}/${item.logo}`)}
               />

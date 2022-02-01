@@ -29,7 +29,7 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box sx={{ backgroundColor: 'grey.50', height: '100vh' }}>
+      <Box sx={{ backgroundColor: 'grey.50', minHeight: '100vh' }}>
         <Stack>
           <Header onPageUpdate={handlePageChange} />
           {page === 'directory' && (

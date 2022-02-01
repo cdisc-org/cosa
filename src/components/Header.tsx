@@ -19,15 +19,15 @@ interface IHeaderProps {
 const Header: React.FC<IHeaderProps> = ({ onPageUpdate }: IHeaderProps) => {
   return (
     <AppBar
-      position="static"
+      position='static'
       sx={{ height: 65, backgroundColor: 'primary.dark' }}
     >
       <Toolbar disableGutters>
-        <Stack direction="row" spacing={2} alignItems="center">
+        <Stack direction='row' spacing={2} alignItems='center'>
           <Box sx={{ width: 50, height: 50, ml: 2 }}>
             <img src={Logo} />
           </Box>
-          <Typography variant="h6" sx={{ ml: 2 }}>
+          <Typography variant='h6' sx={{ ml: 2 }}>
             COSA
           </Typography>
           {pages.map((page) => (

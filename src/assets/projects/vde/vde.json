@@ -8,15 +8,15 @@
     ],
     "projectLandingPage": "www.defineeditor.com",
     "projectRepository": "github.com/defineEditor/editor/",
-    "programmingLanguage": "JavaScript",
-    "openSourceLicense": "AGPL-3.0",
+    "programmingLanguage": ["JavaScript"],
+    "openSourceLicense": ["AGPL-3.0"],
     "cdiscStandards": [
       "Define-XML",
       "ARM"
     ],
     "agreeWithCdiscCodeOfEthics": true,
     "maturity": "Stable",
-    "user": "Clinical Programmers",
+    "user": ["Clinical Programmers"],
     "logoUrl": "logo.png"
   },
   "description": {
