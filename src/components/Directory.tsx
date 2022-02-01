@@ -13,7 +13,7 @@ const data = [
   {
     id: 'admiral',
     name: 'Admiral',
-    description: 'ADaM in R Asset Library',
+    description: 'ADaM in R Asset Library.',
     categories: ['ADaM'],
   },
   {
