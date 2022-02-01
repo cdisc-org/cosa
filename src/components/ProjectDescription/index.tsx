@@ -28,7 +28,7 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
     return null;
   }
 
-  const { projectInfo, description } = project;
+  const { projectInfo, detailedDescription } = project;
 
   return (
     <Stack spacing={2} sx={{ m: 4 }}>
@@ -40,7 +40,7 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
           <Box
             component='img'
             sx={{ height: 80, width: 80 }}
-            src={require(`../../assets/projects/${id}/${projectInfo.logoUrl}`)}
+            src={require(`../../assets/projects/${id}/logo.png`)}
           />
           <ProjectInfo projectInfo={projectInfo} id='projectOwner' />
           <ProjectInfo projectInfo={projectInfo} id='projectRepository' />
@@ -51,13 +51,16 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
           <ProjectInfo projectInfo={projectInfo} id='programmingLanguage' />
         </Stack>
         <Stack spacing={2}>
-          <ProjectAbout description={description} id='problem' />
-          <ProjectAbout description={description} id='solution' />
-          <ProjectAbout description={description} id='users' />
-          <ProjectAbout description={description} id='maintenanceModel' />
-          <ProjectAbout description={description} id='preRequisites' />
-          <ProjectAbout description={description} id='contributors' />
-          <ProjectAbout description={description} id='communications' />
+          <ProjectAbout description={detailedDescription} id='problem' />
+          <ProjectAbout description={detailedDescription} id='solution' />
+          <ProjectAbout description={detailedDescription} id='users' />
+          <ProjectAbout
+            description={detailedDescription}
+            id='maintenanceModel'
+          />
+          <ProjectAbout description={detailedDescription} id='preRequisites' />
+          <ProjectAbout description={detailedDescription} id='contributors' />
+          <ProjectAbout description={detailedDescription} id='communications' />
         </Stack>
       </Stack>
     </Stack>

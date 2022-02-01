@@ -34,7 +34,7 @@ const ProjectInfo: React.FC<IProjectInfoProps> = ({
   if (['projectLandingPage', 'projectRepository'].includes(id)) {
     type = 'link';
     href = projectInfo[id] as string;
-    if (!href.toLowerCase().startsWith('http')) {
+    if (href && !href.toLowerCase().startsWith('http')) {
       href = `//${href}`;
     }
   } else if (

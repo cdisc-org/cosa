@@ -11,19 +11,37 @@ import { Typography } from '@mui/material';
 
 const data = [
   {
+    id: 'admiral',
+    name: 'Admiral',
+    description: 'ADaM in R Asset Library',
+    categories: ['ADaM'],
+  },
+  {
     id: 'odmlib',
     name: 'odmlib',
     description:
       'odmlib is a Python library that simplifies creating and processing ODM and its extensions, such as Define-XML.',
     categories: ['Define-XML', 'ODM', 'Dataset-XML'],
-    logo: 'logo.png',
+  },
+  {
+    id: 'studyBuilder',
+    name: 'Study Builder',
+    description:
+      'A new approach to working with studies that once fully implemented will drive end-to-end consistency and more efficient processes.',
+    categories: ['CDISC CT', 'CDASH', 'SDTM', 'ADaM'],
+  },
+  {
+    id: 'tplyr',
+    name: 'Tplyr',
+    description:
+      'Tplyr is a grammar of data format and summary, designed to simplify the creation of clinical safety summaries.',
+    categories: ['ADaM', 'SDTM'],
   },
   {
     id: 'vde',
     name: 'Visual Define-XML Editor',
     description: 'Visual Editor for Define-XML 2.0 and ARM standards.',
     categories: ['Define-XML', 'ARM'],
-    logo: 'logo.png',
   },
 ];
 
@@ -155,18 +173,18 @@ const Directory: React.FC<IDirectoryProps> = ({
       <List>
         {filteredData.map((item) => (
           <ListItem disablePadding key={item.name}>
-            <ListItemIcon>
-              <Box
-                component='img'
-                sx={{ height: 50 }}
-                src={require(`../assets/projects/${item.id}/${item.logo}`)}
-              />
-            </ListItemIcon>
             <ListItemButton
               onClick={() => {
                 handlePageSelect(`project/${item.id}`);
               }}
             >
+              <ListItemIcon sx={{ width: 50, mr: 2, justifyContent: 'center' }}>
+                <Box
+                  component='img'
+                  sx={{ height: 50 }}
+                  src={require(`../assets/projects/${item.id}/logo.png`)}
+                />
+              </ListItemIcon>
               <ListItemText primary={item.name} secondary={item.description} />
             </ListItemButton>
           </ListItem>

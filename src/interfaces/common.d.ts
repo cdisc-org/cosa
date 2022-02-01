@@ -13,7 +13,7 @@ export interface IProject {
     user: Array<string>;
     logoUrl: string;
   };
-  description: {
+  detailedDescription: {
     problem: string;
     solution: string;
     openSourceConsiderations: string;

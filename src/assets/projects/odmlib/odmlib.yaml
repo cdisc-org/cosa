@@ -1,66 +1,79 @@
 ---
 projectInfo:
-  projectName: Visual Define-XML Editor
-  projectOwner: Dmitry Kolosov
+  projectName: odmlib
+  projectOwner: Sam Hume
   projectContact:
-  - support@defineeditor.com
-  - t.me/defineeditor
-  projectLandingPage: www.defineeditor.com
-  projectRepository: github.com/defineEditor/editor/
-  programmingLanguage: JavaScript
-  openSourceLicense: AGPL-3.0
+  - swhume@gmail.com
+  projectLandingPage: https://swhume.github.io/odmlib/
+  projectRepository: https://github.com/swhume/odmlib
+  programmingLanguage:
+    - Python
+  openSourceLicense:
+    - MIT
   cdiscStandards:
-  - Define-XML
-  - ARM
+    - Define-XML
+    - ODM
   agreeWithCdiscCodeOfEthics: true
   maturity: Stable
   user: Clinical Programmers
   logoUrl: "./logo.png"
-description:
+detailedDescription:
   problem: >-
-    Define-XML CDISC standard is an ODM-XML-based standard which is used to
-    represent dataset specifications (e.g, ADaM or SDTM) in a normalized and machine
-    readable data structure. It can be challenging to develop Define-XML documents
-    without auxiliary tools. There is a variety of tools, the most of which are based
-    on tables (2D datasets or Excel). Goal of the Visual Define-XML Editor (VDE) is
-    to simplify Define-XML editing for end users, by allowing them to focus on the
-    content part of Define-XML Standard rather than on the technical aspects of it.
+    Odmlib provides an easy way for Python programmers to create or process ODM and Define-XML documents.
+    Make it simple to generate or process ODM or any ODM extension.
   solution: |-
-    VDE is a WYSIWYG editor, which is intended to help develop dataset specifications as a Define-XML document from the very beginning of the dataset development process. It provides users an ability to create from Define-XML documents scratch and update existing documents. To help with the development it implements additional functionality, such as comments, linked codelists, import/export from Excel, XPT processing and etc. Currently the supported standards are Define-XML v3.0 and ARM v1.0 extension, as well as has integration with CDISC Library and implements CDISC Library and NCI/CDISC CT browsers.
+    Odmlib is a Python ODM library that simplifies creating and processing ODM and its extensions.
+    The odmlib package provides and object-oriented approach to working with ODM.
+    It also makes it easy for implementers to create tools that support their own ODM extensions without needed to create or process XML directly.
+    It serializes ODM as XML or JSON.
 
-    ####List of VDE presentations:
-    * [Visual Define-XML Editor](https://www.cdisc.org/system/files/all/event/restricted/2018_US/VisualDefine-XMLEditor_Kolosov.pdf) ([presentation](https://www.cdisc.org/system/files/all/event/restricted/2018_US/6C_VisualDefine-XMLEditor_Kolosov.pdf)), CDISC US Interchange 2018.
-    * [CDISC Webinar Visual Define-XML Editor](https://www.cdisc.org/events/webinar/cdisc-members-only-webinar-visual-define-xml-editor)
-    * [Creating ARM using Visual Define-XML Editor](https://www.youtube.com/watch?v=PIxXMsBxzws&t=1490s), Basel SDE 2020 and CDISC San-Diego User Group meeting
+    If you want to see a simple example program that shows how to create a simple ODM file using odmlib, check this out:
+    [https://gist.github.com/swhume/ef8ca0385a706c344eec83dac34a1359](https://github.com/swhume/odmlib)
   openSourceConsiderations: |-
-    VDE is published under AGPL-3.0 license. The main reason to create an open-source solution is to build of a community of users and have a transparency of the application. Also it provides an ability to build the application on platforms which are not available to me as a developer, e.g., mac os.
-    Another reason to make it open-source is to develop more open-source packages related to our industry. Other open-source packages which are developed separately and used by VDE: [cla-wrapper](https://github.com/defineEditor/cla-wrapper), [xport-js](https://github.com/defineEditor/xport-js), [dataset-xml](https://github.com/defineEditor/dataset-xml).
+    The odmlib package is open source to encourage programmers to build their own tools and to do cool things with ODM and its extensions.
+    For those that have similar interests, to consider improving the library. To encourage others to create and use open source applications.
+    To help grow the community of folks using ODM and its extensions.
+
+    The odmlib package uses the MIT license.
+    It has been independently produced as a library that scratches my personal itch to have an object-oriented library for working with ODM and its extensions.
+    We plan to use odmlib at CDISC to generate ODM and Define-XML content from the Library.
+
+    The odmlib repository is on my GitHub site [https://github.com/swhume/odmlib](https://github.com/swhume/odmlib).
+    The odmlib is under development.
+
+    Example code to help programmers get started with odmlib is available at [github](https://github.com/swhume/odmlib_examples).
   maintenanceModel: |-
-    The project has a stable and development branches. Issues can be reported either by GitHub, e-mail or Telegram channel.
-    Issues in the stable version are fixed via hotfixes (the project uses git-flow approach), although de-facto the development version is far ahead of the stable version and now issues are fixed in the next development release.
+    I plan to author blog posts to share odmlib with a broad audience.
+    I plan to share the blog posts on LinkedIn.
+    I will also share odmlib and its example applications with CDISC staff and others that have an interest in ODM.
+    If there's sufficient interest, I will highlight odmlib in conference presentations and possibly at a future hackathon.
   projectSize:  |-
-    Using a T-shirt estimation the project size is large. It has been developed
-    since 2018 and a rough estimate is that it was spend more than a thousand hours
-    on the project.
+    Large
   contributors:  |-
-    Contributors must follow eslint rules specified in the .eslintrc file in the root folder.
+    As the primary author, I have been the main user of this new ODM library.
+    CDISC will likely use this library to produce its ODM service for the CDISC Library.
+    As an ODM team lead, I will share odmlib with other ODM experts.
+    Since it makes it easy for Python programmers to work with ODM, I hope this library appeals to other Python developers.
+
+    After ODM v2.0 has been released as a draft, an ODM v2.0 model will be included as part of the odmlib package.
   users:  |-
-    The primary users of VDE are clinical programmers developing and reviewing
-    dataset specifications. It is expected that VDE users know Define-XML and ARM
-    standards. There is no external training or documentation for the editor, help
-    documentation for non-standard functionality is available within the editor.
+    As a new project that is just about to be released, it's too early to comment on the community or users.
+    Personally, if odmlib makes it easier for me and CDISC staff to create ODM solutions I will consider the project a success.
+    If other developers also find it useful that would be even better.
+
+    The odmlib package was originally developed by Sam Hume as a personal project.
+    It is not a CDISC project, but others in CDISC may use it and be contributing authors.
   preRequisites: |-
-    The software is distributed for MS Windows (Windows 7 and above) and Linux systems. It was complied by one person on MacOS, but it is not supported on that platform as support requires to have a Mac.
-    The project can be used as is and does not require any feedback or communication.
+    Follow getting started [instructions](https://swhume.github.io/odmlib/#getting-started).
   projectServiceOptions:  |-
-    For the company where I am working, I performed in-house validation of the software.
+
   sponsors: N.A.
   goalsObjectives:  |-
-    The main goal is the usage by an industry, so that the community
-    can provide user feedback and develop plugins (interface is not exposed in the
-    current version).
+    The odmlib Python library will be the only general purpose Python package that I'm aware of for creating ODM tools.
+    It will work with ODM, its extensions, as well as allow developers to create software tools that support their own extensions.
+    It also makes it much simpler to produce or process ODM documents.
+    Published under the MIT license, I hope others that find it useful will contribute to it.
   communications:  |-
-    The interaction with users is organized via a Telegram channel and
-    a LinkedIn group. Where possible, it is promoted at conference.
-  additonalInformation:  N.A.
-  
+    * [Github](https://github.com/swhume/odmlib)
+
+  additonalInformation: |-

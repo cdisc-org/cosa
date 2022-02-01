@@ -16,7 +16,7 @@ projectInfo:
   maturity: Stable
   user: Clinical Programmers
   logoUrl: "./logo.png"
-description:
+detailedDescription:
   problem: >-
     Define-XML CDISC standard is an ODM-XML-based standard which is used to
     represent dataset specifications (e.g, ADaM or SDTM) in a normalized and machine

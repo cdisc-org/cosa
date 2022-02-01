@@ -21,8 +21,8 @@ const labels = {
 };
 
 interface IProjectAboutProps {
-  description: IProject['description'];
-  id: keyof IProject['description'];
+  description: IProject['detailedDescription'];
+  id: keyof IProject['detailedDescription'];
 }
 
 const ProjectAbout: React.FC<IProjectAboutProps> = ({
