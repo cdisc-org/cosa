@@ -7,11 +7,13 @@ import ProjectAbout from './ProjectAbout';
 import { IProject } from '../../interfaces/common.d';
 
 interface IProjectDescriptionProps {
-  id: string;
+  id?: string;
+  preloadedProject?: IProject;
 }
 
 const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
   id,
+  preloadedProject,
 }: IProjectDescriptionProps) => {
   const [project, setProject] = useState<IProject>();
 
@@ -21,8 +23,12 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
       setProject(data);
     };
 
-    loadYaml();
-  }, [id]);
+    if (preloadedProject === undefined) {
+      loadYaml();
+    } else {
+      setProject(preloadedProject);
+    }
+  }, [id, preloadedProject]);
 
   if (project === undefined) {
     return null;
@@ -40,7 +46,11 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
           <Box
             component='img'
             sx={{ height: 80, width: 80 }}
-            src={require(`../../assets/projects/${id}/logo.png`)}
+            src={
+              id === undefined
+                ? require(`../../assets/images/cosaLogo.png`)
+                : require(`../../assets/projects/${id}/logo.png`)
+            }
           />
           <ProjectInfo projectInfo={projectInfo} id='projectOwner' />
           <ProjectInfo projectInfo={projectInfo} id='projectRepository' />
