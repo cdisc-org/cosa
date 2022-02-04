@@ -128,7 +128,7 @@ const Directory: React.FC<IDirectoryProps> = ({
                     <Typography variant='body2' color='grey.700'>
                       View All
                     </Typography>
-                    <Typography variant='subtitle2' color='grey.500'>
+                    <Typography variant='subtitle2' color='grey.600'>
                       {Object.keys(data).length}
                     </Typography>
                   </Stack>
