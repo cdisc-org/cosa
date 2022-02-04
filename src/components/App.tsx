@@ -6,6 +6,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Header from './Header';
 import Directory from './Directory';
 import About from './About';
+import Events from './Events';
 import Application from './Application';
 import ProjectDescription from './ProjectDescription';
 
@@ -38,6 +39,7 @@ const App: React.FC = () => {
             <Directory onPageUpdate={handlePageChange} />
           )}
           {page === 'about' && <About />}
+          {page === 'events' && <Events />}
           {page === 'application' && <Application />}
           {page.startsWith('project/') && (
             <ProjectDescription id={page.replace(/project\//, '')} />
