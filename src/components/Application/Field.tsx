@@ -1,6 +1,7 @@
 import React from 'react';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
+import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Tooltip from '@mui/material/Tooltip';
 import Autocomplete from '@mui/material/Autocomplete';
@@ -63,10 +64,15 @@ const Field: React.FC<IField> = ({
         </Tooltip>
       </Stack>
       {flag && (
-        <Checkbox
-          checked={value as boolean}
-          onChange={handleFlagChange}
-          sx={{ width: 30 }}
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={value as boolean}
+              onChange={handleFlagChange}
+              sx={{ width: 30 }}
+            />
+          }
+          label='Agree'
         />
       )}
       {options !== undefined && (
