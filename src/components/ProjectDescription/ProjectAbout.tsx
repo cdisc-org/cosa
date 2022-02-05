@@ -20,9 +20,7 @@ const ProjectAbout: React.FC<IProjectAboutProps> = ({
 
   return (
     <Stack spacing={1}>
-      <Typography variant='h6' color='grey.600'>
-        {labels.detailedDescription[id]}
-      </Typography>
+      <Typography variant='h3'>{labels.detailedDescription[id]}</Typography>
       <ReactMarkdown>{description[id]}</ReactMarkdown>
     </Stack>
   );

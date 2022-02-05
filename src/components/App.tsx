@@ -21,9 +21,15 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box sx={{ backgroundColor: 'grey.50', minHeight: '100vh' }}>
-        <Stack>
-          <Header onPageUpdate={handlePageChange} />
+      <Stack
+        sx={{
+          backgroundColor: 'grey.50',
+          height: '100vh',
+          overflowY: 'hidden',
+        }}
+      >
+        <Header onPageUpdate={handlePageChange} />
+        <Box sx={{ overflowY: 'auto' }}>
           {page === 'directory' && (
             <Directory onPageUpdate={handlePageChange} />
           )}
@@ -33,8 +39,8 @@ const App: React.FC = () => {
           {page.startsWith('project/') && (
             <ProjectDescription id={page.replace(/project\//, '')} />
           )}
-        </Stack>
-      </Box>
+        </Box>
+      </Stack>
     </ThemeProvider>
   );
 };

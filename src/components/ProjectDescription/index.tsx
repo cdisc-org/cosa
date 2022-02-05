@@ -38,7 +38,7 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
 
   return (
     <Stack spacing={2} sx={{ m: 4 }}>
-      <Typography variant='h3' color='grey.700' sx={{ mb: 4 }}>
+      <Typography variant='h2' sx={{ mb: 4 }}>
         {projectInfo.projectName}
       </Typography>
       <Stack direction='row' sx={{ flex: '1', m: 2 }} spacing={8}>
