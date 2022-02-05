@@ -66,6 +66,48 @@ const theme = createTheme({
       },
     },
   },
+  typography: {
+    h1: {
+      fontWeight: 400,
+      fontSize: 48,
+      color: '#134678',
+    },
+    h2: {
+      fontWeight: 400,
+      fontSize: 34,
+      color: '#134678',
+    },
+    h3: {
+      fontWeight: 300,
+      fontSize: 24,
+      color: '#134678',
+    },
+    h4: {
+      fontWeight: 300,
+      fontSize: 20,
+      color: '#134678',
+    },
+    h5: {
+      fontWeight: 300,
+      fontSize: 16,
+      color: '#134678',
+    },
+    h6: {
+      fontWeight: 300,
+      fontSize: 14,
+      color: '#134678',
+    },
+    subtitle1: {
+      fontWeight: 400,
+      fontSize: 16,
+      color: '#134678',
+    },
+    subtitle2: {
+      fontWeight: 500,
+      fontSize: 14,
+      color: '#134678',
+    },
+  },
 });
 
 export default theme;
