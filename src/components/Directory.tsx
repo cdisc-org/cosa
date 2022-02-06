@@ -1,42 +1,15 @@
 import React, { useState } from 'react';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
+import { Link as RouterLink } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
-import { Typography } from '@mui/material';
-
-const data = [
-  {
-    id: 'admiral',
-    name: 'Admiral',
-    description: 'ADaM in R Asset Library.',
-    categories: ['ADaM'],
-  },
-  {
-    id: 'odmlib',
-    name: 'odmlib',
-    description:
-      'odmlib is a Python library that simplifies creating and processing ODM and its extensions, such as Define-XML.',
-    categories: ['Define-XML', 'ODM', 'Dataset-XML'],
-  },
-  {
-    id: 'tplyr',
-    name: 'Tplyr',
-    description:
-      'Tplyr is a grammar of data format and summary, designed to simplify the creation of clinical safety summaries.',
-    categories: ['ADaM', 'SDTM'],
-  },
-  {
-    id: 'vde',
-    name: 'Visual Define-XML Editor',
-    description: 'Visual Editor for Define-XML 2.0 and ARM standards.',
-    categories: ['Define-XML', 'ARM'],
-  },
-];
+import Typography from '@mui/material/Typography';
+import data from '../assets/projects/projects.json';
 
 let categories: Array<string> = [];
 const categoryCount: { [name: string]: number } = {};
@@ -56,13 +29,7 @@ categories = categories.sort((cat1, cat2) => {
   return categoryCount[cat1] > categoryCount[cat2] ? -1 : 1;
 });
 
-interface IDirectoryProps {
-  onPageUpdate: (page: string) => void;
-}
-
-const Directory: React.FC<IDirectoryProps> = ({
-  onPageUpdate,
-}: IDirectoryProps) => {
+const Directory: React.FC = () => {
   const [filter, setFilter] = useState('');
   const [category, setCategory] = useState<string | null>(null);
 
@@ -79,10 +46,6 @@ const Directory: React.FC<IDirectoryProps> = ({
     } else {
       setCategory(name);
     }
-  };
-
-  const handlePageSelect = (name: string) => {
-    onPageUpdate(name);
   };
 
   const filteredData = data
@@ -165,11 +128,7 @@ const Directory: React.FC<IDirectoryProps> = ({
       <List>
         {filteredData.map((item) => (
           <ListItem disablePadding key={item.name}>
-            <ListItemButton
-              onClick={() => {
-                handlePageSelect(`project/${item.id}`);
-              }}
-            >
+            <ListItemButton component={RouterLink} to={`directory/${item.id}`}>
               <ListItemIcon sx={{ width: 50, mr: 2, justifyContent: 'center' }}>
                 <Box
                   component='img'
