@@ -60,9 +60,13 @@ const EventsTimeline: React.FC<ITimelineProps> = ({
           </TimelineSeparator>
           <TimelineContent sx={{ py: '12px', px: 2, width: 180 }}>
             <Typography
-              variant='h6'
+              variant='h4'
               component='span'
-              sx={{ textTransform: 'capitalize' }}
+              color='grey.800'
+              sx={{
+                textTransform: 'capitalize',
+                fontWeight: 500,
+              }}
             >
               {event.type}
             </Typography>

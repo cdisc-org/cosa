@@ -1,0 +1,26 @@
+[
+  {
+    "id": "admiral",
+    "name": "Admiral",
+    "description": "ADaM in R Asset Library.",
+    "categories": ["ADaM"]
+  },
+  {
+    "id": "odmlib",
+    "name": "odmlib",
+    "description": "odmlib is a Python library that simplifies creating and processing ODM and its extensions, such as Define-XML.",
+    "categories": ["Define-XML", "ODM", "Dataset-XML"]
+  },
+  {
+    "id": "tplyr",
+    "name": "Tplyr",
+    "description": "Tplyr is a grammar of data format and summary, designed to simplify the creation of clinical safety summaries.",
+    "categories": ["ADaM", "SDTM"]
+  },
+  {
+    "id": "vde",
+    "name": "Visual Define-XML Editor",
+    "description": "Visual Editor for Define-XML 2.0 and ARM standards.",
+    "categories": ["Define-XML", "ARM"]
+  }
+]

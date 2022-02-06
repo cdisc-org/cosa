@@ -1,5 +1,6 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
+import { Link as RouterLink } from 'react-router-dom';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -11,10 +12,10 @@ import GithubLogo from '../assets/images/github.svg';
 import RedditLogo from '../assets/images/reddit.svg';
 
 const pages = [
-  { name: 'Directory', page: 'directory' },
-  { name: 'About', page: 'about' },
-  { name: 'Events', page: 'events' },
-  { name: 'Application', page: 'application' },
+  { name: 'Directory', to: '' },
+  { name: 'About', to: 'about' },
+  { name: 'Events', to: 'events' },
+  { name: 'Application', to: 'application' },
 ];
 
 const icons = [
@@ -22,11 +23,7 @@ const icons = [
   { href: 'https://www.reddit.com/r/CDISC_COSA/', src: RedditLogo },
 ];
 
-interface IHeaderProps {
-  onPageUpdate: (page: string) => void;
-}
-
-const Header: React.FC<IHeaderProps> = ({ onPageUpdate }: IHeaderProps) => {
+const Header: React.FC = () => {
   return (
     <AppBar
       position='sticky'
@@ -52,9 +49,8 @@ const Header: React.FC<IHeaderProps> = ({ onPageUpdate }: IHeaderProps) => {
             {pages.map((page) => (
               <Button
                 key={page.name}
-                onClick={() => {
-                  onPageUpdate(page.page);
-                }}
+                component={RouterLink}
+                to={page.to}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page.name}

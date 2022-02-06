@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -7,20 +8,25 @@ import ProjectAbout from './ProjectAbout';
 import { IProject } from '../../interfaces/common.d';
 
 interface IProjectDescriptionProps {
-  id?: string;
   preloadedProject?: IProject;
 }
 
 const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
-  id,
   preloadedProject,
 }: IProjectDescriptionProps) => {
   const [project, setProject] = useState<IProject>();
+  const navigate = useNavigate();
+
+  const { id } = useParams();
 
   useEffect(() => {
     const loadYaml = async () => {
-      const data = await import(`../../assets/projects/${id}/${id}.json`);
-      setProject(data);
+      try {
+        const data = await import(`../../assets/projects/${id}/${id}.json`);
+        setProject(data);
+      } catch (e) {
+        navigate('/notfound', { replace: true });
+      }
     };
 
     if (preloadedProject === undefined) {
@@ -28,7 +34,7 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
     } else {
       setProject(preloadedProject);
     }
-  }, [id, preloadedProject]);
+  }, [id, preloadedProject, navigate]);
 
   if (project === undefined) {
     return null;
