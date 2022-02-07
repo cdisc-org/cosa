@@ -4,6 +4,12 @@ declare module '*.md' {
   export default value;
 }
 
+export interface IAbout {
+  aboutBoard: string;
+  aboutCharter: string;
+  aboutEvaluationCriteria: string;
+}
+
 export interface IProject {
   projectInfo: {
     projectName: string;
