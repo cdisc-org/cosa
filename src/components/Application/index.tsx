@@ -6,7 +6,6 @@ import Typography from '@mui/material/Typography';
 import Body from './Body';
 import ProjectDescription from '../ProjectDescription';
 import { IProject } from '../../interfaces/common.d';
-import Container from '@mui/material/Container';
 
 const Application: React.FC = () => {
   const [project, setProject] = useState<IProject>({
@@ -81,50 +80,48 @@ const Application: React.FC = () => {
   };
 
   return (
-    <Container maxWidth='lg'>
-      <Stack spacing={2} sx={{ m: 4 }}>
-        <Stack
-          direction='row'
-          spacing={4}
-          alignItems='center'
-          justifyContent='flex-start'
-          sx={{ mb: 4 }}
+    <Stack spacing={2} sx={{ m: 4 }}>
+      <Stack
+        direction='row'
+        spacing={4}
+        alignItems='center'
+        justifyContent='flex-start'
+        sx={{ mb: 4 }}
+      >
+        <Typography variant='h3' color='grey.700'>
+          Application Creator
+        </Typography>
+        <Button
+          variant='contained'
+          onClick={handleSave}
+          sx={{ width: 100, height: 40 }}
         >
-          <Typography variant='h3' color='grey.700'>
-            Application Creator
-          </Typography>
-          <Button
-            variant='contained'
-            onClick={handleSave}
-            sx={{ width: 100, height: 40 }}
-          >
-            Save
-          </Button>
-          <Button
-            variant='contained'
-            sx={{ width: 100, height: 40 }}
-            component='label'
-          >
-            Load
-            <input type='file' hidden onChange={handleLoad} />
-          </Button>
-          <Button
-            variant='contained'
-            sx={{ width: 100, height: 40 }}
-            onClick={() => {
-              setPreview(!preview);
-            }}
-          >
-            {preview ? 'Edit' : 'Preview'}
-          </Button>
-        </Stack>
-        {preview ? (
-          <ProjectDescription preloadedProject={project} />
-        ) : (
-          <Body onChange={handleChange} project={project} />
-        )}
+          Save
+        </Button>
+        <Button
+          variant='contained'
+          sx={{ width: 100, height: 40 }}
+          component='label'
+        >
+          Load
+          <input type='file' hidden onChange={handleLoad} />
+        </Button>
+        <Button
+          variant='contained'
+          sx={{ width: 100, height: 40 }}
+          onClick={() => {
+            setPreview(!preview);
+          }}
+        >
+          {preview ? 'Edit' : 'Preview'}
+        </Button>
       </Stack>
-    </Container>
+      {preview ? (
+        <ProjectDescription preloadedProject={project} />
+      ) : (
+        <Body onChange={handleChange} project={project} />
+      )}
+    </Stack>
   );
 };
 

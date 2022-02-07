@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
 import Markdown from '../utils/Markdown';
-
-import './css/general.css';
 import markdown from '../assets/content/other_faq.md';
 
 const OtherFAQ: React.FC = () => {
@@ -19,9 +16,7 @@ const OtherFAQ: React.FC = () => {
 
   return (
     <Box sx={{ mx: 4, my: 2 }}>
-      <Container maxWidth='lg'>
-        <Markdown>{data}</Markdown>
-      </Container>
+      <Markdown>{data}</Markdown>
     </Box>
   );
 };

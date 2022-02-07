@@ -2,6 +2,7 @@
 import ReactMarkdown from 'react-markdown';
 import Typography from '@mui/material/Typography';
 import remarkGfm from 'remark-gfm';
+import '../components/css/general.css';
 
 type Heading = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 
@@ -28,6 +29,7 @@ const Markdown: React.FC = ({ children }) => {
   return (
     <ReactMarkdown
       remarkPlugins={[remarkGfm]}
+      className='markdownArea'
       components={{
         h1: muiHeading,
         h2: muiHeading,
