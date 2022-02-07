@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import ProjectInfo from './ProjectInfo';
 import ProjectAbout from './ProjectAbout';
 import { IProject } from '../../interfaces/common.d';
+import Container from '@mui/material/Container';
 
 interface IProjectDescriptionProps {
   preloadedProject?: IProject;
@@ -43,43 +44,51 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
   const { projectInfo, detailedDescription } = project;
 
   return (
-    <Stack spacing={2} sx={{ m: 4 }}>
-      <Typography variant='h2' sx={{ mb: 4 }}>
-        {projectInfo.projectName}
-      </Typography>
-      <Stack direction='row' sx={{ flex: '1', m: 2 }} spacing={8}>
-        <Stack spacing={2}>
-          <Box
-            component='img'
-            sx={{ height: 80, width: 80 }}
-            src={
-              id === undefined
-                ? require(`../../assets/images/cosaLogo.png`)
-                : require(`../../assets/projects/${id}/logo.png`)
-            }
-          />
-          <ProjectInfo projectInfo={projectInfo} id='projectOwner' />
-          <ProjectInfo projectInfo={projectInfo} id='projectRepository' />
-          <ProjectInfo projectInfo={projectInfo} id='projectLandingPage' />
-          <ProjectInfo projectInfo={projectInfo} id='openSourceLicense' />
-          <ProjectInfo projectInfo={projectInfo} id='user' />
-          <ProjectInfo projectInfo={projectInfo} id='cdiscStandards' />
-          <ProjectInfo projectInfo={projectInfo} id='programmingLanguage' />
-        </Stack>
-        <Stack spacing={2}>
-          <ProjectAbout description={detailedDescription} id='problem' />
-          <ProjectAbout description={detailedDescription} id='solution' />
-          <ProjectAbout description={detailedDescription} id='users' />
-          <ProjectAbout
-            description={detailedDescription}
-            id='maintenanceModel'
-          />
-          <ProjectAbout description={detailedDescription} id='preRequisites' />
-          <ProjectAbout description={detailedDescription} id='contributors' />
-          <ProjectAbout description={detailedDescription} id='communications' />
+    <Container maxWidth='lg'>
+      <Stack spacing={2} sx={{ m: 4 }}>
+        <Typography variant='h2' sx={{ mb: 4 }}>
+          {projectInfo.projectName}
+        </Typography>
+        <Stack direction='row' sx={{ flex: '1', m: 2 }} spacing={8}>
+          <Stack spacing={2}>
+            <Box
+              component='img'
+              sx={{ height: 80, width: 80 }}
+              src={
+                id === undefined
+                  ? require(`../../assets/images/cosaLogo.png`)
+                  : require(`../../assets/projects/${id}/logo.png`)
+              }
+            />
+            <ProjectInfo projectInfo={projectInfo} id='projectOwner' />
+            <ProjectInfo projectInfo={projectInfo} id='projectRepository' />
+            <ProjectInfo projectInfo={projectInfo} id='projectLandingPage' />
+            <ProjectInfo projectInfo={projectInfo} id='openSourceLicense' />
+            <ProjectInfo projectInfo={projectInfo} id='user' />
+            <ProjectInfo projectInfo={projectInfo} id='cdiscStandards' />
+            <ProjectInfo projectInfo={projectInfo} id='programmingLanguage' />
+          </Stack>
+          <Stack spacing={2}>
+            <ProjectAbout description={detailedDescription} id='problem' />
+            <ProjectAbout description={detailedDescription} id='solution' />
+            <ProjectAbout description={detailedDescription} id='users' />
+            <ProjectAbout
+              description={detailedDescription}
+              id='maintenanceModel'
+            />
+            <ProjectAbout
+              description={detailedDescription}
+              id='preRequisites'
+            />
+            <ProjectAbout description={detailedDescription} id='contributors' />
+            <ProjectAbout
+              description={detailedDescription}
+              id='communications'
+            />
+          </Stack>
         </Stack>
       </Stack>
-    </Stack>
+    </Container>
   );
 };
 
