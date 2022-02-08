@@ -1,0 +1,30 @@
+[
+  {
+    "title": "EU Workshop",
+    "description": "eu_workshop_2022.md",
+    "type": "hackathon",
+    "startDate": "2022-04-29"
+  },
+  {
+    "title": "EU Interchange 2022",
+    "description": "eu_interchange_2022.md",
+    "type": "conference",
+    "logo": "https://www.cdisc.org/sites/default/files/landing/banner/5%20Europe%20Banner%20Short%20No%20Button.png",
+    "startDate": "2022-04-27",
+    "endDate": "2022-04-29"
+  },
+  {
+    "title": "Spotlight Q4 2021",
+    "type": "webinar",
+    "description": "spotlight_Q4_2021.md",
+    "startDate": "2021-11-18"
+  },
+  {
+    "title": "US Interchange 2021",
+    "description": "us_interchange_2021.md",
+    "type": "conference",
+    "logo": "https://www.cdisc.org/sites/default/files/landing/banner/2021-09-13_US%20VIRTUAL%20WEBSITE%20BANNER-R2-01.png",
+    "startDate": "2021-10-20",
+    "endDate": "2021-10-21"
+  }
+]
