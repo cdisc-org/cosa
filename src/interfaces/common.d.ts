@@ -10,6 +10,12 @@ export interface IAbout {
   aboutEvaluationCriteria: string;
 }
 
+export interface IDownloadFile {
+  title: string;
+  asset: string;
+  name: string;
+}
+
 export interface IProject {
   projectInfo: {
     projectName: string;

@@ -69,22 +69,22 @@ const theme = createTheme({
   typography: {
     h1: {
       fontWeight: 400,
-      fontSize: 48,
+      fontSize: 34,
       color: '#134678',
     },
     h2: {
       fontWeight: 400,
-      fontSize: 34,
+      fontSize: 24,
       color: '#134678',
     },
     h3: {
       fontWeight: 300,
-      fontSize: 24,
+      fontSize: 20,
       color: '#134678',
     },
     h4: {
       fontWeight: 300,
-      fontSize: 20,
+      fontSize: 18,
       color: '#134678',
     },
     h5: {

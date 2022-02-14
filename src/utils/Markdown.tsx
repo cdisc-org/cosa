@@ -1,6 +1,8 @@
 // eslint-disable-next-line import/named
 import ReactMarkdown from 'react-markdown';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 import remarkGfm from 'remark-gfm';
 import '../components/css/general.css';
 
@@ -25,7 +27,48 @@ const muiText = ({ node, ...props }: { node: object }) => (
   <Typography variant='body1' {...props} />
 );
 
-const Markdown: React.FC = ({ children }) => {
+const muiLink = ({ node, ...props }: { node: object }) => {
+  return <Link target='_blank' {...props} />;
+  /* @TODO, do not _blank internal links
+  if (href.includes('http')) {
+    return <Link target='_blank' {...props} />;
+  } else {
+    return <Link {...props} />;
+  }
+  */
+};
+
+/*
+@TODO: get the muiCode somehow standalone and not integrated as below
+const muiCode = ({
+  node,
+  inline,
+  className,
+  children,
+  ...props
+}: {
+  node: object;
+  inline: boolean;
+  className: string;
+  children: object;
+}) => {
+  const match = /language-(\w+)/.exec(className || '');
+  return !inline && match ? (
+    <SyntaxHighlighter
+      children={String(children).replace(/\n$/, '')}
+      language={match[1]}
+      PreTag='div'
+      {...props}
+    />
+  ) : (
+    <code className={className} {...props}>
+      {children}
+    </code>
+  );
+};
+*/
+
+const Markdown: React.FC = (item) => {
   return (
     <ReactMarkdown
       remarkPlugins={[remarkGfm]}
@@ -38,9 +81,25 @@ const Markdown: React.FC = ({ children }) => {
         h5: muiHeading,
         h6: muiHeading,
         p: muiText,
+        a: muiLink,
+        code({ node, inline, className, children, ...props }) {
+          const match = /language-(\w+)/.exec(className || '');
+          return !inline && match ? (
+            <SyntaxHighlighter
+              children={String(children).replace(/\n$/, '')}
+              language={match[1]}
+              PreTag='div'
+              {...props}
+            />
+          ) : (
+            <code className={className} {...props}>
+              {children}
+            </code>
+          );
+        },
       }}
     >
-      {children as string}
+      {item.children as string}
     </ReactMarkdown>
   );
 };

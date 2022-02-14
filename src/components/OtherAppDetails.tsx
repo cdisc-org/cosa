@@ -1,37 +1,90 @@
 import React, { useEffect, useState } from 'react';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import DownloadIcon from '@mui/icons-material/Download';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Markdown from '../utils/Markdown';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import CircularProgress from '@mui/material/CircularProgress';
 import applicationEmpty from '../assets/content/other_application_empty.md';
 import applicationExample from '../assets/content/other_application_example.md';
 import aboutEvaluationCriteria from '../assets/content/about_evaluation_criteria.md';
 import applicationGuidance from '../assets/content/other_application_guidance.md';
+import yamlApplicationEmpty from '../assets/content/application_empty.yaml';
+import yamlApplicationExample from '../assets/content/application_example.yaml';
+
+import { IDownloadFile } from '../interfaces/common.d';
 
 const OtherFAQ: React.FC = () => {
-  const [data, setData] = useState<Array<{ title: string; text: string }>>([]);
+  const [data, setData] = useState<Array<{ title: string; text: string }>>([
+    { title: 'Application Guidance', text: '' },
+    {
+      title: 'COSA Membership Application YAML format',
+      text: '',
+    },
+    {
+      title: 'Example COSA Membership Application YAML format',
+      text: '',
+    },
+    { title: 'COSA Inclusion Criteria', text: '' },
+  ]);
 
   useEffect(() => {
     const loadData = async () => {
-      const readData1 = await (await fetch(applicationEmpty)).text();
-      const readData2 = await (await fetch(applicationExample)).text();
-      const readData3 = await (await fetch(aboutEvaluationCriteria)).text();
-      const readData4 = await (await fetch(applicationGuidance)).text();
+      const applicationEmptyText = await (await fetch(applicationEmpty)).text();
+      const applicationExampleText = await (
+        await fetch(applicationExample)
+      ).text();
+      const aboutEvaluationCriteriaText = await (
+        await fetch(aboutEvaluationCriteria)
+      ).text();
+      const applicationGuidanceText = await (
+        await fetch(applicationGuidance)
+      ).text();
       setData([
-        { title: 'COSA Membership Application YAML format', text: readData1 },
-        { title: 'Application Guidance', text: readData2 },
+        { title: 'Application Guidance', text: applicationGuidanceText },
+        {
+          title: 'COSA Membership Application YAML format',
+          text: applicationEmptyText,
+        },
         {
           title: 'Example COSA Membership Application YAML format',
-          text: readData3,
+          text: applicationExampleText,
         },
-        { title: 'COSA Inclusion Criteria', text: readData4 },
+        { title: 'COSA Inclusion Criteria', text: aboutEvaluationCriteriaText },
       ]);
     };
     loadData();
   }, []);
+
+  const downloadFiles: IDownloadFile[] = [
+    {
+      title: 'Template YAML',
+      asset: yamlApplicationEmpty,
+      name: 'cosa_application_empty.yaml',
+    },
+    {
+      title: 'Example YAML',
+      asset: yamlApplicationExample,
+      name: 'cosa_application_example.yaml',
+    },
+  ];
+
+  const downloadEmpty = async (item: IDownloadFile) => {
+    const EmptyText = await (await fetch(item.asset)).text();
+    const element = document.createElement('a');
+    const file = new Blob([EmptyText], {
+      type: 'text/plain',
+    });
+    element.href = URL.createObjectURL(file);
+    element.download = item.name;
+    document.body.appendChild(element); // Required for this to work in FireFox
+    element.click();
+    console.log('download clicked');
+  };
 
   return (
     <Stack sx={{ mx: 4, my: 2 }} spacing={2}>
@@ -53,6 +106,18 @@ const OtherFAQ: React.FC = () => {
         email a YAML file with the following information to cosa@cdisc.org.
         Either create the YAML file on your own or use the Application tool.
       </Typography>
+      <Stack direction='row' spacing={2}>
+        {downloadFiles.map((item) => (
+          <Button
+            variant='contained'
+            onClick={() => downloadEmpty(item)}
+            endIcon={<DownloadIcon />}
+            key={item.name}
+          >
+            {item.title}
+          </Button>
+        ))}
+      </Stack>
       <Stack>
         {data.map((item, index) => (
           <Accordion key={index}>
@@ -60,7 +125,11 @@ const OtherFAQ: React.FC = () => {
               <Typography variant='h3'>{item.title}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Markdown>{item.text}</Markdown>
+              {item.text.length === 0 ? (
+                <CircularProgress />
+              ) : (
+                <Markdown>{item.text}</Markdown>
+              )}
             </AccordionDetails>
           </Accordion>
         ))}

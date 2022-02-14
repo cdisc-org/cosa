@@ -5,13 +5,18 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import CircularProgress from '@mui/material/CircularProgress';
 import Markdown from '../utils/Markdown';
 import aboutBoard from '../assets/content/about_board.md';
 import aboutCharter from '../assets/content/about_charter.md';
 import aboutEvaluationCriteria from '../assets/content/about_evaluation_criteria.md';
 
 const About: React.FC = () => {
-  const [data, setData] = useState<Array<{ title: string; text: string }>>([]);
+  const [data, setData] = useState<Array<{ title: string; text: string }>>([
+    { title: 'COSA Charter', text: '' },
+    { title: 'COSA Inclusion Criteria', text: '' },
+    { title: 'COSA Board', text: '' },
+  ]);
 
   useEffect(() => {
     const loadData = async () => {
@@ -53,7 +58,11 @@ const About: React.FC = () => {
               <Typography variant='h2'>{item.title}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Markdown>{item.text}</Markdown>
+              {item.text.length === 0 ? (
+                <CircularProgress />
+              ) : (
+                <Markdown>{item.text}</Markdown>
+              )}
             </AccordionDetails>
           </Accordion>
         ))}
