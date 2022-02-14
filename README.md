@@ -1,4 +1,6 @@
+=======
 # COSA Directory
+Create a new directory for COSA
 
 Run `npm install` once
 
