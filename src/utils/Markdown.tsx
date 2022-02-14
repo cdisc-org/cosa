@@ -1,6 +1,7 @@
 // eslint-disable-next-line import/named
 import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { Link as RouterLink } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import remarkGfm from 'remark-gfm';
@@ -28,18 +29,18 @@ const muiText = ({ node, ...props }: { node: object }) => (
 );
 
 const muiLink = ({ node, ...props }: { node: object }) => {
-  return <Link target='_blank' {...props} />;
-  /* @TODO, do not _blank internal links
-  if (href.includes('http')) {
-    return <Link target='_blank' {...props} />;
+  const { href } = props as { href: string };
+  if (href.toLowerCase().startsWith('http')) {
+    return <Link target='_blank' rel='noopener' {...props} />;
+  } else if (/^\w[\w\/]+$/.test(href)) {
+    // Internal links
+    console.log(href);
+    return <Link component={RouterLink} to={`/${href}`} {...props} />;
   } else {
     return <Link {...props} />;
   }
-  */
 };
 
-/*
-@TODO: get the muiCode somehow standalone and not integrated as below
 const muiCode = ({
   node,
   inline,
@@ -48,8 +49,8 @@ const muiCode = ({
   ...props
 }: {
   node: object;
-  inline: boolean;
-  className: string;
+  inline?: boolean;
+  className?: string;
   children: object;
 }) => {
   const match = /language-(\w+)/.exec(className || '');
@@ -66,7 +67,6 @@ const muiCode = ({
     </code>
   );
 };
-*/
 
 const Markdown: React.FC = (item) => {
   return (
@@ -82,21 +82,7 @@ const Markdown: React.FC = (item) => {
         h6: muiHeading,
         p: muiText,
         a: muiLink,
-        code({ node, inline, className, children, ...props }) {
-          const match = /language-(\w+)/.exec(className || '');
-          return !inline && match ? (
-            <SyntaxHighlighter
-              children={String(children).replace(/\n$/, '')}
-              language={match[1]}
-              PreTag='div'
-              {...props}
-            />
-          ) : (
-            <code className={className} {...props}>
-              {children}
-            </code>
-          );
-        },
+        code: muiCode,
       }}
     >
       {item.children as string}
