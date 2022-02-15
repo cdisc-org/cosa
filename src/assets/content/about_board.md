@@ -1,6 +1,4 @@
-# COSA Board
-
-## COSA Board Members
+### COSA Board Members
 
 Name | Company
 -- | --
@@ -12,17 +10,17 @@ Mikkel Traun | Novo Nordisk
 Sam Hume | CDISC
 Charles Shadle | CDISC, ex officio 
 
-## COSA Board Member Agreement
+### COSA Board Member Agreement
 
 **CDISC Open-Source Alliance (COSA) Board of Directors Memorandum of Understanding**
 
 This Governance Board Member Participation Agreement (Agreement) sets for the terms and understanding for a member of the CDISC Open-Source Alliance (COSA) Governance Board (Board).
 
-### Background
+#### Background
 
 The aim of COSA is to support, promote, and sponsor open-source projects to drive innovation in the CDISC community. COSA requires a Board to be made up of 7- 9 members that minimally includes the COSA executive sponsor (a CDISC staff member) and 3-5 non-CDISC staff members. Additional Board members may solicited from CDISC member organizations.
 
-### Purpose
+#### Purpose
 
 This Agreement outlines the purpose and duties of the COSA Board member.
 
@@ -41,7 +39,7 @@ requested to become part of COSA.
 They agree to take an active role in the identification and leadership of applicable COSA
 committees (i.e., Communications, Directory, Events, etc.).
 
-### Obligations
+#### Obligations
 
 This Agreement is not a financial obligation, nor an endorsement by any member’s
 company, but does require the member to be:
@@ -51,7 +49,7 @@ company, but does require the member to be:
 - An expert that specializes in open-source governance, licensing, or related legal matters.
 
 
-### Membership & Duration
+#### Membership & Duration
 
 New members are nominated by the Board and selected by a vote of the Board. Non-CDISC staff members can serve up to 2 consecutive, 1-year terms after which they must roll off for at least 1 year.
 

@@ -25,7 +25,7 @@ const EventsTimeline: React.FC<ITimelineProps> = ({
       {events.map((event, index) => (
         <TimelineItem key={index}>
           <TimelineOppositeContent
-            sx={{ m: 'auto 0', width: 180 }}
+            sx={{ m: 'auto 0', width: 130 }}
             align='right'
             variant='body2'
             color='text.secondary'

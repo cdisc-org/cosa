@@ -1,20 +1,18 @@
-# COSA Charter
-
 CDISC Open Source Alliance (COSA)
 
-## Mission
+### Mission
 
 The CDISC Open Source Alliance supports, promotes, and sometimes sponsors open source and free software development projects that create tools for implementing or developing CDISC standards to drive innovation in the CDISC community.
 
 
-## Scope 
+### Scope 
 
 * **Supports** open source software development projects through collaboration between development teams, including CDISC development teams, to exchange information, provide input or feedback, create best practices, coordinate dependencies between projects, provide input into standards development, request CDISC Library features, and develop common APIs. Supports open source software that implements the CDISC Library API, CDISC 360 metadata, and the CDISC Data Exchange Standards. Seeks to accelerate the development and adoption of open source software solutions. Helps to drive the development of innovative new approaches to standards-based automation.
 * **Promotes** open source software developers by providing support for community development, venues for presenting to CDISC members such as Interchanges or webinars, CDISC infrastructure, as well as other marketing opportunities. Promotes the development and adoption automated approaches to implementing CDISC standards. Promotes technical innovation within the CDISC community.
 * **Sponsors** specific projects important to the CDISC initiatives by providing developer, infrastructure, and project management resources.
 
 
-## Documents / Artifacts 
+### Documents / Artifacts 
 
 * Open source project directory
 * Active project roadmap
@@ -27,22 +25,22 @@ The CDISC Open Source Alliance supports, promotes, and sometimes sponsors open s
 * Open source best practices document
 * Test data
 
-## Team Member Expectations
+### Team Member Expectations
 
 * Actively developing, supporting, promoting, or sponsoring open source software projects for implementing or developing CDISC standards.
 * Participation in relevant team activities.
 
-## Meeting Schedules
+### Meeting Schedules
 
 * Meetings are scheduled as needed to review projects or discuss committee work, but will take place monthly at a minimum
 * The meeting agendas are set by board or committee members
 
-## Internal Communications
+### Internal Communications
 
 * Wiki (CDISC Open Source Alliance Home)
 * GitHub (https://github.com/cdisc-org)
 
-## Collaborations 
+### Collaborations 
 
 * Microsoft (https://opensource.microsoft.com/)
 * CDISC Library (cdisc.org/cdisc-library)
@@ -52,7 +50,7 @@ The CDISC Open Source Alliance supports, promotes, and sometimes sponsors open s
 * Open source software development teams
 * HL7 FHIR community
 
-## External Communications
+### External Communications
 
 * GitHub
 * CDISC Website
@@ -60,7 +58,7 @@ The CDISC Open Source Alliance supports, promotes, and sometimes sponsors open s
 * Social Media
 * Email
 
-## Events 
+### Events 
 
 * Interchange Session
 * Hackathon / Connectathon
@@ -68,7 +66,7 @@ The CDISC Open Source Alliance supports, promotes, and sometimes sponsors open s
 * PHUSE Connect Sessions
 * HL7 FHIR Connectathons
 
-## CDISC Strategy Line of Sight
+### CDISC Strategy Line of Sight
 
 * I.A.3. Support use of CDISC Library API by open source, open access developers including hackathons, webinars, and other exposure of tools to the community.
 * I.B.2. Develop tools to facilitate moving content in to and out of the CDISC Library. Develop tools to facilitate community members utilizing CDISC Library content.

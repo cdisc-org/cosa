@@ -9,6 +9,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemButton from '@mui/material/ListItemButton';
 import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
 import data from '../assets/projects/projects.json';
 
 let categories: Array<string> = [];
@@ -69,78 +70,99 @@ const Directory: React.FC = () => {
     });
 
   return (
-    <Stack direction='row' sx={{ flex: '1', m: 2 }} spacing={8}>
-      <Stack sx={{ ml: 2 }}>
-        <TextField
-          size='small'
-          onKeyPress={handleFilterChange}
-          InputProps={{ sx: { backgroundColor: 'white' } }}
-        />
-        <List>
-          <ListItem disablePadding>
-            <ListItemButton
-              onClick={() => {
-                handleSelectCategory(null);
-              }}
-              disabled={category === null}
-            >
-              <ListItemText
-                sx={{ width: '100%' }}
-                primary={
-                  <Stack direction='row' justifyContent='space-between'>
-                    <Typography variant='body2' color='grey.700'>
-                      View All
-                    </Typography>
-                    <Typography variant='subtitle2' color='grey.600'>
-                      {Object.keys(data).length}
-                    </Typography>
-                  </Stack>
-                }
-              />
-            </ListItemButton>
-          </ListItem>
-          {categories.map((name) => (
-            <ListItem disablePadding key={name}>
+    <Stack sx={{ flex: '1', my: 2, mx: 1 }} spacing={3}>
+      <Typography variant='h1'>COSA Repository Directory</Typography>
+      <Typography variant='body1'>
+        The following repositories are officially recognized by COSA as being
+        open-source projects focused on implementing or developing CDISC
+        standards to drive innovation in the CDISC community. All COSA projects
+        must meet the{' '}
+        <Link component={RouterLink} to='/about' underline='none'>
+          inclusion criteria
+        </Link>{' '}
+        to be considered for inclusion the Repository Directory.
+      </Typography>
+      <Stack direction='row' spacing={8}>
+        <Stack sx={{ ml: 2 }}>
+          <TextField
+            size='small'
+            onKeyPress={handleFilterChange}
+            InputProps={{ sx: { backgroundColor: 'white' } }}
+          />
+          <List>
+            <ListItem disablePadding>
               <ListItemButton
-                selected={name === category}
                 onClick={() => {
-                  handleSelectCategory(name);
+                  handleSelectCategory(null);
                 }}
+                disabled={category === null}
               >
                 <ListItemText
                   sx={{ width: '100%' }}
                   primary={
                     <Stack direction='row' justifyContent='space-between'>
-                      <Typography variant='body2' color='grey.800'>
-                        {name}
+                      <Typography variant='body2' color='grey.700'>
+                        View All
                       </Typography>
                       <Typography variant='subtitle2' color='grey.600'>
-                        {categoryCount[name]}
+                        {Object.keys(data).length}
                       </Typography>
                     </Stack>
                   }
                 />
               </ListItemButton>
             </ListItem>
+            {categories.map((name) => (
+              <ListItem disablePadding key={name}>
+                <ListItemButton
+                  selected={name === category}
+                  onClick={() => {
+                    handleSelectCategory(name);
+                  }}
+                >
+                  <ListItemText
+                    sx={{ width: '100%' }}
+                    primary={
+                      <Stack direction='row' justifyContent='space-between'>
+                        <Typography variant='body2' color='grey.800'>
+                          {name}
+                        </Typography>
+                        <Typography variant='subtitle2' color='grey.600'>
+                          {categoryCount[name]}
+                        </Typography>
+                      </Stack>
+                    }
+                  />
+                </ListItemButton>
+              </ListItem>
+            ))}
+          </List>
+        </Stack>
+        <List>
+          {filteredData.map((item) => (
+            <ListItem disablePadding key={item.name}>
+              <ListItemButton
+                component={RouterLink}
+                to={`directory/${item.id}`}
+              >
+                <ListItemIcon
+                  sx={{ width: 50, mr: 2, justifyContent: 'center' }}
+                >
+                  <Box
+                    component='img'
+                    sx={{ height: 50 }}
+                    src={require(`../assets/projects/${item.id}/logo.png`)}
+                  />
+                </ListItemIcon>
+                <ListItemText
+                  primary={item.name}
+                  secondary={item.description}
+                />
+              </ListItemButton>
+            </ListItem>
           ))}
         </List>
       </Stack>
-      <List>
-        {filteredData.map((item) => (
-          <ListItem disablePadding key={item.name}>
-            <ListItemButton component={RouterLink} to={`directory/${item.id}`}>
-              <ListItemIcon sx={{ width: 50, mr: 2, justifyContent: 'center' }}>
-                <Box
-                  component='img'
-                  sx={{ height: 50 }}
-                  src={require(`../assets/projects/${item.id}/logo.png`)}
-                />
-              </ListItemIcon>
-              <ListItemText primary={item.name} secondary={item.description} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
     </Stack>
   );
 };

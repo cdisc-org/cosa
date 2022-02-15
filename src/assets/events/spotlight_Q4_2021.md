@@ -15,4 +15,4 @@ We will also share how open-source developers can learn to apply for inclusion i
 ---
   **Presenters**: Sam Hume, VP Data Science, CDISC, Dmitry Kolosov, Expert Statistical Programmer, Parexel, Bhavin Busa, VP of Clinical Data Services & Operations, Vita Data Sciences  
   **Language**: English  
-  **System Requirements**: Click [here](https://support.logmeininc.com/gotowebinar/help/system-requirements-for-attendees-g2w010003) to ensure your machine has the necessary requirements to run CDISC webinars (run by LogMeIn).  
+  **Recording**: [Recording](https://www.cdisc.org/events/webinar/cdisc-open-source-alliance-cosa-spotlight) is available on the event information page. 

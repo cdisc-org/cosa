@@ -74,7 +74,7 @@ const Events: React.FC = () => {
   );
 
   return (
-    <Stack spacing={2} sx={{ mx: 4, my: 2 }} divider={<Divider />}>
+    <Stack spacing={2} sx={{ my: 2 }} divider={<Divider />}>
       <Tabs
         value={tab}
         onChange={(event, value) => {
@@ -85,7 +85,7 @@ const Events: React.FC = () => {
         <Tab label='Upcoming' value='upcoming' />
         <Tab label='Past' value='past' />
       </Tabs>
-      <Stack direction='row' spacing={2} justifyContent='space-between'>
+      <Stack direction='row' spacing={1} justifyContent='space-between'>
         <Stack spacing={6} divider={<Divider />}>
           {filteredData.map((event, index) => (
             <Stack spacing={4} key={index}>
@@ -97,7 +97,7 @@ const Events: React.FC = () => {
                   <Box
                     component='img'
                     src={event.logo}
-                    sx={{ maxHeight: 200, borderRadius: 1 }}
+                    sx={{ maxHeight: 200, borderRadius: 1, maxWidth: '100%' }}
                   />
                 </Box>
               )}

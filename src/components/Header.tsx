@@ -8,8 +8,11 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Logo from '../assets/images/cosaLogo.svg';
-import GithubLogo from '../assets/images/github.svg';
-import RedditLogo from '../assets/images/reddit.svg';
+import RedditIcon from '@mui/icons-material/Reddit';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
+import OtherMenu from './OtherMenu';
 
 const pages = [
   { name: 'Directory', to: '' },
@@ -19,8 +22,18 @@ const pages = [
 ];
 
 const icons = [
-  { href: 'https://github.com/cdisc-org/cosaDirectory', src: GithubLogo },
-  { href: 'https://www.reddit.com/r/CDISC_COSA/', src: RedditLogo },
+  {
+    href: 'https://github.com/cdisc-org/cosaDirectory',
+    icon: <GitHubIcon />,
+  },
+  {
+    href: 'https://www.reddit.com/r/CDISC_COSA/',
+    icon: <RedditIcon />,
+  },
+  {
+    href: 'https://www.linkedin.com/groups/12563665/',
+    icon: <LinkedInIcon />,
+  },
 ];
 
 const Header: React.FC = () => {
@@ -56,6 +69,7 @@ const Header: React.FC = () => {
                 {page.name}
               </Button>
             ))}
+            <OtherMenu />
             <Stack key='icons' direction='row' spacing={0}>
               {icons.map((icon, index) => (
                 <IconButton
@@ -64,17 +78,15 @@ const Header: React.FC = () => {
                   href={icon.href}
                   target='_blank'
                   rel='noreferrer'
+                  sx={{
+                    width: 23,
+                    height: 23,
+                    margin: 0.5,
+                    transform: 'translateY(-2px)',
+                    color: 'white',
+                  }}
                 >
-                  <Box
-                    sx={{
-                      width: 23,
-                      height: 23,
-                      filter: 'invert(100%)',
-                      transform: 'translateY(-2px)',
-                    }}
-                    component='img'
-                    src={icon.src}
-                  />
+                  {icon.icon}
                 </IconButton>
               ))}
             </Stack>

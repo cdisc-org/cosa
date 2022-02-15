@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
+import Container from '@mui/material/Container';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './../utils/theme';
@@ -12,7 +13,13 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter>
+      <BrowserRouter
+        basename={
+          process.env.NODE_ENV === 'production'
+            ? `/${process.env.PUBLIC_URL}`
+            : '/'
+        }
+      >
         <Stack
           sx={{
             backgroundColor: 'grey.50',
@@ -22,7 +29,9 @@ const App: React.FC = () => {
         >
           <Header />
           <Box sx={{ overflowY: 'auto', flex: '1 1 auto' }}>
-            <RouterManager />
+            <Container maxWidth='lg'>
+              <RouterManager />
+            </Container>
           </Box>
         </Stack>
       </BrowserRouter>

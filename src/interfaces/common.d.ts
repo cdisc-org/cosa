@@ -4,6 +4,18 @@ declare module '*.md' {
   export default value;
 }
 
+export interface IAbout {
+  aboutBoard: string;
+  aboutCharter: string;
+  aboutEvaluationCriteria: string;
+}
+
+export interface IDownloadFile {
+  title: string;
+  asset: string;
+  name: string;
+}
+
 export interface IProject {
   projectInfo: {
     projectName: string;
