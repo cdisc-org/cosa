@@ -16,7 +16,7 @@ The software must use or in some way support the creation, review, understanding
 
 ### 3 Meets Ethics and COI Requirements
 
-The project team meets the ethics and conflict of interest (COI) requirements as documented in CDISC Policy 001.
+The project team meets the ethics and conflict of interest (COI) requirements as documented in [CDISC Policy 001](https://www.cdisc.org/about/bylaws).
 
 ### 4 Approved Open-source License
 

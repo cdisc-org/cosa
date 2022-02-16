@@ -111,7 +111,7 @@ const Body: React.FC<IBodyProps> = ({ project, onChange }: IBodyProps) => {
   return (
     <Stack direction='row' sx={{ flex: '1', m: 2 }} spacing={8}>
       <Stack spacing={1} sx={{ flex: '1 1 25%' }}>
-        <Typography variant='h4' color='grey.700' sx={{ mb: 4 }}>
+        <Typography variant='h3' sx={{ mb: 4 }}>
           Project Information
         </Typography>
         {fields.projectInfo.map((field) => (
@@ -129,7 +129,7 @@ const Body: React.FC<IBodyProps> = ({ project, onChange }: IBodyProps) => {
         ))}
       </Stack>
       <Stack spacing={1} sx={{ flex: '1 1 75%' }}>
-        <Typography variant='h4' color='grey.700' sx={{ mb: 4 }}>
+        <Typography variant='h3' sx={{ mb: 4 }}>
           Detailed Description
         </Typography>
         {fields.detailedDescription.map((field) => (
