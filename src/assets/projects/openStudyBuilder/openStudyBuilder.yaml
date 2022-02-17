@@ -81,7 +81,7 @@ detailedDescription:
         
     The conceptual design for the OpenStudyBuilder system with connected system integrations is illustrated in the following diagram.
 
-    ![Diagram of conceptual design](./img/studyBuilderDesign.png)
+    ![Diagram of conceptual design](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/project-description/-/raw/main/img/studyBuilderDesign.png)
 
     * **OpenStudyBuilder** online documentation for the OpenStudyBuilder solution including introduction, user guides, system documentation and data model documentation.
     * **OpenStudyBuilder App** Vuetify based Web application with the UI for creating the study definition specification.
@@ -98,7 +98,7 @@ detailedDescription:
 
     The OpenStudyBuilder system component architecture including software components and packages are illustrated in the following diagram.
 
-    ![Diagram of component design](./img/studyBuilderComponents.png)
+    ![Diagram of component design](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/project-description/-/raw/main/img/studyBuilderComponents.png)
 
     **Disclaimer:** The following licenses are planned to be used. The final release might switch to different common open-source licenses due to possible license conflicts of used packages.
 
@@ -182,7 +182,7 @@ detailedDescription:
     The tool and interface design specifically supports partial components. A full-stack operational flow is not required. It is possible to use only parts of the tool set. The design allows for system replacements, for example when a component should be replaced with another technology considering the API interfaces. According to the design, additional tools and functionalities can be implemented using and providing APIs.
 
   communications:  |-
-    A community homepage will be set up for up-to-date information about the project. The project is presented at various conferences. Additional presentations, webinars, discussion, workshops and training sessions are planned. Please also join the Slack channel for discussions or use the OpenStudyDesginer@gmail.com community mail.
+    A community homepage will be set up for up-to-date information about the project. The project is presented at various conferences. Additional presentations, webinars, discussion, workshops and training sessions are planned. Please also join the Slack channel for discussions or use the OpenStudyBuilder@gmail.com community mail.
   additonalInformation: |-
     **Background**
 
