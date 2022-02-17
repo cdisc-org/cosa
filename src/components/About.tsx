@@ -55,7 +55,7 @@ const About: React.FC = () => {
         {data.map((item, index) => (
           <Accordion key={index}>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-              <Typography variant='h2'>{item.title}</Typography>
+              <Typography variant='h3'>{item.title}</Typography>
             </AccordionSummary>
             <AccordionDetails>
               {item.text.length === 0 ? (

@@ -45,9 +45,6 @@ const OtherMenu: React.FC = () => {
         <MenuItem onClick={handleClose} component={RouterLink} to='FAQ'>
           FAQ
         </MenuItem>
-        <MenuItem onClick={handleClose} component={RouterLink} to='AppDetails'>
-          Application Details
-        </MenuItem>
       </Menu>
     </>
   );

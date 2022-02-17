@@ -1,126 +1,149 @@
-import React, { useState } from 'react';
-import yaml from 'yaml';
+import React, { useEffect, useState } from 'react';
+import { Link as RouterLink } from 'react-router-dom';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Body from './Body';
-import ProjectDescription from '../ProjectDescription';
-import { IProject } from '../../interfaces/common.d';
+import Button from '@mui/material/Button';
+import DownloadIcon from '@mui/icons-material/Download';
+import EditIcon from '@mui/icons-material/Edit';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import CircularProgress from '@mui/material/CircularProgress';
+import Markdown from '../../utils/Markdown';
+import applicationEmpty from '../../assets/content/other_application_empty.md';
+import applicationExample from '../../assets/content/other_application_example.md';
+import aboutEvaluationCriteria from '../../assets/content/about_evaluation_criteria.md';
+import applicationGuidance from '../../assets/content/other_application_guidance.md';
+import yamlApplicationEmpty from '../../assets/content/application_empty.yaml';
+import yamlApplicationExample from '../../assets/content/application_example.yaml';
+import { IDownloadFile } from '../../interfaces/common.d';
 
 const Application: React.FC = () => {
-  const [project, setProject] = useState<IProject>({
-    projectInfo: {
-      projectName: '',
-      projectOwner: '',
-      projectContact: '',
-      projectLandingPage: '',
-      projectRepository: '',
-      programmingLanguage: [],
-      openSourceLicense: [],
-      cdiscStandards: [],
-      agreeWithCdiscCodeOfEthics: true,
-      projectMaturity: '',
-      user: [],
-      logoUrl: '',
+  const [data, setData] = useState<Array<{ title: string; text: string }>>([
+    { title: 'Application Guidance', text: '' },
+    {
+      title: 'COSA Membership Application YAML format',
+      text: '',
     },
-    detailedDescription: {
-      problem: '',
-      solution: '',
-      openSourceConsiderations: '',
-      maintenanceModel: '',
-      projectSize: '',
-      contributors: '',
-      users: '',
-      preRequisites: '',
-      projectServiceOptions: '',
-      sponsors: '',
-      goalsObjectives: '',
-      communications: '',
-      additonalInformation: '',
+    {
+      title: 'Example COSA Membership Application YAML format',
+      text: '',
     },
-  });
+    { title: 'COSA Inclusion Criteria', text: '' },
+  ]);
 
-  const [preview, setPreview] = useState(false);
-
-  const handleChange = (
-    name: string,
-    value: string | boolean | Array<string>
-  ) => {
-    const category = name.split('.')[1] as keyof IProject;
-    const prop = name.split('.')[2] as
-      | keyof IProject['projectInfo']
-      | keyof IProject['detailedDescription'];
-    const newProject: IProject = {
-      ...project,
-      [category]: { ...project[category], [prop]: value },
+  useEffect(() => {
+    const loadData = async () => {
+      const applicationEmptyText = await (await fetch(applicationEmpty)).text();
+      const applicationExampleText = await (
+        await fetch(applicationExample)
+      ).text();
+      const aboutEvaluationCriteriaText = await (
+        await fetch(aboutEvaluationCriteria)
+      ).text();
+      const applicationGuidanceText = await (
+        await fetch(applicationGuidance)
+      ).text();
+      setData([
+        { title: 'Application Guidance', text: applicationGuidanceText },
+        {
+          title: 'COSA Membership Application YAML format',
+          text: applicationEmptyText,
+        },
+        {
+          title: 'Example COSA Membership Application YAML format',
+          text: applicationExampleText,
+        },
+        { title: 'COSA Inclusion Criteria', text: aboutEvaluationCriteriaText },
+      ]);
     };
+    loadData();
+  }, []);
 
-    setProject(newProject);
-  };
+  const downloadFiles: IDownloadFile[] = [
+    {
+      title: 'Template YAML',
+      asset: yamlApplicationEmpty,
+      name: 'cosa_application_empty.yaml',
+    },
+    {
+      title: 'Example YAML',
+      asset: yamlApplicationExample,
+      name: 'cosa_application_example.yaml',
+    },
+  ];
 
-  const handleSave = () => {
+  const downloadEmpty = async (item: IDownloadFile) => {
+    const EmptyText = await (await fetch(item.asset)).text();
     const element = document.createElement('a');
-    const converted = yaml.stringify(project);
-    const data = new Blob([converted], { type: 'text/yaml' });
-    element.href = URL.createObjectURL(data);
-    element.download = `${project.projectInfo.projectName
-      .toLowerCase()
-      .trim()
-      .replace(/\s+/g, '-')}.yaml`;
+    const file = new Blob([EmptyText], {
+      type: 'text/plain',
+    });
+    element.href = URL.createObjectURL(file);
+    element.download = item.name;
     document.body.appendChild(element); // Required for this to work in FireFox
     element.click();
-    element.remove();
-  };
-
-  const handleLoad = async (event: React.ChangeEvent<HTMLInputElement>) => {
-    if (event.target.files !== null && event.target.files.length > 0) {
-      const newProject = yaml.parse(await event.target.files[0].text());
-      setProject(newProject);
-    }
+    console.log('download clicked');
   };
 
   return (
-    <Stack spacing={2} sx={{ m: 4 }}>
-      <Stack
-        direction='row'
-        spacing={4}
-        alignItems='center'
-        justifyContent='flex-start'
-        sx={{ mb: 4 }}
-      >
-        <Typography variant='h3' color='grey.700'>
-          Application Creator
-        </Typography>
+    <Stack sx={{ mx: 4, my: 2 }} spacing={2}>
+      <Typography variant='h1'>COSA Directory Application</Typography>
+      <Typography variant='body1'>
+        To apply for inclusion in the COSA Directory, please complete the
+        application with all required information and return it to the email
+        address listed in the application. Your application will be evaluated
+        for possible inclusion into the COSA directory.
+      </Typography>
+      <Typography variant='body1'>
+        The COSA Governance Board evaluates each project against the inclusion
+        criteria to determine if the project is a fit inclusion in the COSA
+        Directory.
+      </Typography>
+      <Typography variant='h2'>Make A Request</Typography>
+      <Typography variant='body1'>
+        To request membership in the CDISC Open Source Alliance (COSA), please
+        email a YAML file with the following information to cosa@cdisc.org.
+        Either create the YAML file on your own or use the Application Editor
+        tool.
+      </Typography>
+      <Stack direction='row' spacing={2} sx={{ pb: 2 }}>
         <Button
           variant='contained'
-          onClick={handleSave}
-          sx={{ width: 100, height: 40 }}
+          component={RouterLink}
+          endIcon={<EditIcon />}
+          to='/application/editor'
         >
-          Save
+          Application Editor
         </Button>
-        <Button
-          variant='contained'
-          sx={{ width: 100, height: 40 }}
-          component='label'
-        >
-          Load
-          <input type='file' hidden onChange={handleLoad} />
-        </Button>
-        <Button
-          variant='contained'
-          sx={{ width: 100, height: 40 }}
-          onClick={() => {
-            setPreview(!preview);
-          }}
-        >
-          {preview ? 'Edit' : 'Preview'}
-        </Button>
+        {downloadFiles.map((item) => (
+          <Button
+            variant='contained'
+            onClick={() => downloadEmpty(item)}
+            endIcon={<DownloadIcon />}
+            key={item.name}
+          >
+            {item.title}
+          </Button>
+        ))}
       </Stack>
-      {preview ? (
-        <ProjectDescription preloadedProject={project} />
-      ) : (
-        <Body onChange={handleChange} project={project} />
-      )}
+      <Stack>
+        {data.map((item, index) => (
+          <Accordion key={index}>
+            <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+              <Typography variant='h3'>{item.title}</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              {item.text.length === 0 ? (
+                <CircularProgress />
+              ) : (
+                <Markdown>{item.text}</Markdown>
+              )}
+            </AccordionDetails>
+          </Accordion>
+        ))}
+      </Stack>
     </Stack>
   );
 };
