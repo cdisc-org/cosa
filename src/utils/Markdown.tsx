@@ -5,6 +5,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 import '../components/css/general.css';
 
 type Heading = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
@@ -34,7 +35,6 @@ const muiLink = ({ node, ...props }: { node: object }) => {
     return <Link target='_blank' rel='noopener' {...props} />;
   } else if (/^\w[\w\/]+$/.test(href)) {
     // Internal links
-    console.log(href);
     return <Link component={RouterLink} to={`/${href}`} {...props} />;
   } else {
     return <Link {...props} />;
@@ -72,6 +72,7 @@ const Markdown: React.FC = (item) => {
   return (
     <ReactMarkdown
       remarkPlugins={[remarkGfm]}
+      rehypePlugins={[rehypeRaw]}
       className='markdownArea'
       components={{
         h1: muiHeading,
