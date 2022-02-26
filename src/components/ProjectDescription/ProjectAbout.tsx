@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
+import Markdown from '../../utils/Markdown';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { IProject } from '../../interfaces/common.d';
@@ -19,9 +19,9 @@ const ProjectAbout: React.FC<IProjectAboutProps> = ({
   }
 
   return (
-    <Stack spacing={1}>
+    <Stack spacing={1} className='miniMarkdownArea'>
       <Typography variant='h3'>{labels.detailedDescription[id]}</Typography>
-      <ReactMarkdown>{description[id]}</ReactMarkdown>
+      <Markdown>{description[id]}</Markdown>
     </Stack>
   );
 };
