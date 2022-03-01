@@ -3,11 +3,12 @@ import AppBar from '@mui/material/AppBar';
 import { Link as RouterLink } from 'react-router-dom';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import Logo from '../assets/images/cosaLogo.svg';
+import Logo from '../assets/images/cdiscLogo.png';
 import RedditIcon from '@mui/icons-material/Reddit';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -50,10 +51,10 @@ const Header: React.FC = () => {
           justifyContent='space-between'
           sx={{ width: '100%' }}
         >
-          <Stack direction='row' spacing={2} alignItems='center'>
-            <Box sx={{ width: 40, height: 40, ml: 2 }}>
-              <img src={Logo} />
-            </Box>
+          <Stack direction='row' spacing={3} alignItems='center'>
+            <Link href='https://cdisc.org' target='_blank' rel='noreferrer'>
+              <Box sx={{ width: 100, ml: 2 }} component='img' src={Logo} />
+            </Link>
             <Typography variant='h3' sx={{ ml: 2, color: 'grey.400' }}>
               CDISC Open Source Alliance
             </Typography>

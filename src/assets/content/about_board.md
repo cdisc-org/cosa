@@ -6,9 +6,10 @@ Bhavin Busa | Vita Data Sciences
 Dmitry Kolosov | Parexel and Open-source developer
 Jeff Fattic | Microsoft
 Katja Glaß | Katja Glass Consulting
+Mike Stackhouse | Atorus
 Mikkel Traun | Novo Nordisk
 Sam Hume | CDISC
-Charles Shadle | CDISC, ex officio 
+Charles Shadle | CDISC, ex officio
 
 ### COSA Board Member Agreement
 
