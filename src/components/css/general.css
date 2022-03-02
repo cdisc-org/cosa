@@ -1,0 +1,18 @@
+.markdownArea > table,
+th,
+td {
+  border-spacing: 0;
+  border: 1px solid #e2e2e2;
+  line-height: 2;
+}
+
+.markdownArea > th,
+td {
+  padding: 0vh 1vh;
+}
+
+.miniMarkdownArea > .markdownArea > table,
+th,
+td {
+  line-height: 1.5;
+}
