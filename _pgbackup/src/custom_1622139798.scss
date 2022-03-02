@@ -1,0 +1,67 @@
+/* CDISC primary colors */
+$cdisc-primary-blue: #134678;
+$cdisc-primary-red: #c94543;
+$cdisc-primary-yellow: #eca920;
+$cdisc-primary-aqua: #9dcfca;
+
+/* CDISC secondary colors */
+$cdisc-secondary-purple: #553278;
+$cdisc-secondary-cyan: #40b4e5;
+$cdisc-secondary-dark-grey: #525349;
+$cdisc-secondary-warm-grey: #929288;
+
+/* CDISC tertiary colors */
+$cdisc-tertiary-lemon: #ffce00;
+$cdisc-tertiary-green: #286040;
+$cdisc-tertiary-orange: #d57e00;
+$cdisc-tertiary-avocado: #aaad00;
+$cdisc-tertiary-light-grey: #f5f5f5;
+
+/*CDISC custom colors*/
+$cdisc-footer-dark-blue: #234574;
+$cdisc-header-gray: #ededed;
+$cdisc-light-gray: #efefef;
+$cdisc-mild-gray: #e9e9e9;
+$cdisc-white: #fff;
+$cdisc-fade-black: #282529;
+$cdisc-mild-white: #eee;
+$cdisc-black: #000;
+$cdisc-default-font-color: #212529;
+$cdisc-mild-grey: #ddd;
+$cdisc-severity-dark-orange: #8a6d3b;
+$cdisc-severity-dark-green: #31708f;
+$cdisc-severity-hover: #40b4e5;
+$cdisc-accordian-gray: #d3d3d3;
+$cdisc-accordian-border-gray: #bfbfbf;
+$cdisc-mild-black: #333;
+$cdisc-content-color: #555555;
+$cdisc-sky-blue: #d6ecff;
+$cdisc-darksky-blue: #84c4ff;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+    font-family: "azo-sans-web";
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+    color: #134678;
+}
+
+
+.cdisc-primary-blue {
+background-color: $cdisc-primary-blue;
+}
