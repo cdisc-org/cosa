@@ -5,7 +5,7 @@
 **This needs technical background!** Currently we need to convert the YAML file to JSON files manually. Please reach out to Dmitry or Katja in this case if you are not sure.
 
 * Create a new folder in src/assets/projects/`<projectname>`
-* Copy the following files `<projectname>.yaml` and `logo.png` (or different format)
+* Copy the following files `<projectname>.yaml` and `logo.png`
 * Create JSON representation of the yaml file: `<projectname>.json`
 * Update `src/assets/projects/projects.json` to include the new tool
 
