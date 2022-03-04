@@ -1,0 +1,43 @@
+{
+  "projectInfo": {
+    "projectName": "R4DSXML",
+    "projectOwner": "Ippei Akiya",
+    "projectContact": "",
+    "projectLandingPage": "https://github.com/i-akiya/R4DSXML/",
+    "projectRepository": "https://github.com/i-akiya/R4DSXML/",
+    "programmingLanguage": [
+      "R"
+    ],
+    "openSourceLicense": [
+      "LGPL-3.0"
+    ],
+    "cdiscStandards": [
+      "Dataset-XML",
+      "Define-XML",
+      "ARM"
+    ],
+    "agreeWithCdiscCodeOfEthics": true,
+    "projectMaturity": "Stable",
+    "user": [
+      "Data Manager",
+      "Programmer",
+      "Biostatistician"
+    ],
+    "logoUrl": ""
+  },
+  "detailedDescription": {
+    "problem": "R4DSXML is R package for import CDISC Dataset-XML and Define-XML as R data frame.",
+    "solution": "#### Features\n* Support CDISC Dataset-XML 1.0, Define-XML 2.0,  :new: Define-XML 2.1 and Analysis Results Metadata 1.0.\n* Covert from Dataset-XML to R dataframe.\n* Extract following metadata from Define-XML as R dataframe.\n  * Dataset level metadata\n  * Variable level metadata\n  * Value level metadata\n  * Controlled Terms\n  * Analysis Results Metadata",
+    "openSourceConsiderations": "",
+    "maintenanceModel": "",
+    "projectSize": "",
+    "contributors": "",
+    "users": "",
+    "preRequisites": "#### Installation\n* From Github with devtools <br>\nRun following command in R console.  \n```R\nlibrary(devtools)  \ninstall_github(\"i-akiya/R4DSXML/R4DSXML\")\n```\n* From package archive file <br>\nIt is able to obtain source package from [Release Page](https://github.com/i-akiya/R4DSXML/releases).\n\n#### Dependencies\n* [R](https://cran.r-project.org/) (>= 3.6.0)\n* [R package XML](https://cran.r-project.org/web/packages/XML/index.html)\n* [R package stringr](https://cran.r-project.org/web/packages/stringr/index.html)",
+    "projectServiceOptions": "",
+    "sponsors": "",
+    "goalsObjectives": "",
+    "communications": "",
+    "additonalInformation": "* [Dataset-XML](https://www.cdisc.org/standards/foundational/dataset-xml)\n* [Define-XML](https://www.cdisc.org/standards/foundational/define-xml)\n* [Analysis Results Metadaa](https://www.cdisc.org/standards/foundational/analysis-data-model-adam/analysis-results-metadata-v10)"
+  }
+}
