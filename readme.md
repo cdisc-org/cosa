@@ -7,7 +7,7 @@ Run `npm install` once
 
 Use `npm start` to start development
 
-View the current version live here: https://cdisc-org.github.io/cosaDirectory/directory/openStudyBuilder
+View the live version here: https://cosa.cdisc.org/
 
 ## Guides
 

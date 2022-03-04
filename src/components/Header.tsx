@@ -24,7 +24,7 @@ const pages = [
 
 const icons = [
   {
-    href: 'https://github.com/cdisc-org/cosaDirectory',
+    href: 'https://github.com/cdisc-org/cosa',
     icon: <GitHubIcon />,
   },
   {
