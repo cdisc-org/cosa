@@ -23,8 +23,15 @@
       // https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
       // Otherwise, leave pathSegmentsToKeep as 0.
       var pathSegmentsToKeep = 1;
+      
 
       var l = window.location;
+
+      // This is to support both, custom domain and github.io domain
+      if (l.href.includes('cosa.cdisc.org')){
+        pathSegmentsToKeep = 0;
+      }
+
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
