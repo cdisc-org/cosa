@@ -1,6 +1,12 @@
 [
+    {
+    "title": "CDISC Open Source Alliance Spotlight",
+    "description": "Q12022_Webinar.md",
+    "type": "webinar",
+    "startDate": "2022-03-31"
+  },
   {
-    "title": "EU Workshop",
+    "title": "(EU Interchange) COSA OpenStudyBuilder Workshop",
     "description": "eu_workshop_2022.md",
     "type": "hackathon",
     "startDate": "2022-04-29"
