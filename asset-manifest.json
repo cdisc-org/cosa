@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.88869125.css",
-    "main.js": "/static/js/main.0bf37067.js",
+    "main.js": "/static/js/main.7c7124dd.js",
+    "static/js/417.a45af3b0.chunk.js": "/static/js/417.a45af3b0.chunk.js",
     "static/js/180.5d4323d6.chunk.js": "/static/js/180.5d4323d6.chunk.js",
     "static/js/534.893a4c6f.chunk.js": "/static/js/534.893a4c6f.chunk.js",
-    "static/js/626.1c9e80a2.chunk.js": "/static/js/626.1c9e80a2.chunk.js",
+    "static/js/626.469dfd2d.chunk.js": "/static/js/626.469dfd2d.chunk.js",
     "static/js/335.2880b1a1.chunk.js": "/static/js/335.2880b1a1.chunk.js",
     "static/js/748.6c5b4018.chunk.js": "/static/js/748.6c5b4018.chunk.js",
     "static/js/487.47088fda.chunk.js": "/static/js/487.47088fda.chunk.js",
@@ -26,10 +27,11 @@
     "static/media/other_faq.md": "/static/media/other_faq.ef7245b5d7b59ebf0aee.md",
     "static/media/about_evaluation_criteria.md": "/static/media/about_evaluation_criteria.efb0798196037ce3578f.md",
     "static/media/about_charter.md": "/static/media/about_charter.c94d574d4ccfa1814b7f.md",
-    "static/media/eu_workshop_2022.md": "/static/media/eu_workshop_2022.635748a6a436d9314a90.md",
     "static/media/about_board.md": "/static/media/about_board.534d07fa1956ced8265a.md",
+    "static/media/eu_workshop_2022.md": "/static/media/eu_workshop_2022.78b3421f61feb9b33e1b.md",
     "index.html": "/index.html",
     "static/media/us_interchange_2021.md": "/static/media/us_interchange_2021.d4a588275957623b0be8.md",
+    "static/media/Q12022_Webinar.md": "/static/media/Q12022_Webinar.8616ecf8aa649e2ad625.md",
     "static/media/other_os.md": "/static/media/other_os.eaf087b2481ea88778e1.md",
     "static/media/spotlight_Q4_2021.md": "/static/media/spotlight_Q4_2021.372ace8e7844cc8e8b14.md",
     "static/media/eu_interchange_2022.md": "/static/media/eu_interchange_2022.2916123241f640e733d2.md",
@@ -37,10 +39,10 @@
     "static/media/other_application_empty.md": "/static/media/other_application_empty.894970fd44d57125327b.md",
     "static/media/application_empty.yaml": "/static/media/application_empty.1612579b1b856880298f.yaml",
     "main.88869125.css.map": "/static/css/main.88869125.css.map",
-    "main.0bf37067.js.map": "/static/js/main.0bf37067.js.map"
+    "main.7c7124dd.js.map": "/static/js/main.7c7124dd.js.map"
   },
   "entrypoints": [
     "static/css/main.88869125.css",
-    "static/js/main.0bf37067.js"
+    "static/js/main.7c7124dd.js"
   ]
 }
