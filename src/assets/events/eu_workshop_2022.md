@@ -2,16 +2,18 @@
 
 ---
 
-**Register today!**  [2022 Europe Interchange](https://www.cdisc.org/events/interchange/2022-europe-interchange)  
+[**Register today!**](https://www.cdisc.org/form/cosa-openstudybuilder-workshop-b)
 <br>
-COSA will be hosting a free workshop at the 2022 European Interchange focusing on the OpenStudyBuilder. It is open to anyone interested and registration for the main conference is not required. 
+
+COSA will be hosting a free workshop focusing on the OpenStudyBuilder at the [2022 European Interchange](https://www.cdisc.org/events/interchange/2022-europe-interchange).  
+<br><br>
 The OpenStudyBuilder is an open-source project for clinical study specification. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes - all the way from protocol development and CRF design - to creation of datasets, analysis, reporting, submission to health authorities and public disclosure of study information.  
 <br>
 At this workshop we will briefly present
 * Why you should consider to use the OpenStudyBuilder solution
 * Why we share OpenStudyBuilder as an open source project
-* hy you should consider to contribute to the OpenStudyBuilder solution
-  
+* hy you should consider to contribute to the OpenStudyBuilder solution  
+<br>
 
 Then we will split into number of breakout sessions where a facilitator will present a focus area and demonstrate relevant functionalities in the OpenStudyBuilder tool. The group members can try these and then discuss and reflect. The goal for each breakout group is to present a short overview of their reflections and recommendations within their focus area for everyone.  
 <BR>
@@ -30,11 +32,8 @@ The following breakout groups have been defined:
 
 When you sign up for the workshop you can select three preferred breakout groups.  
 <BR>
-  
-We will need to limit attendance so Register today!  [2022 Europe Interchange](https://www.cdisc.org/events/interchange/2022-europe-interchange)  
-  
 
----
-* **COSA OpenStudyBuilder Workshop**
-
-   Mikkel Traun, Novo Nordisk A/S
+  
+We will need to limit attendance so [**Register today!**](https://www.cdisc.org/form/cosa-openstudybuilder-workshop-b)
+  
+<BR><BR><BR>
