@@ -12,7 +12,7 @@ The OpenStudyBuilder is an open-source project for clinical study specification.
 At this workshop we will briefly present
 * Why you should consider to use the OpenStudyBuilder solution
 * Why we share OpenStudyBuilder as an open source project
-* hy you should consider to contribute to the OpenStudyBuilder solution  
+* Why you should consider to contribute to the OpenStudyBuilder solution  
 <br>
 
 Then we will split into number of breakout sessions where a facilitator will present a focus area and demonstrate relevant functionalities in the OpenStudyBuilder tool. The group members can try these and then discuss and reflect. The goal for each breakout group is to present a short overview of their reflections and recommendations within their focus area for everyone.  
