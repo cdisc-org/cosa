@@ -1,7 +1,7 @@
 ---
 # To request membership in the CDISC Open Source Alliance (COSA), please email a YAML file with the following information to cosa@cdisc.org:
 projectInfo:
-  projectName: Define-XML XLS Stylesheets
+  projectName: Define-XML XSL Stylesheets
   projectOwner: Lex Jansen
   projectContact: lexjansen@gmail.com
   projectLandingPage: https://github.com/lexjansen/define-xml-2.1-stylesheets

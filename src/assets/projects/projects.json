@@ -32,7 +32,7 @@
   },
   {
     "id": "defineStylesheets",
-    "name": "Define-XML XLS Stylesheets",
+    "name": "Define-XML XSL Stylesheets",
     "description": "This projects provides a Define-XML v2.0 and v2.1 XSL stylesheet",
     "categories": ["Define-XML"]
   },
