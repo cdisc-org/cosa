@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.88869125.css",
-    "main.js": "/static/js/main.3a882f0d.js",
-    "static/js/417.a45af3b0.chunk.js": "/static/js/417.a45af3b0.chunk.js",
+    "main.js": "/static/js/main.56a1a716.js",
+    "static/js/417.a51b5009.chunk.js": "/static/js/417.a51b5009.chunk.js",
     "static/js/180.5d4323d6.chunk.js": "/static/js/180.5d4323d6.chunk.js",
     "static/js/534.893a4c6f.chunk.js": "/static/js/534.893a4c6f.chunk.js",
     "static/js/626.469dfd2d.chunk.js": "/static/js/626.469dfd2d.chunk.js",
@@ -31,7 +31,7 @@
     "static/media/eu_workshop_2022.md": "/static/media/eu_workshop_2022.78b3421f61feb9b33e1b.md",
     "index.html": "/index.html",
     "static/media/us_interchange_2021.md": "/static/media/us_interchange_2021.d4a588275957623b0be8.md",
-    "static/media/Q12022_Webinar.md": "/static/media/Q12022_Webinar.8616ecf8aa649e2ad625.md",
+    "static/media/Q12022_Webinar.md": "/static/media/Q12022_Webinar.827b23336f54998bf4f4.md",
     "static/media/other_os.md": "/static/media/other_os.eaf087b2481ea88778e1.md",
     "static/media/spotlight_Q4_2021.md": "/static/media/spotlight_Q4_2021.372ace8e7844cc8e8b14.md",
     "static/media/eu_interchange_2022.md": "/static/media/eu_interchange_2022.2916123241f640e733d2.md",
@@ -39,10 +39,10 @@
     "static/media/other_application_empty.md": "/static/media/other_application_empty.894970fd44d57125327b.md",
     "static/media/application_empty.yaml": "/static/media/application_empty.1612579b1b856880298f.yaml",
     "main.88869125.css.map": "/static/css/main.88869125.css.map",
-    "main.3a882f0d.js.map": "/static/js/main.3a882f0d.js.map"
+    "main.56a1a716.js.map": "/static/js/main.56a1a716.js.map"
   },
   "entrypoints": [
     "static/css/main.88869125.css",
-    "static/js/main.3a882f0d.js"
+    "static/js/main.56a1a716.js"
   ]
 }
