@@ -32,5 +32,11 @@
     "logo": "https://www.cdisc.org/sites/default/files/landing/banner/2021-09-13_US%20VIRTUAL%20WEBSITE%20BANNER-R2-01.png",
     "startDate": "2021-10-20",
     "endDate": "2021-10-21"
+  },
+  {
+    "title": "COSA Spotlight Q2 2022",
+    "description": "spotlight_Q2_2022.md",
+    "type": "webinar",
+    "startDate": "30 June 2022"
   }
 ]

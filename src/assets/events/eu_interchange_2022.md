@@ -1,13 +1,8 @@
 27 April 2022 - 28 April 2022
 
 ---
-**Register today!**  [2022 Europe Interchange](https://www.cdisc.org/events/interchange/2022-europe-interchange)  
-<br>
+
 CDISC Interchanges are global events held annually on three continents with hundreds of attendees gathering to share their expertise, best practices, and lessons learned in implementing CDISC data standards to bring clarity to data.  
-<br>
-
-
-   Some key presentations follow:
 
 ---
 * **CDISC Open Source Alliance (COSA) - An Introduction**
