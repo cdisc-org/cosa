@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.88869125.css",
-    "main.js": "/static/js/main.98c40529.js",
+    "main.js": "/static/js/main.2837090c.js",
     "static/js/417.6ab45ecf.chunk.js": "/static/js/417.6ab45ecf.chunk.js",
     "static/js/180.5d4323d6.chunk.js": "/static/js/180.5d4323d6.chunk.js",
-    "static/js/534.893a4c6f.chunk.js": "/static/js/534.893a4c6f.chunk.js",
-    "static/js/626.469dfd2d.chunk.js": "/static/js/626.469dfd2d.chunk.js",
+    "static/js/534.e6a2e835.chunk.js": "/static/js/534.e6a2e835.chunk.js",
+    "static/js/626.d710cd3c.chunk.js": "/static/js/626.d710cd3c.chunk.js",
+    "static/js/242.a6c37871.chunk.js": "/static/js/242.a6c37871.chunk.js",
     "static/js/335.2880b1a1.chunk.js": "/static/js/335.2880b1a1.chunk.js",
     "static/js/748.6c5b4018.chunk.js": "/static/js/748.6c5b4018.chunk.js",
     "static/js/487.47088fda.chunk.js": "/static/js/487.47088fda.chunk.js",
@@ -28,21 +29,22 @@
     "static/media/about_evaluation_criteria.md": "/static/media/about_evaluation_criteria.efb0798196037ce3578f.md",
     "static/media/about_charter.md": "/static/media/about_charter.c94d574d4ccfa1814b7f.md",
     "static/media/about_board.md": "/static/media/about_board.534d07fa1956ced8265a.md",
-    "static/media/eu_workshop_2022.md": "/static/media/eu_workshop_2022.78b3421f61feb9b33e1b.md",
+    "static/media/eu_workshop_2022.md": "/static/media/eu_workshop_2022.5a1ab3194c0519ec49e4.md",
     "static/media/Q12022_Webinar.md": "/static/media/Q12022_Webinar.7e298981b2a1eed8afc7.md",
+    "static/media/spotlight_Q2_2022.md": "/static/media/spotlight_Q2_2022.fdb537e397f5b87f2d09.md",
     "index.html": "/index.html",
     "static/media/us_interchange_2021.md": "/static/media/us_interchange_2021.d4a588275957623b0be8.md",
     "static/media/other_os.md": "/static/media/other_os.eaf087b2481ea88778e1.md",
     "static/media/spotlight_Q4_2021.md": "/static/media/spotlight_Q4_2021.372ace8e7844cc8e8b14.md",
-    "static/media/eu_interchange_2022.md": "/static/media/eu_interchange_2022.2916123241f640e733d2.md",
     "static/media/README.md": "/static/media/README.0c4d01b7858e189f82ef.md",
     "static/media/other_application_empty.md": "/static/media/other_application_empty.894970fd44d57125327b.md",
     "static/media/application_empty.yaml": "/static/media/application_empty.1612579b1b856880298f.yaml",
+    "static/media/eu_interchange_2022.md": "/static/media/eu_interchange_2022.08fc28892bf3f160787d.md",
     "main.88869125.css.map": "/static/css/main.88869125.css.map",
-    "main.98c40529.js.map": "/static/js/main.98c40529.js.map"
+    "main.2837090c.js.map": "/static/js/main.2837090c.js.map"
   },
   "entrypoints": [
     "static/css/main.88869125.css",
-    "static/js/main.98c40529.js"
+    "static/js/main.2837090c.js"
   ]
 }
