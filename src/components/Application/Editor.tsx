@@ -8,6 +8,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Body from './Body';
 import ProjectDescription from '../ProjectDescription';
+import ShowMessage from '../Modals/ShowMessage';
 import { IProject } from '../../interfaces/common';
 
 const Editor: React.FC = () => {
@@ -44,6 +45,7 @@ const Editor: React.FC = () => {
   });
 
   const [preview, setPreview] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleChange = (
     name: string,
@@ -77,74 +79,91 @@ const Editor: React.FC = () => {
 
   const handleLoad = async (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.files !== null && event.target.files.length > 0) {
-      const newProject = yaml.parse(await event.target.files[0].text());
-      setProject(newProject);
+      try {
+        const newProject = yaml.parse(await event.target.files[0].text());
+        setProject(newProject);
+      } catch (err) {
+        setErrorMessage((err as Error).message);
+      }
     }
   };
 
+  const handleCloseError = () => {
+    setErrorMessage('');
+  };
+
   return (
-    <Stack spacing={2} sx={{ m: 4 }}>
-      <Breadcrumbs separator='›' sx={{ pb: 2 }}>
-        <Link
-          underline='hover'
-          key='1'
-          color='inherit'
-          component={RouterLink}
-          to='/application'
-        >
-          Application
-        </Link>
-        <Link
-          underline='hover'
-          key='2'
-          color='inherit'
-          component={RouterLink}
-          to='/application/editor'
-        >
-          Editor
-        </Link>
-      </Breadcrumbs>
-      <Stack
-        direction='row'
-        spacing={4}
-        alignItems='center'
-        justifyContent='space-between'
-        sx={{ pb: 4 }}
-      >
-        <Typography variant='h1'>Application Editor</Typography>
-        <Stack direction='row' spacing={2}>
-          <Button
-            variant='contained'
-            onClick={handleSave}
-            sx={{ width: 100, height: 40 }}
-          >
-            Save
-          </Button>
-          <Button
-            variant='contained'
-            sx={{ width: 100, height: 40 }}
-            component='label'
-          >
-            Load
-            <input type='file' hidden onChange={handleLoad} />
-          </Button>
-          <Button
-            variant='contained'
-            sx={{ width: 100, height: 40 }}
-            onClick={() => {
-              setPreview(!preview);
-            }}
-          >
-            {preview ? 'Edit' : 'Preview'}
-          </Button>
-        </Stack>
-      </Stack>
-      {preview ? (
-        <ProjectDescription preloadedProject={project} />
-      ) : (
-        <Body onChange={handleChange} project={project} />
+    <>
+      {errorMessage !== '' && (
+        <ShowMessage
+          message={`The YAML file has issues: ${errorMessage}`}
+          title='Issues in YAML'
+          onClose={handleCloseError}
+        />
       )}
-    </Stack>
+      <Stack spacing={2} sx={{ m: 4 }}>
+        <Breadcrumbs separator='›' sx={{ pb: 2 }}>
+          <Link
+            underline='hover'
+            key='1'
+            color='inherit'
+            component={RouterLink}
+            to='/application'
+          >
+            Application
+          </Link>
+          <Link
+            underline='hover'
+            key='2'
+            color='inherit'
+            component={RouterLink}
+            to='/application/editor'
+          >
+            Editor
+          </Link>
+        </Breadcrumbs>
+        <Stack
+          direction='row'
+          spacing={4}
+          alignItems='center'
+          justifyContent='space-between'
+          sx={{ pb: 4 }}
+        >
+          <Typography variant='h1'>Application Editor</Typography>
+          <Stack direction='row' spacing={2}>
+            <Button
+              variant='contained'
+              onClick={handleSave}
+              sx={{ width: 100, height: 40 }}
+            >
+              Save
+            </Button>
+            <Button
+              variant='contained'
+              sx={{ width: 100, height: 40 }}
+              component='label'
+            >
+              Load
+              <input type='file' hidden onChange={handleLoad} />
+            </Button>
+            <Button
+              variant='contained'
+              sx={{ width: 100, height: 40 }}
+              onClick={() => {
+                setPreview(!preview);
+              }}
+            >
+              {preview ? 'Edit' : 'Preview'}
+            </Button>
+          </Stack>
+        </Stack>
+        {preview ? (
+          <ProjectDescription preloadedProject={project} />
+        ) : (
+          <Body onChange={handleChange} project={project} />
+        )}
+      </Stack>
+    </>
   );
 };
 
