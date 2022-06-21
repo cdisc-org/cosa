@@ -1,5 +1,17 @@
 [
   {
+    "id": "ddt",
+    "name": "Digital Data Flow",
+    "description": "The DDF initiative aims to modernize clinical trials by enabling a digital workflow that allows for automated creation of study content and configuration of study systems to support clinical trial execution.",
+    "categories": ["ODM", "CDASH", "USDM"]
+  },
+  {
+    "id": "tidycdisc",
+    "name": "tidyCDISC",
+    "description": "tidyCDISC is a shiny app to easily create custom tables and figures from ADaM-ish data sets.",
+    "categories": ["ADaM"]
+  },
+  {
     "id": "admiral",
     "name": "Admiral",
     "description": "ADaM in R Asset Library.",
