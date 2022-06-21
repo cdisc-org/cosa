@@ -140,7 +140,7 @@ const Editor: React.FC = () => {
         </Stack>
       </Stack>
       {preview ? (
-        <ProjectDescription preloadedProject={project} showAll />
+        <ProjectDescription preloadedProject={project} />
       ) : (
         <Body onChange={handleChange} project={project} />
       )}

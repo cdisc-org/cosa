@@ -3,7 +3,6 @@ import { useNavigate, useParams, Link as RouterLink } from 'react-router-dom';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import ProjectInfo from './ProjectInfo';
 import ProjectAbout from './ProjectAbout';
@@ -16,12 +15,10 @@ interface IProjectDescriptionProps {
 
 const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
   preloadedProject,
-  showAll,
 }: IProjectDescriptionProps) => {
   const [project, setProject] = useState<IProject>();
   const navigate = useNavigate();
 
-  const [showMore, setShowMore] = useState(showAll || false);
   const { id } = useParams();
 
   useEffect(() => {
@@ -89,21 +86,8 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
           <ProjectInfo projectInfo={projectInfo} id='user' />
           <ProjectInfo projectInfo={projectInfo} id='cdiscStandards' />
           <ProjectInfo projectInfo={projectInfo} id='programmingLanguage' />
-          {showMore && (
-            <>
-              <ProjectInfo projectInfo={projectInfo} id='projectContact' />
-              <ProjectInfo projectInfo={projectInfo} id='projectMaturity' />
-            </>
-          )}
-          <Button
-            onClick={() => {
-              setShowMore(!showMore);
-            }}
-            sx={{ width: 200 }}
-            variant='contained'
-          >
-            {showMore ? 'Less details' : 'More details'}
-          </Button>
+          <ProjectInfo projectInfo={projectInfo} id='projectContact' />
+          <ProjectInfo projectInfo={projectInfo} id='projectMaturity' />
         </Stack>
         <Stack spacing={2}>
           <ProjectAbout description={detailedDescription} id='problem' />
@@ -116,31 +100,24 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
           <ProjectAbout description={detailedDescription} id='preRequisites' />
           <ProjectAbout description={detailedDescription} id='contributors' />
           <ProjectAbout description={detailedDescription} id='communications' />
-          {showMore && (
-            <>
-              <ProjectAbout
-                description={detailedDescription}
-                id='projectSize'
-              />
-              <ProjectAbout
-                description={detailedDescription}
-                id='openSourceConsiderations'
-              />
-              <ProjectAbout
-                description={detailedDescription}
-                id='projectServiceOptions'
-              />
-              <ProjectAbout description={detailedDescription} id='sponsors' />
-              <ProjectAbout
-                description={detailedDescription}
-                id='goalsObjectives'
-              />
-              <ProjectAbout
-                description={detailedDescription}
-                id='additonalInformation'
-              />
-            </>
-          )}
+          <ProjectAbout description={detailedDescription} id='projectSize' />
+          <ProjectAbout
+            description={detailedDescription}
+            id='openSourceConsiderations'
+          />
+          <ProjectAbout
+            description={detailedDescription}
+            id='projectServiceOptions'
+          />
+          <ProjectAbout description={detailedDescription} id='sponsors' />
+          <ProjectAbout
+            description={detailedDescription}
+            id='goalsObjectives'
+          />
+          <ProjectAbout
+            description={detailedDescription}
+            id='additonalInformation'
+          />
         </Stack>
       </Stack>
     </Stack>
