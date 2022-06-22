@@ -1,6 +1,9 @@
 import React from 'react';
+import { Link as RouterLink } from 'react-router-dom';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
+import Breadcrumbs from '@mui/material/Breadcrumbs';
+import Link from '@mui/material/Link';
 import Field from './Field';
 import { IProject } from '../../interfaces/common.d';
 
@@ -110,6 +113,17 @@ interface IBodyProps {
 const Body: React.FC<IBodyProps> = ({ project, onChange }: IBodyProps) => {
   return (
     <Stack direction='row' sx={{ flex: '1', m: 2 }} spacing={8}>
+      <Breadcrumbs separator='›' sx={{ pb: 2 }}>
+        <Link
+          underline='hover'
+          key='1'
+          color='inherit'
+          component={RouterLink}
+          to='/'
+        >
+          Application
+        </Link>
+      </Breadcrumbs>
       <Stack spacing={1} sx={{ flex: '1 1 25%' }}>
         <Typography variant='h3' sx={{ mb: 4 }}>
           Project Information

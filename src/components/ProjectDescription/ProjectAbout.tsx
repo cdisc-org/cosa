@@ -14,7 +14,7 @@ const ProjectAbout: React.FC<IProjectAboutProps> = ({
   description,
   id,
 }: IProjectAboutProps) => {
-  if (description[id] === undefined) {
+  if (description[id] === undefined || description[id] === '') {
     return null;
   }
 

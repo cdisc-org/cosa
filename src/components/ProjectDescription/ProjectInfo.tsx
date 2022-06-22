@@ -17,6 +17,15 @@ const ProjectInfo: React.FC<IProjectInfoProps> = ({
   let type: 'link' | 'text' | 'array';
   let href = '';
 
+  if (
+    projectInfo[id] === undefined ||
+    projectInfo[id] === '' ||
+    (Array.isArray(projectInfo[id]) &&
+      (projectInfo[id] as string[]).length === 0)
+  ) {
+    return null;
+  }
+
   if (['projectLandingPage', 'projectRepository'].includes(id)) {
     type = 'link';
     href = projectInfo[id] as string;
