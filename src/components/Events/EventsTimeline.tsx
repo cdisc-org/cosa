@@ -58,7 +58,7 @@ const EventsTimeline: React.FC<ITimelineProps> = ({
             )}
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: '12px', px: 2, width: 180 }}>
+          <TimelineContent sx={{ py: '12px', px: 2, width: 200 }}>
             <Typography
               variant='h4'
               component='span'

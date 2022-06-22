@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, Link as RouterLink } from 'react-router-dom';
+import Breadcrumbs from '@mui/material/Breadcrumbs';
+import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import ProjectInfo from './ProjectInfo';
 import ProjectAbout from './ProjectAbout';
 import { IProject } from '../../interfaces/common.d';
 
 interface IProjectDescriptionProps {
   preloadedProject?: IProject;
+  showAll?: boolean;
 }
 
 const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
@@ -44,9 +46,28 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
 
   return (
     <Stack spacing={2} sx={{ m: 4 }}>
-      <Typography variant='h2' sx={{ mb: 4 }}>
-        {projectInfo.projectName}
-      </Typography>
+      {id !== undefined && (
+        <Breadcrumbs separator='›' sx={{ pb: 2 }}>
+          <Link
+            underline='hover'
+            key='1'
+            color='inherit'
+            component={RouterLink}
+            to='/'
+          >
+            Directory
+          </Link>
+          <Link
+            underline='hover'
+            key='1'
+            color='inherit'
+            component={RouterLink}
+            to={`/directory/${id}`}
+          >
+            {projectInfo.projectName}
+          </Link>
+        </Breadcrumbs>
+      )}
       <Stack direction='row' sx={{ flex: '1', m: 2 }} spacing={8}>
         <Stack spacing={2}>
           <Box
@@ -65,6 +86,8 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
           <ProjectInfo projectInfo={projectInfo} id='user' />
           <ProjectInfo projectInfo={projectInfo} id='cdiscStandards' />
           <ProjectInfo projectInfo={projectInfo} id='programmingLanguage' />
+          <ProjectInfo projectInfo={projectInfo} id='projectContact' />
+          <ProjectInfo projectInfo={projectInfo} id='projectMaturity' />
         </Stack>
         <Stack spacing={2}>
           <ProjectAbout description={detailedDescription} id='problem' />
@@ -77,6 +100,24 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
           <ProjectAbout description={detailedDescription} id='preRequisites' />
           <ProjectAbout description={detailedDescription} id='contributors' />
           <ProjectAbout description={detailedDescription} id='communications' />
+          <ProjectAbout description={detailedDescription} id='projectSize' />
+          <ProjectAbout
+            description={detailedDescription}
+            id='openSourceConsiderations'
+          />
+          <ProjectAbout
+            description={detailedDescription}
+            id='projectServiceOptions'
+          />
+          <ProjectAbout description={detailedDescription} id='sponsors' />
+          <ProjectAbout
+            description={detailedDescription}
+            id='goalsObjectives'
+          />
+          <ProjectAbout
+            description={detailedDescription}
+            id='additonalInformation'
+          />
         </Stack>
       </Stack>
     </Stack>
