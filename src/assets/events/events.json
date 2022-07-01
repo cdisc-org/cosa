@@ -1,5 +1,11 @@
 [
   {
+    "title": "Dataset-JSON",
+    "description": "hackathon_dataset_json.md",
+    "type": "hackathon",
+    "startDate": "2022-07-01",
+    "endDate": "2022-12-15"
+  },{
     "title": "COSA Spotlight Q3 2022",
     "description": "spotlight_Q3_2022.md",
     "type": "webinar",
