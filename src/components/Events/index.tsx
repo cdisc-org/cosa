@@ -4,6 +4,7 @@ import Divider from '@mui/material/Divider';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
+import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
 import Markdown from '../../utils/Markdown';
 import events from '../../assets/events/events.json';
@@ -13,10 +14,12 @@ import EventsTimeline from './EventsTimeline';
 const Events: React.FC = () => {
   const [data, setData] = useState<Array<IEvent>>([]);
   const [tab, setTab] = useState('upcoming');
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const loadEvents = async () => {
       const newData = [];
+      setLoading(true);
       for (let i = 0; i < events.length; i++) {
         const rawEvent: IEvent = events[i] as IEvent;
         const newEvent: IEvent = {} as IEvent;
@@ -59,6 +62,7 @@ const Events: React.FC = () => {
         }
       }
       setData(newData);
+      setLoading(false);
     };
 
     loadEvents();
@@ -85,28 +89,43 @@ const Events: React.FC = () => {
         <Tab label='Upcoming' value='upcoming' />
         <Tab label='Past' value='past' />
       </Tabs>
-      <Stack direction='row' spacing={1} justifyContent='space-between'>
-        <Stack spacing={6} divider={<Divider />}>
-          {filteredData.map((event, index) => (
-            <Stack spacing={4} key={index}>
-              <Typography variant='h2' color='primary.main' component='a'>
-                {event.title}
-              </Typography>
-              {event.logo !== undefined && (
-                <Box justifyContent='flex-start' sx={{ display: 'flex' }}>
-                  <Box
-                    component='img'
-                    src={event.logo}
-                    sx={{ maxHeight: 200, borderRadius: 1, maxWidth: '100%' }}
-                  />
-                </Box>
-              )}
-              <Markdown>{event.description}</Markdown>
-            </Stack>
-          ))}
+      {loading ? (
+        <Box
+          sx={{
+            flex: '1 1 auto',
+            textAlign: 'center',
+            alignItems: 'center',
+            justifyContent: 'center',
+            display: 'flex',
+            minHeight: '50vh',
+          }}
+        >
+          <CircularProgress size='60px' />
+        </Box>
+      ) : (
+        <Stack direction='row' spacing={1} justifyContent='space-between'>
+          <Stack spacing={6} divider={<Divider />}>
+            {filteredData.map((event, index) => (
+              <Stack spacing={4} key={index}>
+                <Typography variant='h2' color='primary.main' component='a'>
+                  {event.title}
+                </Typography>
+                {event.logo !== undefined && (
+                  <Box justifyContent='flex-start' sx={{ display: 'flex' }}>
+                    <Box
+                      component='img'
+                      src={event.logo}
+                      sx={{ maxHeight: 200, borderRadius: 1, maxWidth: '100%' }}
+                    />
+                  </Box>
+                )}
+                <Markdown>{event.description}</Markdown>
+              </Stack>
+            ))}
+          </Stack>
+          <EventsTimeline events={filteredData} />
         </Stack>
-        <EventsTimeline events={filteredData} />
-      </Stack>
+      )}
     </Stack>
   );
 };

@@ -1,5 +1,22 @@
 [
-    {
+  {
+    "title": "Dataset-JSON",
+    "description": "hackathon_dataset_json.md",
+    "type": "hackathon",
+    "startDate": "2022-07-01",
+    "endDate": "2022-12-15"
+  },{
+    "title": "COSA Spotlight Q3 2022",
+    "description": "spotlight_Q3_2022.md",
+    "type": "webinar",
+    "startDate": "2022-09-29"
+  },{
+    "title": "COSA Spotlight Q2 2022",
+    "description": "spotlight_Q2_2022.md",
+    "type": "webinar",
+    "startDate": "2022-06-30"
+  },
+  {
     "title": "CDISC Open Source Alliance Spotlight",
     "description": "Q12022_Webinar.md",
     "type": "webinar",
@@ -32,11 +49,5 @@
     "logo": "https://www.cdisc.org/sites/default/files/landing/banner/2021-09-13_US%20VIRTUAL%20WEBSITE%20BANNER-R2-01.png",
     "startDate": "2021-10-20",
     "endDate": "2021-10-21"
-  },
-  {
-    "title": "COSA Spotlight Q2 2022",
-    "description": "spotlight_Q2_2022.md",
-    "type": "webinar",
-    "startDate": "30 June 2022"
   }
 ]
