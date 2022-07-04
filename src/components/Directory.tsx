@@ -139,28 +139,36 @@ const Directory: React.FC = () => {
           </List>
         </Stack>
         <List>
-          {filteredData.map((item) => (
-            <ListItem disablePadding key={item.name}>
-              <ListItemButton
-                component={RouterLink}
-                to={`directory/${item.id}`}
-              >
-                <ListItemIcon
-                  sx={{ width: 50, mr: 2, justifyContent: 'center' }}
+          {filteredData
+            .sort((item1, item2) => {
+              if (item1.name > item2.name) {
+                return 1;
+              } else {
+                return -1;
+              }
+            })
+            .map((item) => (
+              <ListItem disablePadding key={item.name}>
+                <ListItemButton
+                  component={RouterLink}
+                  to={`directory/${item.id}`}
                 >
-                  <Box
-                    component='img'
-                    sx={{ height: 50 }}
-                    src={require(`../assets/projects/${item.id}/logo.png`)}
+                  <ListItemIcon
+                    sx={{ width: 50, mr: 2, justifyContent: 'center' }}
+                  >
+                    <Box
+                      component='img'
+                      sx={{ height: 50 }}
+                      src={require(`../assets/projects/${item.id}/logo.png`)}
+                    />
+                  </ListItemIcon>
+                  <ListItemText
+                    primary={item.name}
+                    secondary={item.description}
                   />
-                </ListItemIcon>
-                <ListItemText
-                  primary={item.name}
-                  secondary={item.description}
-                />
-              </ListItemButton>
-            </ListItem>
-          ))}
+                </ListItemButton>
+              </ListItem>
+            ))}
         </List>
       </Stack>
     </Stack>
