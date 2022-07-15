@@ -3,24 +3,34 @@
 
 Resource | Description
 --- | ---
-[Open Source Initiative](https://opensource.org/)
-[Open Source Licenses and more](./Open Source_Licenses and More_KGC_11NOV2020.pdf)
-Open Source Licenses and more	Slide deck on open source licenses authored by Katja Glass (and added with permission) from Nov 2020. She also has information on her web site https://www.glacon.eu/opensource.html 
-https://opensource.org/licenses	Widely used site on open source licenses from the Open Source Initiative
-CC0 1.0 Universal (CC0 1.0)
-Public Domain Dedication or
+<a href="https://opensource.org/" target="_blank">Open Source Initiative</a>
+<a href="./resources/Open_Source_Licenses_and_More_11NOV2020.pdf" target="_blank">Open Source Licenses and more</a> | Slide deck on open source licenses and more authored by Katja Glass from Nov 2020. Additional information on her open source portal: https://www.glacon.eu/portal
+<a href="https://opensource.org/licenses " target="_blank">opensource.org/licenses </a> |	Widely used site on open source licenses from the Open Source Initiative
+CC0 1.0 Universal (CC0 1.0)<br/>Public Domain Dedication or <br/>BSD Zero Clause License | Code snippets used in examples, blogs, etc that you want to release into the public domain without the need for attribution, etc.
+MIT | open source license	Popular, permissive open source license used by CDISC, Microsoft, and many others.
+<a href="./resources/Open Source and OSPOs_JAN2021.pdf" target="_blank">Open Source & Microsoft Licensing & OSPOs</a>	| Presentation about microsoft Open Source & Standards / GitHub Developer Policy by Justin C. Colannino (Microsoft)
 
-BSD Zero Clause License
+# Open Source Archetypes & OSOP
 
-Code snippets used in examples, blogs, etc that you want to release into the public domain without the need for attribution, etc.
-MIT open source license	Popular, permissive open source license used by CDISC, Microsoft, and many others.
-Open Source & Microsoft Licensing & OSPOs	
-Microsoft Open Source & Standards / GitHub Developer Policy
+*by Justin C. Colannino (Microsoft)*
 
-Justin C. Colannino (Microsoft)
+## Archetypes
 
+<img src="./img/2021-01-licenses-archetypes.png" class="blockMax100" alt="License Archetypes">
 
-# Open Source Article about Licenses (2022-03-01)
+## OSOP - Open Source Maturity Inside an Organization
+
+Level | Type | Statement
+-- | -- | --
+Level 0 | Denial | "We don’t use open source"
+Level 1 | Tolerant | 	"Ok, but just a bit" <br/>No standardized processes
+Level 2 | Proficient Inbound | "Follow this process to bring open source in" <br/> "IP too valuable to contribute out"
+Level 3 | Proficient Inbound/Outbound | "If I don’t fix upstream, I need to maintain a patch set!"
+Level 4 | Mastery | "share maintenance with the whole industry and focus on the hard stuff"
+
+# Open Source Licenses - Article
+
+*by Katja Glaß, Katja Glass Consutling 2022-03-01*
 
 Licenses are very important, because if you see source code which is not connected to any license, that means it likely falls under copyright. When there is valuable source code in papers where no license is mentioned, you are not allowed to copy the code. Ideally the code is additionally contained in a public repository, whether it is in GitHub, GitLab, SourceForge or anything similar where a license can be specifically applied. Some forums like Stack Overflow apply licenses in their [terms of service](https://stackoverflow.com/legal/terms-of-service#licensing) to allow anyone to freely use questions and answers - in this case CC-BY-SA.
 
@@ -30,7 +40,7 @@ The license tells you how that source code can be used, modified and shared. The
 
 Wheres creative commons are designed to share any work, the open-source licenses are specifically designed for source code. The principles are more or less the same. It defines how you can use and remix work of others.
 
-<div style="max-width: 700px;"><img src="./img/2022-03-01-licenses-02.png" style="max-width: 100%;" alt="CC License overview"></div>
+<div style="max-width: 700px;"><img src="./img/2022-03-01-licenses-02.png" class="blockMax100" alt="CC License overview"></div>
 
 The CC licenses are very much straight forward. CC0 is public domain knowledge which means it can be used without any considerations. For CC-BY, the author needs to be mentioned. CC-BY-SA contains also the "share-alike" condition. This means when derivates are created and distributed, these derived works must gant the same rights.
 
@@ -38,7 +48,7 @@ The CC licenses also have some restricting tags which is the "NC" for non-commer
 
 For source code there are two groups of licenses which are the permissable licenses, which are similar to CC-BY (mention the creator) and the copyleft licenses which are similar to Share-Alike as here conditions apply to share the derives as well using the same / a compatible license.
 
-<img src="./img/2022-03-01-licenses-01.png" maxwidth="100%" alt="CC License overview">
+<img src="./img/2022-03-01-licenses-01.png" class="blockMax100" alt="CC License overview">
 
 In 2021 the permissable licenses like Apache and MIT are the most popular ones. For copyright licenses the Gnu licenses like GPLv3 and GPLv2 are the most popular ones. ([WhiteSource](https://www.whitesourcesoftware.com/resources/blog/open-source-licenses-trends-and-predictions/))
 
@@ -76,7 +86,7 @@ That software could for example become a propriatary software where copyright ap
 
 There could be other software derived from the MIT which could be published under the GPL license. Also here acknowledgments are kept and allow users to trace back the MIT source code.
 
-<div style="max-width: 700px;"><img src="./img/2022-03-01-licenses-03.png" style="max-width: 100%;" alt="Example license usage"></div>
+<div style="max-width: 700px;"><img src="./img/2022-03-01-licenses-03.png" class="blockMax100" alt="Example license usage"></div>
 
 But it is not possible to derive copyright-software from a GPL software as this copyleft license requires that users also are granted with the same rights. Vice versa it is not possible to derive GPL software out of copyright code, just because it contains parts of MIT.
 
@@ -88,7 +98,7 @@ Copyleft software includeing GPL does not mean it is for free. Such a software c
 
 GPL does not force you to publish this code into the internet. But the users have the right to receive that code. And as these users have the rights to use, modify and share, these could put the code to the internet, share it with other users or even sell it further. Disclosure agreements for GPL software is invalid. Legally there is no way to prohibit users using the GPL rights for a GPL software.
 
-<div style="max-width: 700px;"><img src="./img/2022-03-01-licenses-04.png" style="max-width: 100%;" alt="Example 2 license usage"></div>
+<div style="max-width: 700px;"><img src="./img/2022-03-01-licenses-04.png" class="blockMax100" alt="Example 2 license usage"></div>
 
 ## License compatibility
 
@@ -100,7 +110,7 @@ As an example you can proivde MIT licensed source code which uses a GPL package.
 
 There is a nice overview about the compatibilities of licenses (David A. Wheeler, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons):
 
-<div style="max-width: 700px;"><img src="./img/2022-03-01-licenses-05.png" style="max-width: 100%;" alt="License compatibility overview"></div>
+<div style="max-width: 700px;"><img src="./img/2022-03-01-licenses-05.png" class="blockMax100" alt="License compatibility overview"></div>
 
 ## Recommendation
 
@@ -115,7 +125,3 @@ Please also include a license like MIT when you publish code in papers and want 
 ## Disclaimer
 
 The information is provided to best knowlege without any legal warranty.
-
-## About the Author
-
-Katja Glaß has IT background and is for more than 15 years in the pharmaceutical industry. She is now working as part-time consultant focusing on open source for Pharma, hosting a portal about open-source solutions for clinical study evaluations. She has key experiences with SAS, Web Technologies, ADAM, Define.xml and the TLF generation. She is a very active PHUSE member where she led the EU Connect conference in 2018. In 2021 she became board member of COSA to support this initiative as well.
