@@ -16,3 +16,8 @@ th,
 td {
   line-height: 1.5;
 }
+
+.blockMax100 {
+  display: block;
+  max-width: 100%;
+}
