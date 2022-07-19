@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[534],{2534:function(e,c,t){e.exports=t.p+"static/media/eu_interchange_2022.b24cc0546ffb8616ef50.md"}}]);
