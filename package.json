@@ -1,6 +1,6 @@
 {
   "name": "directory",
-  "homepage": "https://cosa.cdisc.org/",
+  "homepage": "https://cdisc-org.github.io/cosa/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
