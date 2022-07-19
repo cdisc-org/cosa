@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[242],{2242:function(e,c,t){e.exports=t.p+"static/media/spotlight_Q2_2022.4d2cde2cc2b94414163e.md"}}]);
