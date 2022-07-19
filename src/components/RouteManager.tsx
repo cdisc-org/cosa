@@ -8,6 +8,7 @@ import Editor from './Application/Editor';
 import ProjectDescription from './ProjectDescription';
 import OtherFAQ from './OtherFAQ';
 import OtherOS from './OtherOS';
+import OtherLicenses from './OtherLicenses';
 import NotFound from './NotFound';
 
 const App: React.FC = () => {
@@ -24,6 +25,7 @@ const App: React.FC = () => {
       <Route path='/directory/:id' element={<ProjectDescription />} />
       <Route path='/faq' element={<OtherFAQ />} />
       <Route path='/os' element={<OtherOS />} />
+      <Route path='/licenses' element={<OtherLicenses />} />
       <Route path='/notfound' element={<NotFound />} />
       <Route path='*' element={<NotFound />} />
     </Routes>
