@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[748],{2748:function(e,t,c){e.exports=c.p+"static/media/us_interchange_2021.b499d2633bb4fd864ef8.md"}}]);
