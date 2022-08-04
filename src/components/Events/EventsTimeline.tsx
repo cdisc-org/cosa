@@ -39,7 +39,7 @@ const EventsTimeline: React.FC<ITimelineProps> = ({
                 <ContactPhoneIcon sx={{ color: 'primary.main' }} />
               </TimelineDot>
             )}
-            {event.type === 'hackathon' && (
+            {['hackathon', 'workshop'].includes(event.type) && (
               <TimelineDot color='primary'>
                 <ConstructionIcon />
               </TimelineDot>
