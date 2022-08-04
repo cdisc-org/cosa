@@ -1,7 +1,7 @@
 13 September 2022  11:00-14:00 US ET
 
 ---
-**Register** ([here](https://cdisc.zoom.us/webinar/register/WN__4u86BaeQImcA-U5tJ1pyQ)) from 1st of July till 19th of August. This is a free event.
+**Register** ([here](https://cdisc.zoom.us/webinar/register/WN__4u86BaeQImcA-U5tJ1pyQ)). This is a free event.
 
 <br/>
 
