@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.a2bfc122.js",
+    "main.js": "/static/js/main.ddfdcbe7.js",
     "static/js/417.db0fe592.chunk.js": "/static/js/417.db0fe592.chunk.js",
     "static/js/180.89f233db.chunk.js": "/static/js/180.89f233db.chunk.js",
     "static/js/534.a95bbc63.chunk.js": "/static/js/534.a95bbc63.chunk.js",
     "static/js/626.f2d2f0b0.chunk.js": "/static/js/626.f2d2f0b0.chunk.js",
     "static/js/603.4423abd0.chunk.js": "/static/js/603.4423abd0.chunk.js",
     "static/js/242.c737a1df.chunk.js": "/static/js/242.c737a1df.chunk.js",
-    "static/js/206.ea144609.chunk.js": "/static/js/206.ea144609.chunk.js",
+    "static/js/206.4f52301c.chunk.js": "/static/js/206.4f52301c.chunk.js",
     "static/js/335.6b46df56.chunk.js": "/static/js/335.6b46df56.chunk.js",
-    "static/js/4.432130e1.chunk.js": "/static/js/4.432130e1.chunk.js",
+    "static/js/4.68233f9b.chunk.js": "/static/js/4.68233f9b.chunk.js",
     "static/js/748.eb60da42.chunk.js": "/static/js/748.eb60da42.chunk.js",
     "static/js/487.cbe45df2.chunk.js": "/static/js/487.cbe45df2.chunk.js",
     "static/js/689.9bf8fafa.chunk.js": "/static/js/689.9bf8fafa.chunk.js",
@@ -47,13 +47,13 @@
     "static/media/other_application_empty.md": "/static/media/other_application_empty.894970fd44d57125327b.md",
     "static/media/application_empty.yaml": "/static/media/application_empty.1612579b1b856880298f.yaml",
     "static/media/eu_interchange_2022.md": "/static/media/eu_interchange_2022.08fc28892bf3f160787d.md",
-    "static/media/tlfdesigner_workshop_2022.md": "/static/media/tlfdesigner_workshop_2022.bcbaf5e4e75fb8207cbc.md",
-    "static/media/spotlight_Q3_2022.md": "/static/media/spotlight_Q3_2022.1cfd57bf80f57e287042.md",
+    "static/media/tlfdesigner_workshop_2022.md": "/static/media/tlfdesigner_workshop_2022.38df48aa1befe79bbfe2.md",
+    "static/media/spotlight_Q3_2022.md": "/static/media/spotlight_Q3_2022.31346e768c56e791af08.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.a2bfc122.js.map": "/static/js/main.a2bfc122.js.map"
+    "main.ddfdcbe7.js.map": "/static/js/main.ddfdcbe7.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.a2bfc122.js"
+    "static/js/main.ddfdcbe7.js"
   ]
 }
