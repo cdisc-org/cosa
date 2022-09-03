@@ -1,0 +1,45 @@
+{
+  "projectInfo": {
+    "projectName": "CDISC Rules Engine (CORE)",
+    "projectOwner": "Anthony Chow",
+    "projectContact": ["Nic Haydel"],
+    "projectLandingPage": "https://github.com/cdisc-org/cdisc-rules-engine/blob/main/README.md",
+    "projectRepository": "https://github.com/cdisc-org/cdisc-rules-engine",
+    "programmingLanguage": [
+      "Python"
+    ],
+    "openSourceLicense": [
+      "MIT"
+    ],
+    "cdiscStandards": [
+      "ADaM",
+      "CDASH",
+      "Define-XML",
+      "SDTM",
+      "SDTMIG",
+      "SEND"
+    ],
+    "agreeWithCdiscCodeOfEthics": true,
+    "projectMaturity": "Development",
+    "user": [
+      "Data Validator",
+      "Programmer",
+      "Study Designer"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/cdisc-org/conformance-rules-editor/main/public/favicon.ico"
+  },
+  "detailedDescription": {
+    "problem": "CDISC Conformance Rules are an integral part of the Foundational Standards and serve as the specific guidance to Industry for the correct implementation of the Standards in clinical studies.  An emerging Industry best practice is to use Conformance Rules on an ongoing basis, throughout the study, to keep the data as close to submission ready as possible and to ensure quality in all data exchange scenarios.\nThere needs to be an easy way for researchers to validate data in a transparent manner, while also allowing them to contribute to the algorithms used to validate data.",
+    "solution": "An open source engine for validating datasets that can be incorporated into existing tooling or run as a standalone application.",
+    "openSourceConsiderations": "The Rule Editor is being released as OSS in order to allow as many in our industry to utilize the new Conformance Rule Schema standard when writing conformance rules. While the schema is a standard and CDISC IP, CDISC's desire is that the functionality of the Rule Editor will grow with the needs of the industry.",
+    "maintenanceModel": "Issues will be reported through GitHub.",
+    "projectSize": "This is considered a small-medium project.",
+    "contributors": "In addition to agreeing with the CDISC and COSA codes of conduct, the contributors will submit issues and pull requests through GitHub.",
+    "preRequisites": "Running the CDISC Rules Engine requires one of the following:\n- Python and all dependencies installed.\n- The provided binary downloaded.",
+    "projectServiceOptions": "There are no service options for the CDISC Rules Engine.",
+    "sponsors": "The CDISC Rules Engine is not a sponsored project.",
+    "goalsObjectives": "The CDISC Rules Engine has been developed to make validating study data against CDISC conformance rules more accessible. The goal is to provide an open source engine for validating study data with CDISC conformance rules that the community can freely use and contribute to.",
+    "communications": "The CDISC Rules Engine Community can utilize the open CORE Slack channel.",
+    "additonalInformation": ""
+  }
+}
