@@ -71,5 +71,17 @@
     "name": "Visual Define-XML Editor",
     "description": "Visual Editor for Define-XML 2.0 and ARM standards.",
     "categories": ["Define-XML", "ARM"]
+  },
+  {
+    "id": "core",
+    "name": "CDISC Rules Engine (CORE)",
+    "description": "Deliver and execute a governed set of executable Conformance Rules for each Foundational Standard",
+    "categories": ["ADaM", "CDASH", "Define-XML", "SDTM", "SDTMIG", "SEND"]
+  },
+  {
+    "id": "coreRuleEditor",
+    "name": "CORE - Rule Editor",
+    "description": "Creating additional Conformance Rules in a common specification for CORE",
+    "categories": ["ADaM", "CDASH", "Define-XML", "SDTM", "SDTMIG", "SEND"]
   }
 ]
