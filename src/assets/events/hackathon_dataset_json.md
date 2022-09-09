@@ -2,7 +2,7 @@
 
 ---
 
-**Register** ([here](https://www.cdisc.org/form/dataset-json-hackathon-registration)) from 1st of July till 19th of August. This is a free event.
+**Register Closed**
 
 <br/>
 
