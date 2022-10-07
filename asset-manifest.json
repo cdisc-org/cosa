@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.979bcf7c.js",
+    "main.js": "/static/js/main.9f516c41.js",
     "static/js/417.db0fe592.chunk.js": "/static/js/417.db0fe592.chunk.js",
     "static/js/180.89f233db.chunk.js": "/static/js/180.89f233db.chunk.js",
     "static/js/534.a95bbc63.chunk.js": "/static/js/534.a95bbc63.chunk.js",
@@ -23,6 +23,7 @@
     "static/js/81.e7d45ce2.chunk.js": "/static/js/81.e7d45ce2.chunk.js",
     "static/js/311.2a01b7ee.chunk.js": "/static/js/311.2a01b7ee.chunk.js",
     "static/js/115.d15467f0.chunk.js": "/static/js/115.d15467f0.chunk.js",
+    "static/js/432.3cbb0e2d.chunk.js": "/static/js/432.3cbb0e2d.chunk.js",
     "static/js/693.d03fa73b.chunk.js": "/static/js/693.d03fa73b.chunk.js",
     "static/js/942.c5d7c720.chunk.js": "/static/js/942.c5d7c720.chunk.js",
     "static/js/216.28d10536.chunk.js": "/static/js/216.28d10536.chunk.js",
@@ -52,10 +53,10 @@
     "static/media/tlfdesigner_workshop_2022.md": "/static/media/tlfdesigner_workshop_2022.38df48aa1befe79bbfe2.md",
     "static/media/spotlight_Q3_2022.md": "/static/media/spotlight_Q3_2022.31346e768c56e791af08.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.979bcf7c.js.map": "/static/js/main.979bcf7c.js.map"
+    "main.9f516c41.js.map": "/static/js/main.9f516c41.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.979bcf7c.js"
+    "static/js/main.9f516c41.js"
   ]
 }
