@@ -1,33 +1,56 @@
 [
   {
+    "id": "tfrmt",
+    "name": "tfrmt",
+    "description": "The {tfrmt} R package is a table formatting framework that provides the means to flexibly design and build mock results summaries.",
+    "categories": [
+      "ARD"
+    ]
+  },
+  {
     "id": "ddt",
     "name": "Digital Data Flow",
     "description": "The DDF initiative aims to modernize clinical trials by enabling a digital workflow that allows for automated creation of study content and configuration of study systems to support clinical trial execution.",
-    "categories": ["ODM", "CDASH", "USDM"]
+    "categories": [
+      "ODM",
+      "CDASH",
+      "USDM"
+    ]
   },
   {
     "id": "tidycdisc",
     "name": "tidyCDISC",
     "description": "tidyCDISC is a shiny app to easily create custom tables and figures from ADaM-ish data sets.",
-    "categories": ["ADaM"]
+    "categories": [
+      "ADaM"
+    ]
   },
   {
     "id": "admiral",
     "name": "Admiral",
     "description": "ADaM in R Asset Library.",
-    "categories": ["ADaM"]
+    "categories": [
+      "ADaM"
+    ]
   },
   {
     "id": "odmlib",
     "name": "odmlib",
     "description": "odmlib is a Python library that simplifies creating and processing ODM and its extensions, such as Define-XML.",
-    "categories": ["Define-XML", "ODM", "Dataset-XML"]
+    "categories": [
+      "Define-XML",
+      "ODM",
+      "Dataset-XML"
+    ]
   },
   {
     "id": "tplyr",
     "name": "Tplyr",
     "description": "Tplyr is a grammar of data format and summary, designed to simplify the creation of clinical safety summaries.",
-    "categories": ["ADaM", "SDTM"]
+    "categories": [
+      "ADaM",
+      "SDTM"
+    ]
   },
   {
     "id": "openStudyBuilder",
@@ -46,42 +69,72 @@
     "id": "defineStylesheets",
     "name": "Define-XML XSL Stylesheets",
     "description": "This projects provides a Define-XML v2.0 and v2.1 XSL stylesheet",
-    "categories": ["Define-XML"]
+    "categories": [
+      "Define-XML"
+    ]
   },
   {
     "id": "R4DSXML",
     "name": "R4DSXML",
     "description": "R4DSXML is R package for import both CDISC Dataset-XML and Define-XML as R data frame.",
-    "categories": ["Define-XML", "ARM", "Dataset-XML"]
+    "categories": [
+      "Define-XML",
+      "ARM",
+      "Dataset-XML"
+    ]
   },
   {
     "id": "smartSubmissionDatasetViewer",
     "name": "Smart Submission Dataset Viewer",
     "description": "Dataset viewer allowing to inspect CDISC SDTM, SEND and ADaM submission files.",
-    "categories": ["Define-XML", "Dataset-XML"]
+    "categories": [
+      "Define-XML",
+      "Dataset-XML"
+    ]
   },
   {
     "id": "tflDesigner",
     "name": "TFL Designer",
     "description": "An open-source TFL designer to create study-specific analysis output display and in parallel generate machine-readable metadata.",
-    "categories": ["Define-XML", "ARM", "ADaM"]
+    "categories": [
+      "Define-XML",
+      "ARM",
+      "ADaM"
+    ]
   },
   {
     "id": "vde",
     "name": "Visual Define-XML Editor",
     "description": "Visual Editor for Define-XML 2.0 and ARM standards.",
-    "categories": ["Define-XML", "ARM"]
+    "categories": [
+      "Define-XML",
+      "ARM"
+    ]
   },
   {
     "id": "core",
     "name": "CDISC Rules Engine (CORE)",
     "description": "Deliver and execute a governed set of executable Conformance Rules for each Foundational Standard",
-    "categories": ["ADaM", "CDASH", "Define-XML", "SDTM", "SDTMIG", "SEND"]
+    "categories": [
+      "ADaM",
+      "CDASH",
+      "Define-XML",
+      "SDTM",
+      "SDTMIG",
+      "SEND"
+    ]
   },
   {
     "id": "coreRuleEditor",
     "name": "CORE - Rule Editor",
     "description": "Creating additional Conformance Rules in a common specification for CORE",
-    "categories": ["ADaM", "CDASH", "Define-XML", "SDTM", "SDTMIG", "SEND"]
+    "categories": [
+      "ADaM",
+      "CDASH",
+      "Define-XML",
+      "SDTM",
+      "SDTMIG",
+      "SEND"
+    ]
   }
 ]
