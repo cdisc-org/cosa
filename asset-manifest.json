@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.54176cfe.js",
+    "main.js": "/static/js/main.c5ee8768.js",
     "static/js/417.db0fe592.chunk.js": "/static/js/417.db0fe592.chunk.js",
     "static/js/180.89f233db.chunk.js": "/static/js/180.89f233db.chunk.js",
     "static/js/534.a95bbc63.chunk.js": "/static/js/534.a95bbc63.chunk.js",
     "static/js/626.f2d2f0b0.chunk.js": "/static/js/626.f2d2f0b0.chunk.js",
-    "static/js/603.272f3c42.chunk.js": "/static/js/603.272f3c42.chunk.js",
+    "static/js/310.c52ec96a.chunk.js": "/static/js/310.c52ec96a.chunk.js",
+    "static/js/603.696c0a00.chunk.js": "/static/js/603.696c0a00.chunk.js",
     "static/js/242.c737a1df.chunk.js": "/static/js/242.c737a1df.chunk.js",
     "static/js/206.4f52301c.chunk.js": "/static/js/206.4f52301c.chunk.js",
     "static/js/335.6b46df56.chunk.js": "/static/js/335.6b46df56.chunk.js",
+    "static/js/565.e6fbd428.chunk.js": "/static/js/565.e6fbd428.chunk.js",
     "static/js/4.68233f9b.chunk.js": "/static/js/4.68233f9b.chunk.js",
     "static/js/748.eb60da42.chunk.js": "/static/js/748.eb60da42.chunk.js",
+    "static/js/59.b56ba400.chunk.js": "/static/js/59.b56ba400.chunk.js",
     "static/js/487.cbe45df2.chunk.js": "/static/js/487.cbe45df2.chunk.js",
     "static/js/689.9bf8fafa.chunk.js": "/static/js/689.9bf8fafa.chunk.js",
     "static/js/470.d5128549.chunk.js": "/static/js/470.d5128549.chunk.js",
@@ -41,22 +44,25 @@
     "static/media/eu_workshop_2022.md": "/static/media/eu_workshop_2022.5a1ab3194c0519ec49e4.md",
     "static/media/Q12022_Webinar.md": "/static/media/Q12022_Webinar.7e298981b2a1eed8afc7.md",
     "static/media/spotlight_Q2_2022.md": "/static/media/spotlight_Q2_2022.fdb537e397f5b87f2d09.md",
+    "static/media/spotlight_Q4_2022.md": "/static/media/spotlight_Q4_2022.c26d08cb7c7fb721fd66.md",
     "index.html": "/index.html",
     "static/media/us_interchange_2021.md": "/static/media/us_interchange_2021.d4a588275957623b0be8.md",
     "static/media/other_os.md": "/static/media/other_os.eaf087b2481ea88778e1.md",
     "static/media/spotlight_Q4_2021.md": "/static/media/spotlight_Q4_2021.372ace8e7844cc8e8b14.md",
-    "static/media/hackathon_dataset_json.md": "/static/media/hackathon_dataset_json.c9f4fdf4681df74355e3.md",
+    "static/media/us_interchange_2022.md": "/static/media/us_interchange_2022.6579fa7c06d8fbf5f400.md",
+    "static/media/hackathon_dataset_json.md": "/static/media/hackathon_dataset_json.f6293c34375110255d73.md",
     "static/media/README.md": "/static/media/README.aae63fe7383a8e2d467a.md",
     "static/media/other_application_empty.md": "/static/media/other_application_empty.894970fd44d57125327b.md",
     "static/media/application_empty.yaml": "/static/media/application_empty.1612579b1b856880298f.yaml",
     "static/media/eu_interchange_2022.md": "/static/media/eu_interchange_2022.08fc28892bf3f160787d.md",
     "static/media/tlfdesigner_workshop_2022.md": "/static/media/tlfdesigner_workshop_2022.38df48aa1befe79bbfe2.md",
+    "static/media/hackathon_admiral_2023_Q1.md": "/static/media/hackathon_admiral_2023_Q1.38214b966b2148ab0907.md",
     "static/media/spotlight_Q3_2022.md": "/static/media/spotlight_Q3_2022.31346e768c56e791af08.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.54176cfe.js.map": "/static/js/main.54176cfe.js.map"
+    "main.c5ee8768.js.map": "/static/js/main.c5ee8768.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.54176cfe.js"
+    "static/js/main.c5ee8768.js"
   ]
 }
