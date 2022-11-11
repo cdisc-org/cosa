@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Directory from './Directory';
 import About from './About';
 import Events from './Events';
@@ -20,7 +20,7 @@ const App: React.FC = () => {
       <Route path='/events' element={<Events />} />
       <Route path='/application' element={<Application />} />
       <Route path='/application/editor' element={<Editor />} />
-      <Route path='/directory' element={<Directory />} />
+      <Route path='/directory' element={<Navigate to='/' />} />
       <Route path='/cosaDirectory' element={<Directory />} />
       <Route path='/directory/:id' element={<ProjectDescription />} />
       <Route path='/faq' element={<OtherFAQ />} />
