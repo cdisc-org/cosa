@@ -151,5 +151,17 @@
       "CDISC CT",
       "Dataset-XML"
     ]
+  },
+  {
+    "id": "defineR",
+    "name": "defineR",
+    "description": "defineR",
+    "categories": [
+      "Define-XML",
+      "SDTM",
+      "ADaM",
+      "ODM",
+      "ARM"
+    ]
   }
 ]
