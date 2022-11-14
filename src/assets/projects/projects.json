@@ -136,5 +136,20 @@
       "SDTMIG",
       "SEND"
     ]
+  },
+  {
+    "id": "open-sas-clinical-standards-toolkit",
+    "name": "Open CST",
+    "description": "The SAS Open Clinical Standards Toolkit (OpenCST) is a framework for the validation of CDISC data, especially SDTM, and the generation of define.xml.",
+    "categories": [
+      "ADaM",
+      "CDASH",
+      "Define-XML",
+      "SDTM",
+      "ODM",
+      "SEND",
+      "CDISC CT",
+      "Dataset-XML"
+    ]
   }
 ]
