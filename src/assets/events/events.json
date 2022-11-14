@@ -3,7 +3,7 @@
     "title": "Admiral",
     "description": "hackathon_admiral_2023_Q1.md",
     "type": "hackathon",
-    "logo":"https://pharmaverse.github.io/admiral/logo.png",
+    "logo": "https://pharmaverse.github.io/admiral/logo.png",
     "startDate": "2023-02-01",
     "endDate": "2023-02-28"
   },
@@ -32,7 +32,7 @@
     "description": "hackathon_dataset_json.md",
     "type": "hackathon",
     "startDate": "2022-07-01",
-    "endDate": "2022-12-15"
+    "endDate": "2022-10-19"
   },
   {
     "title": "COSA Spotlight Q3 2022",
