@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.60c12d7f.js",
+    "main.js": "/static/js/main.75472d7a.js",
     "static/js/417.db0fe592.chunk.js": "/static/js/417.db0fe592.chunk.js",
     "static/js/180.89f233db.chunk.js": "/static/js/180.89f233db.chunk.js",
     "static/js/534.a95bbc63.chunk.js": "/static/js/534.a95bbc63.chunk.js",
@@ -23,6 +23,7 @@
     "static/js/607.e8834fdc.chunk.js": "/static/js/607.e8834fdc.chunk.js",
     "static/js/661.091453ac.chunk.js": "/static/js/661.091453ac.chunk.js",
     "static/js/221.a025b695.chunk.js": "/static/js/221.a025b695.chunk.js",
+    "static/js/894.8c8bebcb.chunk.js": "/static/js/894.8c8bebcb.chunk.js",
     "static/js/81.4944e2b8.chunk.js": "/static/js/81.4944e2b8.chunk.js",
     "static/js/311.2a01b7ee.chunk.js": "/static/js/311.2a01b7ee.chunk.js",
     "static/js/115.d15467f0.chunk.js": "/static/js/115.d15467f0.chunk.js",
@@ -59,10 +60,10 @@
     "static/media/hackathon_admiral_2023_Q1.md": "/static/media/hackathon_admiral_2023_Q1.38214b966b2148ab0907.md",
     "static/media/spotlight_Q3_2022.md": "/static/media/spotlight_Q3_2022.31346e768c56e791af08.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.60c12d7f.js.map": "/static/js/main.60c12d7f.js.map"
+    "main.75472d7a.js.map": "/static/js/main.75472d7a.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.60c12d7f.js"
+    "static/js/main.75472d7a.js"
   ]
 }
