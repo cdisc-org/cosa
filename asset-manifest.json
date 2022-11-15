@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.a3983a16.js",
+    "main.js": "/static/js/main.053603d8.js",
     "static/js/417.db0fe592.chunk.js": "/static/js/417.db0fe592.chunk.js",
     "static/js/180.89f233db.chunk.js": "/static/js/180.89f233db.chunk.js",
     "static/js/534.a95bbc63.chunk.js": "/static/js/534.a95bbc63.chunk.js",
@@ -61,10 +61,10 @@
     "static/media/hackathon_admiral_2023_Q1.md": "/static/media/hackathon_admiral_2023_Q1.38214b966b2148ab0907.md",
     "static/media/spotlight_Q3_2022.md": "/static/media/spotlight_Q3_2022.31346e768c56e791af08.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.a3983a16.js.map": "/static/js/main.a3983a16.js.map"
+    "main.053603d8.js.map": "/static/js/main.053603d8.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.a3983a16.js"
+    "static/js/main.053603d8.js"
   ]
 }
