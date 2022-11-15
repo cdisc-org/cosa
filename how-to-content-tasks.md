@@ -6,8 +6,11 @@
 
 * Create a new folder in src/assets/projects/`<projectname>`
 * Copy the following files `<projectname>.yaml` and `logo.png`
+*   note:  if the project has a logo, use it, but it must be titled 'logo.png' and reside in the project folder.
 * Create JSON representation of the yaml file: `<projectname>.json`
+*   note: there are many online converters.  Example of one:  https://jsonformatter.org/yaml-to-json
 * Update `src/assets/projects/projects.json` to include the new tool
+*   note:  just append to bottom of file, the projects will be put in alphabetical order (not case sensitive)
 
 ## Adopt content of general files
 
