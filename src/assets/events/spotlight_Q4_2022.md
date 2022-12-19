@@ -2,7 +2,7 @@
 
 ---
 
-**Register** [here](https://cdisc.zoom.us/webinar/register/WN_p61msXNgQbewxhgpXMa3_Q)
+**Recording** [here](https://www.cdisc.org/events/webinar/cosa-spotlight-q4-2022-dataset-json-hackathon-solutions)
 
 <br/>
 
@@ -23,5 +23,5 @@ But wait! That's not all.  We'll conclude the webinar with a sneak peek at the u
 <br/>
   
 **Presenters**
-- TBD - Stay Tuned for Various Dataset-JSON Hackathon Project Owners
+- Various - Dataset-JSON Hackathon Project Owners
 - Thomas Neitmann (Admiral Hackathon Sneak Peek)

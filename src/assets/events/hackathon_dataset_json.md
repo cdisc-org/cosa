@@ -2,10 +2,6 @@
 
 ---
 
-**Register Closed**
-
-<br/>
-
 **About**
 
 The objective of this hackathon is to create open-source software tools for working with Dataset-JSON. This hackathon does not restrict the types of software tools developed, but will highlight features desired by the community. For example, software tools that convert to and from Dataset-JSON to other widely used formats are needed. Target formats for Dataset-JSON conversion include formats such as:
