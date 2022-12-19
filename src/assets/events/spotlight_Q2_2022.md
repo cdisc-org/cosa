@@ -1,7 +1,7 @@
 30 June 2022, 11am - 12:30pm EDT
 ---
 
-**Register** [here](https://www.cdisc.org/events/webinar/cosa-spotlight-q2-2022)
+**Recording** [here](https://www.cdisc.org/events/webinar/cosa-spotlight-q2-2022)
 
 <br/>
 

@@ -1,9 +1,9 @@
 13 September 2022  11:00-14:00 US ET
 
 ---
-**Register** ([here](https://cdisc.zoom.us/webinar/register/WN__4u86BaeQImcA-U5tJ1pyQ)). This is a free event.
 
-<br/>
+* **Recording Workshop 1** [here](https://www.cdisc.org/events/webinar/tfl-designer-virtual-workshop)
+* **Recording Workshop 2** [here](https://www.cdisc.org/events/webinar/tfl-designer-virtual-workshop-part-ii)
 
 **About**
 

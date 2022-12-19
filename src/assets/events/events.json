@@ -8,6 +8,14 @@
     "endDate": "2023-02-28"
   },
   {
+    "title": "Introduction to R for SAS Programmers",
+    "description": "hackathon_admiral_2023_Q1_pre.md",
+    "type": "other",
+    "logo": "https://pharmaverse.github.io/admiral/logo.png",
+    "startDate": "2023-01-17",
+    "endDate": "2023-01-17"
+  },
+  {
     "title": "COSA Spotlight Q4 2022",
     "description": "spotlight_Q4_2022.md",
     "type": "webinar",
@@ -65,6 +73,14 @@
     "logo": "https://www.cdisc.org/sites/default/files/landing/banner/5%20Europe%20Banner%20Short%20No%20Button.png",
     "startDate": "2022-04-27",
     "endDate": "2022-04-29"
+  },
+  {
+    "title": "EU Interchange 2023",
+    "description": "eu_interchange_2023.md",
+    "type": "conference",
+    "logo": "https://www.cdisc.org/sites/default/files/landing/banner/2023%20Events%20Email%20Banner%20Images%20-%20Europe_v1.4-01.jpg",
+    "startDate": "2023-04-26",
+    "endDate": "2023-04-27"
   },
   {
     "title": "Spotlight Q4 2021",
