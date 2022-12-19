@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[4],{11004:function(e,s,t){e.exports=t.p+"static/media/tlfdesigner_workshop_2022.38df48aa1befe79bbfe2.md"}}]);
