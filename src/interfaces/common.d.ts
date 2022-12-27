@@ -47,3 +47,29 @@ export interface IProject {
     additonalInformation: string;
   };
 }
+
+export interface IHackathonProject {
+  name: string;
+  author: Array<string>;
+  repository: string;
+  description: string;
+  license: string;
+}
+export interface IHackathon {
+  hackathonInfo: {
+    name: string;
+    description: string;
+    landingPage: string;
+    cdiscStandards: Array<string>;
+    logoUrl: string;
+  };
+  projects: { [name: string]: IHackathonProject };
+}
+
+export interface IDirectoryItem {
+  id: string;
+  name: string;
+  description: string;
+  categories: string[];
+  type?: 'hackathon';
+}

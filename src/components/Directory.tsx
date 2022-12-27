@@ -11,6 +11,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import data from '../assets/projects/projects.json';
+import { IDirectoryItem } from '../interfaces/common.d';
 
 let categories: Array<string> = [];
 const categoryCount: { [name: string]: number } = {};
@@ -29,6 +30,33 @@ data.forEach((item) => {
 categories = categories.sort((cat1, cat2) => {
   return categoryCount[cat1] > categoryCount[cat2] ? -1 : 1;
 });
+
+const DirectoryItem: React.FC<{ item: IDirectoryItem }> = ({ item }) => {
+  let link;
+  if (item.type === 'hackathon') {
+    link = `hackathons/${item.id}`;
+  } else {
+    link = `directory/${item.id}`;
+  }
+  return (
+    <ListItem disablePadding key={item.name}>
+      <ListItemButton component={RouterLink} to={link}>
+        <ListItemIcon sx={{ width: 50, mr: 2, justifyContent: 'center' }}>
+          <Box
+            component='img'
+            sx={{ height: 50 }}
+            src={
+              item.type === 'hackathon'
+                ? require(`../assets/hackathons/${item.id}/logo.png`)
+                : require(`../assets/projects/${item.id}/logo.png`)
+            }
+          />
+        </ListItemIcon>
+        <ListItemText primary={item.name} secondary={item.description} />
+      </ListItemButton>
+    </ListItem>
+  );
+};
 
 const Directory: React.FC = () => {
   const [filter, setFilter] = useState('');
@@ -148,26 +176,7 @@ const Directory: React.FC = () => {
               }
             })
             .map((item) => (
-              <ListItem disablePadding key={item.name}>
-                <ListItemButton
-                  component={RouterLink}
-                  to={`directory/${item.id}`}
-                >
-                  <ListItemIcon
-                    sx={{ width: 50, mr: 2, justifyContent: 'center' }}
-                  >
-                    <Box
-                      component='img'
-                      sx={{ height: 50 }}
-                      src={require(`../assets/projects/${item.id}/logo.png`)}
-                    />
-                  </ListItemIcon>
-                  <ListItemText
-                    primary={item.name}
-                    secondary={item.description}
-                  />
-                </ListItemButton>
-              </ListItem>
+              <DirectoryItem item={item as IDirectoryItem} />
             ))}
         </List>
       </Stack>

@@ -10,6 +10,7 @@ import OtherFAQ from './OtherFAQ';
 import OtherOS from './OtherOS';
 import OtherLicenses from './OtherLicenses';
 import NotFound from './NotFound';
+import HackathonDescription from './HackathonDescription';
 
 const App: React.FC = () => {
   return (
@@ -23,6 +24,11 @@ const App: React.FC = () => {
       <Route path='/directory' element={<Navigate to='/' />} />
       <Route path='/cosaDirectory' element={<Directory />} />
       <Route path='/directory/:id' element={<ProjectDescription />} />
+      <Route path='/hackathons/:id' element={<HackathonDescription />} />
+      <Route
+        path='/hackathons/:id/:projectId'
+        element={<HackathonDescription />}
+      />
       <Route path='/faq' element={<OtherFAQ />} />
       <Route path='/os' element={<OtherOS />} />
       <Route path='/licenses' element={<OtherLicenses />} />

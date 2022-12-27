@@ -163,5 +163,15 @@
       "ODM",
       "ARM"
     ]
+  },
+  {
+    "id": "datasetJson",
+    "type": "hackathon",
+    "name": "Dataset-JSON Hackathon",
+    "description": "Dataset-JSON is part of the ODM v2.0 draft standard and an enhancement to the Dataset-XML v1.0 specification. Dataset-JSON is designed to meet the requirements of the regulatory submission use case as well as other data exchange scenarios.",
+    "categories": [
+      "ODM",
+      "Dataset-JSON"
+    ]
   }
 ]
