@@ -8,17 +8,17 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import Logo from '../assets/images/cdiscLogo.png';
+import Logo from '../../assets/images/cdiscLogo.png';
 import RedditIcon from '@mui/icons-material/Reddit';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
+import EventsMenu from './EventsMenu';
 import OtherMenu from './OtherMenu';
 
 const pages = [
   { name: 'Directory', to: '' },
   { name: 'About', to: 'about' },
-  { name: 'Events', to: 'events' },
+  { name: 'Events', to: '' },
   { name: 'Application', to: 'application' },
 ];
 
@@ -60,16 +60,22 @@ const Header: React.FC = () => {
             </Typography>
           </Stack>
           <Stack direction='row' spacing={2} alignItems='center' sx={{ pr: 2 }}>
-            {pages.map((page) => (
-              <Button
-                key={page.name}
-                component={RouterLink}
-                to={page.to}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page.name}
-              </Button>
-            ))}
+            {pages.map((page) => {
+              if (page.name === 'Events') {
+                return <EventsMenu />;
+              } else {
+                return (
+                  <Button
+                    key={page.name}
+                    component={RouterLink}
+                    to={page.to}
+                    sx={{ my: 2, color: 'white', display: 'block' }}
+                  >
+                    {page.name}
+                  </Button>
+                );
+              }
+            })}
             <OtherMenu />
             <Stack key='icons' direction='row' spacing={0}>
               {icons.map((icon, index) => (

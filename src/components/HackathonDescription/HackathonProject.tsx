@@ -8,8 +8,9 @@ import { IHackathonProject } from '../../interfaces/common';
 
 const HackathonDescription: React.FC<{
   id: string;
+  hackathonName: string;
   project: IHackathonProject;
-}> = ({ id, project }) => {
+}> = ({ id, hackathonName, project }) => {
   return (
     <Stack spacing={2} sx={{ m: 4 }}>
       <Breadcrumbs separator='›' sx={{ pb: 2 }}>
@@ -18,7 +19,7 @@ const HackathonDescription: React.FC<{
           key='1'
           color='inherit'
           component={RouterLink}
-          to={`/hackathons/${id}`}
+          to={`/hackathons`}
         >
           Hackathons
         </Link>
@@ -27,10 +28,13 @@ const HackathonDescription: React.FC<{
           key='1'
           color='inherit'
           component={RouterLink}
-          to={`/hackathonds/${id}`}
+          to={`/hackathons/${id}`}
         >
-          {project.name}
+          {hackathonName}
         </Link>
+        <Typography variant='subtitle1' color='grey.600'>
+          {project.name}
+        </Typography>
       </Breadcrumbs>
       <Stack direction='row' sx={{ flex: '1', m: 2 }} spacing={8}>
         <Stack spacing={2}>

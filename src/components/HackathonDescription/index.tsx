@@ -37,7 +37,11 @@ const HackathonDescription: React.FC = () => {
       );
     } else {
       return (
-        <HackathonProject id={id as string} project={projects[projectId]} />
+        <HackathonProject
+          id={id as string}
+          project={projects[projectId]}
+          hackathonName={hackathonInfo.name}
+        />
       );
     }
   }

@@ -71,5 +71,4 @@ export interface IDirectoryItem {
   name: string;
   description: string;
   categories: string[];
-  type?: 'hackathon';
 }

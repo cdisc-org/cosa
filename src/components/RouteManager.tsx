@@ -11,6 +11,7 @@ import OtherOS from './OtherOS';
 import OtherLicenses from './OtherLicenses';
 import NotFound from './NotFound';
 import HackathonDescription from './HackathonDescription';
+import Hackathons from './Hackathons';
 
 const App: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const App: React.FC = () => {
       <Route path='/directory' element={<Navigate to='/' />} />
       <Route path='/cosaDirectory' element={<Directory />} />
       <Route path='/directory/:id' element={<ProjectDescription />} />
+      <Route path='/hackathons/' element={<Hackathons />} />
       <Route path='/hackathons/:id' element={<HackathonDescription />} />
       <Route
         path='/hackathons/:id/:projectId'
