@@ -2,12 +2,12 @@
   "hackathonInfo": {
     "name": "Dataset-JSON Hackathon",
     "description": "Dataset-JSON, a data exchange standard for tabular datasets that uses the JSON format, is part of the ODM v2. 0 draft standard and an enhancement to the Dataset-XML v1. 0 specification. ODM V2.0 is in Public Review and should be published in March 2023.   It is designed to meet the requirements of the regulatory submission use case as well as other data exchange scenarios.  As a new standard, it is necessary to provide numerous example implementaitons of how the Dataset-JSON can be used, in order to speed it's adoption.",
-    "landingPage": "https://cosa.cdisc.org/",
+    "landingPage": "https://wiki.cdisc.org/display/DSJSONHACK/Dataset-JSON+Hackathon+Home",
+    "dates": "1 September 2022 - 19 October 2022",
     "cdiscStandards": [
       "ODM V2.0",
       "Dataset-JSON"
-    ],
-    "logoUrl": ""
+    ]
   },
   "projects": {
     "Jupyter": {
@@ -132,19 +132,41 @@
       "license": "MIT"
     },
     "stream": {
-      "name": "stream/serve/view-dataset-json",
+      "name": "stream-dataset-json",
       "author": [
         "Juan Abdon",
         "Ivan Osipov",
         "Mauro Bringas",
         "Dmitry Kolosov"
       ],
-      "repository": [
-        "<https://github.com/Parexel/stream-dataset-json>",
-        "<https://github.com/Parexel/serve-dataset-json>",
-        "<https://github.com/Parexel/view-dataset-json>"
+      "repository": "https://github.com/Parexel/stream-dataset-json",
+      "description": "Python library to read Dataset-JSON files as a stream serve-dataset-json",
+      "purpose": "The goal of the project is to write a library which allows to efficiently read Dataset-JSON files (including huge file sizes) and show to how it can be utilized for different purposes.",
+      "license": "MIT"
+    },
+    "serve": {
+      "name": "serve-dataset-json",
+      "author": [
+        "Juan Abdon",
+        "Ivan Osipov",
+        "Mauro Bringas",
+        "Dmitry Kolosov"
       ],
-      "description": "This solution includes 3 subprojects stream-dataset-json - Python library to read Dataset-JSON files as a stream serve-dataset-json - Python library to serve Dataset-JSON files via API view-dataset-json - TypeScript project implementing a viewer for Dataset-JSON files",
+      "repository": "https://github.com/Parexel/serve-dataset-json",
+      "description": "Python library to serve Dataset-JSON files via API view-dataset-json",
+      "purpose": "The goal of the project is to write a library which allows to efficiently read Dataset-JSON files (including huge file sizes) and show to how it can be utilized for different purposes.",
+      "license": "MIT"
+    },
+    "view": {
+      "name": "view-dataset-json",
+      "author": [
+        "Juan Abdon",
+        "Ivan Osipov",
+        "Mauro Bringas",
+        "Dmitry Kolosov"
+      ],
+      "repository": "https://github.com/Parexel/view-dataset-json",
+      "description": "TypeScript project implementing a viewer for Dataset-JSON files",
       "purpose": "The goal of the project is to write a library which allows to efficiently read Dataset-JSON files (including huge file sizes) and show to how it can be utilized for different purposes.",
       "license": "MIT"
     },

@@ -1,20 +1,25 @@
 import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import Stack from '@mui/material/Stack';
+import { Link as RouterLink } from 'react-router-dom';
+import Link from '@mui/material/Link';
 import Divider from '@mui/material/Divider';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
 import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
-import Markdown from '../../utils/Markdown';
+import Breadcrumbs from '@mui/material/Breadcrumbs';
 import events from '../../assets/events/events.json';
 import { IEvent } from './index.d';
 import EventsTimeline from './EventsTimeline';
+import Event from './Event';
 
 const Events: React.FC = () => {
   const [data, setData] = useState<Array<IEvent>>([]);
   const [tab, setTab] = useState('upcoming');
   const [loading, setLoading] = useState(false);
+
+  const { id } = useParams();
 
   useEffect(() => {
     const loadEvents = async () => {
@@ -68,27 +73,48 @@ const Events: React.FC = () => {
     loadEvents();
   }, []);
 
-  // Show past or upcoming events depending on the tab
-  const filteredData = data.filter((event) => (tab === 'past') === event.past);
-  // For upcoming sort in ascending order
-  // For past sort in descending order
-  filteredData.sort(
-    (event1, event2) =>
-      (event1.startDate > event2.startDate ? 1 : -1) * (tab === 'past' ? -1 : 1)
-  );
+  let filteredData;
+  if (id !== undefined) {
+    filteredData = data.filter((event) => id === event.title);
+  } else {
+    // If event is pre-specified, filter only it
+    // Show past or upcoming events depending on the tab
+    filteredData = data.filter((event) => (tab === 'past') === event.past);
+    // For upcoming sort in ascending order
+    // For past sort in descending order
+    filteredData.sort(
+      (event1, event2) =>
+        (event1.startDate > event2.startDate ? 1 : -1) *
+        (tab === 'past' ? -1 : 1)
+    );
+  }
 
   return (
     <Stack spacing={2} sx={{ my: 2 }} divider={<Divider />}>
-      <Tabs
-        value={tab}
-        onChange={(event, value) => {
-          setTab(value);
-        }}
-        centered
-      >
-        <Tab label='Upcoming' value='upcoming' />
-        <Tab label='Past' value='past' />
-      </Tabs>
+      {id === undefined ? (
+        <Tabs
+          value={tab}
+          onChange={(event, value) => {
+            setTab(value);
+          }}
+          centered
+        >
+          <Tab label='Upcoming' value='upcoming' />
+          <Tab label='Past' value='past' />
+        </Tabs>
+      ) : (
+        <Breadcrumbs separator='›' sx={{ pb: 2 }}>
+          <Link
+            underline='hover'
+            key='1'
+            color='inherit'
+            component={RouterLink}
+            to={`/events`}
+          >
+            All Events
+          </Link>
+        </Breadcrumbs>
+      )}
       {loading ? (
         <Box
           sx={{
@@ -105,25 +131,11 @@ const Events: React.FC = () => {
       ) : (
         <Stack direction='row' spacing={1} justifyContent='space-between'>
           <Stack spacing={6} divider={<Divider />}>
-            {filteredData.map((event, index) => (
-              <Stack spacing={4} key={index}>
-                <Typography variant='h2' color='primary.main' component='a'>
-                  {event.title}
-                </Typography>
-                {event.logo !== undefined && (
-                  <Box justifyContent='flex-start' sx={{ display: 'flex' }}>
-                    <Box
-                      component='img'
-                      src={event.logo}
-                      sx={{ maxHeight: 200, borderRadius: 1, maxWidth: '100%' }}
-                    />
-                  </Box>
-                )}
-                <Markdown>{event.description}</Markdown>
-              </Stack>
+            {filteredData.map((event) => (
+              <Event event={event} />
             ))}
           </Stack>
-          <EventsTimeline events={filteredData} />
+          {id === undefined && <EventsTimeline events={filteredData} />}
         </Stack>
       )}
     </Stack>

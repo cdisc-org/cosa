@@ -32,7 +32,6 @@ const Hackathons: React.FC = () => {
   return (
     <Stack sx={{ flex: '1', my: 2, mx: 1 }} spacing={3}>
       <Typography variant='h1'>Hackathons</Typography>
-      <Typography variant='body1'></Typography>
       <Stack direction='row' spacing={8}>
         <List>
           {hackathons

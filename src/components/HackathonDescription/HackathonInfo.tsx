@@ -20,6 +20,12 @@ const HackathonInfo: React.FC<{
         }
       />
       <Typography variant='subtitle1' color='grey.600'>
+        Dates
+      </Typography>
+      <Typography variant='body1' color='grey.800'>
+        {info.dates}
+      </Typography>
+      <Typography variant='subtitle1' color='grey.600'>
         Description
       </Typography>
       <Typography variant='body1' color='grey.800'>

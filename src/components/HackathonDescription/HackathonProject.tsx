@@ -37,7 +37,7 @@ const HackathonDescription: React.FC<{
         </Typography>
       </Breadcrumbs>
       <Stack direction='row' sx={{ flex: '1', m: 2 }} spacing={8}>
-        <Stack spacing={2}>
+        <Stack spacing={1}>
           <Typography variant='subtitle1' color='grey.600'>
             Name
           </Typography>
@@ -49,6 +49,12 @@ const HackathonDescription: React.FC<{
           </Typography>
           <Typography variant='body1' color='grey.800'>
             {project.description}
+          </Typography>
+          <Typography variant='subtitle1' color='grey.600'>
+            Purpose
+          </Typography>
+          <Typography variant='body1' color='grey.800'>
+            {project.purpose}
           </Typography>
           <Typography variant='subtitle1' color='grey.600'>
             Authors

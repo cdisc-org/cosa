@@ -20,6 +20,7 @@ const App: React.FC = () => {
       <Route path='/' element={<Directory />} />
       <Route path='/about' element={<About />} />
       <Route path='/events' element={<Events />} />
+      <Route path='/events/:id' element={<Events />} />
       <Route path='/application' element={<Application />} />
       <Route path='/application/editor' element={<Editor />} />
       <Route path='/directory' element={<Navigate to='/' />} />

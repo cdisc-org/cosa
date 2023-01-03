@@ -53,6 +53,7 @@ export interface IHackathonProject {
   author: Array<string>;
   repository: string;
   description: string;
+  purpose: string;
   license: string;
 }
 export interface IHackathon {
@@ -61,7 +62,7 @@ export interface IHackathon {
     description: string;
     landingPage: string;
     cdiscStandards: Array<string>;
-    logoUrl: string;
+    dates: string;
   };
   projects: { [name: string]: IHackathonProject };
 }
