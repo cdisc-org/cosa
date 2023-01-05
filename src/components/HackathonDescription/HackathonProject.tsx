@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
+import IconButton from '@mui/material/IconButton';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
+import RedditIcon from '@mui/icons-material/Reddit';
 import Stack from '@mui/material/Stack';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { IHackathonProject } from '../../interfaces/common';
 
 const HackathonDescription: React.FC<{
@@ -11,6 +14,28 @@ const HackathonDescription: React.FC<{
   hackathonName: string;
   project: IHackathonProject;
 }> = ({ id, hackathonName, project }) => {
+  const shareLinks = [
+    {
+      href: `https://www.linkedin.com/sharing/share-offsite/?url=${project.repository}`,
+      icon: <LinkedInIcon sx={{ width: 32, height: 32 }} />,
+      color: 'primary.main',
+    },
+    {
+      href: `https://www.reddit.com/submit?url=${project.repository}`,
+      icon: (
+        <RedditIcon
+          sx={{
+            width: 28,
+            height: 28,
+            transform: 'translateY(4px)',
+            backgroundColor: 'orangered',
+            borderRadius: '50%',
+          }}
+        />
+      ),
+      color: 'white',
+    },
+  ];
   return (
     <Stack spacing={2} sx={{ m: 4 }}>
       <Breadcrumbs separator='›' sx={{ pb: 2 }}>
@@ -74,6 +99,28 @@ const HackathonDescription: React.FC<{
           <Typography variant='body1' color='grey.800'>
             {project.license}
           </Typography>
+          <Typography variant='subtitle1' color='grey.600'>
+            Share
+          </Typography>
+          <Stack key='shareLinks' direction='row' spacing={2}>
+            {shareLinks.map((link, index) => (
+              <IconButton
+                key={index}
+                component='a'
+                href={link.href}
+                target='_blank'
+                rel='noreferrer'
+                sx={{
+                  width: 23,
+                  height: 23,
+                  margin: 0.5,
+                  color: link.color,
+                }}
+              >
+                {link.icon}
+              </IconButton>
+            ))}
+          </Stack>
         </Stack>
       </Stack>
     </Stack>
