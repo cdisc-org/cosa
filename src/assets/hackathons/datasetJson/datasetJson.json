@@ -3,6 +3,8 @@
     "name": "Dataset-JSON Hackathon",
     "description": "Dataset-JSON, a data exchange standard for tabular datasets that uses the JSON format, is part of the ODM v2. 0 draft standard and an enhancement to the Dataset-XML v1. 0 specification. ODM V2.0 is in Public Review and should be published in March 2023.   It is designed to meet the requirements of the regulatory submission use case as well as other data exchange scenarios.  As a new standard, it is necessary to provide numerous example implementaitons of how the Dataset-JSON can be used, in order to speed it's adoption.",
     "landingPage": "https://wiki.cdisc.org/display/DSJSONHACK/Dataset-JSON+Hackathon+Home",
+    "slides": "./../resources/datasetJsonSlides.pdf",
+    "slidesDescription": "Dataset JSON Results",
     "dates": "1 September 2022 - 19 October 2022",
     "cdiscStandards": [
       "ODM V2.0",
@@ -12,7 +14,7 @@
   "projects": {
     "Jupyter": {
       "name": "Jupyter Notebook - Experimenting with Dataset-JSON",
-      "author": "-- \"Sam Hume\"",
+      "author": ["Sam Hume"],
       "repository": "https://github.com/swhume/dataset-json-hackathon",
       "description": "Jupyter Notebook used to explore generating Python dataframes using Dataset-JSON as well as creating Dataset-JSON from CSV files. Also explores techniques for processing large datasets.",
       "purpose": "Demonstrate Dataset-JSON's utility as a data exchange format.",
@@ -126,7 +128,7 @@
       "author": [
         "Katja Glaß"
       ],
-      "repository": "<https://github.com/KatjaGlassConsulting/dataset-json-react-demo> ",
+      "repository": "https://github.com/KatjaGlassConsulting/dataset-json-react-demo",
       "description": "This is an example web application created by using the React framework to display the dataset content which is read in from an URL",
       "purpose": "Demonstrate React usage and different table display options",
       "license": "MIT"

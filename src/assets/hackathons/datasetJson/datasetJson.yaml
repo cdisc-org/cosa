@@ -15,7 +15,7 @@ hackathonInfo:
 Jupyter:
   name: "Jupyter Notebook - Experimenting with Dataset-JSON"
   author:
-    -- "Sam Hume"
+    -"Sam Hume"
   repository: "https://github.com/swhume/dataset-json-hackathon"
   description: "Jupyter Notebook used to explore generating Python dataframes using Dataset-JSON as well as creating Dataset-JSON from CSV files. Also explores techniques for processing large datasets."
   purpose: "Demonstrate Dataset-JSON's utility as a data exchange format."
@@ -132,7 +132,7 @@ ReactDemo:
   name: "Dataset-JSON React Demo"
   author:
     -"Katja Glaß"
-  repository: "<https://github.com/KatjaGlassConsulting/dataset-json-react-demo> "
+  repository: "https://github.com/KatjaGlassConsulting/dataset-json-react-demo"
   description: "This is an example web application created by using the React framework to display the dataset content which is read in from an URL"
   purpose: "Demonstrate React usage and different table display options"
   license: "MIT"

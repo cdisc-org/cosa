@@ -43,7 +43,7 @@ const Hackathons: React.FC = () => {
               }
             })
             .map((item) => (
-              <HackathonItem item={item as IHackathonItem} />
+              <HackathonItem item={item as IHackathonItem} key={item.name} />
             ))}
         </List>
       </Stack>

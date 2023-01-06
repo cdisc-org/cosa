@@ -10,7 +10,7 @@ import { IEvent } from './index.d';
 const Event: React.FC<{ event: IEvent }> = ({ event }) => {
   return (
     <Stack spacing={4} key={event.title}>
-      <Typography variant='h2' color='primary.main' component='a'>
+      <Typography variant='h2' color='primary.main'>
         <Link
           underline='hover'
           key='1'

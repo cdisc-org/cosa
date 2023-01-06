@@ -61,6 +61,8 @@ export interface IHackathon {
     name: string;
     description: string;
     landingPage: string;
+    slides: string;
+    slidesDescription: string;
     cdiscStandards: Array<string>;
     dates: string;
   };

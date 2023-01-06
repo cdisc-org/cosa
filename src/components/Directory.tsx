@@ -98,7 +98,12 @@ const Directory: React.FC = () => {
         <Link component={RouterLink} to='/about' underline='none'>
           inclusion criteria
         </Link>{' '}
-        to be considered for inclusion the Repository Directory.
+        to be considered for inclusion the Repository Directory. Additionally,
+        <b> small projects resulting from hackathons</b> are listed in the{' '}
+        <Link component={RouterLink} to='/hackathons' underline='none'>
+          hackathons
+        </Link>{' '}
+        panel.
       </Typography>
       <Stack direction='row' spacing={8}>
         <Stack sx={{ ml: 2 }}>
@@ -166,7 +171,7 @@ const Directory: React.FC = () => {
               }
             })
             .map((item) => (
-              <DirectoryItem item={item as IDirectoryItem} />
+              <DirectoryItem item={item as IDirectoryItem} key={item.name} />
             ))}
         </List>
       </Stack>

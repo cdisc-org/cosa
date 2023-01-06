@@ -38,6 +38,12 @@ const HackathonInfo: React.FC<{
         {info.landingPage}
       </Link>
       <Typography variant='subtitle1' color='grey.600'>
+        Slides
+      </Typography>
+      <Link href={info.slides} target='_blank' rel='noopener'>
+        {info.slidesDescription}
+      </Link>
+      <Typography variant='subtitle1' color='grey.600'>
         CDISC Standards
       </Typography>
       <Typography variant='body1' color='grey.800'>

@@ -62,7 +62,7 @@ const Header: React.FC = () => {
           <Stack direction='row' spacing={2} alignItems='center' sx={{ pr: 2 }}>
             {pages.map((page) => {
               if (page.name === 'Events') {
-                return <EventsMenu />;
+                return <EventsMenu key={page.name} />;
               } else {
                 return (
                   <Button

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link as RouterLink } from 'react-router-dom';
 import Stack from '@mui/material/Stack';
-import { Link as RouterLink } from 'react-router-dom';
 import Link from '@mui/material/Link';
 import Divider from '@mui/material/Divider';
 import Tabs from '@mui/material/Tabs';
@@ -132,7 +131,7 @@ const Events: React.FC = () => {
         <Stack direction='row' spacing={1} justifyContent='space-between'>
           <Stack spacing={6} divider={<Divider />}>
             {filteredData.map((event) => (
-              <Event event={event} />
+              <Event event={event} key={event.title} />
             ))}
           </Stack>
           {id === undefined && <EventsTimeline events={filteredData} />}
