@@ -2,7 +2,7 @@
 
 ---
 
-**Register** (coming soon)
+**Recording** [here](https://www.cdisc.org/events/webinar/cosa-spotlight-q3-2022)
 
 <br/>
 

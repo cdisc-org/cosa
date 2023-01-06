@@ -154,8 +154,8 @@
   },
   {
     "id": "defineR",
-    "name": "DefineR",
-    "description": "defineR",
+    "name": "defineR",
+    "description": "An open-source R package capable of generating the Define-XML.",
     "categories": [
       "Define-XML",
       "SDTM",
