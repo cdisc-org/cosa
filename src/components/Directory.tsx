@@ -11,6 +11,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import data from '../assets/projects/projects.json';
+import { IDirectoryItem } from '../interfaces/common.d';
 
 let categories: Array<string> = [];
 const categoryCount: { [name: string]: number } = {};
@@ -29,6 +30,23 @@ data.forEach((item) => {
 categories = categories.sort((cat1, cat2) => {
   return categoryCount[cat1] > categoryCount[cat2] ? -1 : 1;
 });
+
+const DirectoryItem: React.FC<{ item: IDirectoryItem }> = ({ item }) => {
+  return (
+    <ListItem disablePadding key={item.name}>
+      <ListItemButton component={RouterLink} to={`directory/${item.id}`}>
+        <ListItemIcon sx={{ width: 50, mr: 2, justifyContent: 'center' }}>
+          <Box
+            component='img'
+            sx={{ height: 50 }}
+            src={require(`../assets/projects/${item.id}/logo.png`)}
+          />
+        </ListItemIcon>
+        <ListItemText primary={item.name} secondary={item.description} />
+      </ListItemButton>
+    </ListItem>
+  );
+};
 
 const Directory: React.FC = () => {
   const [filter, setFilter] = useState('');
@@ -80,7 +98,12 @@ const Directory: React.FC = () => {
         <Link component={RouterLink} to='/about' underline='none'>
           inclusion criteria
         </Link>{' '}
-        to be considered for inclusion the Repository Directory.
+        to be considered for inclusion the Repository Directory. Additionally,
+        <b> small projects resulting from hackathons</b> are listed in the{' '}
+        <Link component={RouterLink} to='/hackathons' underline='none'>
+          hackathons
+        </Link>{' '}
+        panel.
       </Typography>
       <Stack direction='row' spacing={8}>
         <Stack sx={{ ml: 2 }}>
@@ -148,26 +171,7 @@ const Directory: React.FC = () => {
               }
             })
             .map((item) => (
-              <ListItem disablePadding key={item.name}>
-                <ListItemButton
-                  component={RouterLink}
-                  to={`directory/${item.id}`}
-                >
-                  <ListItemIcon
-                    sx={{ width: 50, mr: 2, justifyContent: 'center' }}
-                  >
-                    <Box
-                      component='img'
-                      sx={{ height: 50 }}
-                      src={require(`../assets/projects/${item.id}/logo.png`)}
-                    />
-                  </ListItemIcon>
-                  <ListItemText
-                    primary={item.name}
-                    secondary={item.description}
-                  />
-                </ListItemButton>
-              </ListItem>
+              <DirectoryItem item={item as IDirectoryItem} key={item.name} />
             ))}
         </List>
       </Stack>
