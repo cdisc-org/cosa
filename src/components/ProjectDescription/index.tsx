@@ -17,29 +17,6 @@ interface IProjectDescriptionProps {
   showAll?: boolean;
 }
 
-const shareLinks = [
-  {
-    href: `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`,
-    icon: <LinkedInIcon sx={{ width: 32, height: 32 }} />,
-    color: 'primary.main',
-  },
-  {
-    href: `https://www.reddit.com/submit?url=${window.location.href}`,
-    icon: (
-      <RedditIcon
-        sx={{
-          width: 28,
-          height: 28,
-          transform: 'translateY(4px)',
-          backgroundColor: 'orangered',
-          borderRadius: '50%',
-        }}
-      />
-    ),
-    color: 'white',
-  },
-];
-
 const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
   preloadedProject,
 }: IProjectDescriptionProps) => {
@@ -47,6 +24,29 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
   const navigate = useNavigate();
 
   const { id } = useParams();
+
+  const shareLinks = [
+    {
+      href: `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`,
+      icon: <LinkedInIcon sx={{ width: 32, height: 32 }} />,
+      color: 'primary.main',
+    },
+    {
+      href: `https://www.reddit.com/submit?url=${window.location.href}`,
+      icon: (
+        <RedditIcon
+          sx={{
+            width: 28,
+            height: 28,
+            transform: 'translateY(4px)',
+            backgroundColor: 'orangered',
+            borderRadius: '50%',
+          }}
+        />
+      ),
+      color: 'white',
+    },
+  ];
 
   useEffect(() => {
     const loadYaml = async () => {
