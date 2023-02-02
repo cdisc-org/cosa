@@ -23,10 +23,10 @@ You can join the hackathon by registering <a href="https://cdisc.zoom.us/webinar
 <br/>
 
 Additionally:
-* Please join the pharmaverse Slack by following this <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjoin.slack.com%2Ft%2Fpharmaverse%2Fshared_invite%2Fzt-yv5atkr4-Np2ytJ6W_QKz_4Olo7Jo9A&data=05%7C01%7Ccshadle%40cdisc.org%7C3c74039d381943a8018a08db0091b471%7C078244a1de674c9e9088986d7f110a37%7C0%7C0%7C638104398035689040%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=vMvChJTV1%2BhOmouwQnCUFWAk36uIyvKXDk%2FjTvaLzMk%3D&reserved=0" target="_blank">link</a> and then enter the #admiral_hackathon channel.
-* Please sign up for the Posit Cloud by clicking  <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fposit.cloud%2Fspaces%2F327761%2Fjoin%3Faccess_code%3DsC4kj16cVKDOdTqpvFc2vJSAhl5IuUPg0uS54vod&data=05%7C01%7Ccshadle%40cdisc.org%7C3c74039d381943a8018a08db0091b471%7C078244a1de674c9e9088986d7f110a37%7C0%7C0%7C638104398035689040%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=OOdO7KcK4AcHkPEkGhlStFadH4UDsLmV08hoeKQrobM%3D&reserved=0" target="_blank">here</a>.
-* There is hackathon information from the kickoff <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.cdisc.org%2Fevents%2Fwebinar%2Fadmiral-hackathon-kickoff&data=05%7C01%7Ccshadle%40cdisc.org%7C3c74039d381943a8018a08db0091b471%7C078244a1de674c9e9088986d7f110a37%7C0%7C0%7C638104398035689040%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=0SYkN6ktbHkS0oXeayZrLPIFDX81YsPplWGa32qnL2s%3D&reserved=0" target="_blank">here</a>.
-* Finally, we also have information from the pre-workshop “Introduction to R for SAS programmers” <a href="https://www.cdisc.org/events/webinar/pre-admiral-hackathon-workshop-introduction-r-sas-programmers" target="_blank">here</a>.
+* Please join the pharmaverse Slack by following this [link](https://join.slack.com/t/pharmaverse/shared_invite/zt-1o0xw7fmf-nkeRTkx0rwvK6fTfjlLlpg) and then enter the #admiral_hackathon channel.
+* Please sign up for the Posit Cloud by clicking [here](https://posit.cloud/spaces/327761/join?access_code=sC4kj16cVKDOdTqpvFc2vJSAhl5IuUPg0uS54vod).
+* There is hackathon information from the kickoff [here](https://www.cdisc.org/events/webinar/admiral-hackathon-kickoff).
+* Finally, we also have information from the pre-workshop "Introduction to R for SAS programmers" [here](https://www.cdisc.org/events/webinar/pre-admiral-hackathon-workshop-introduction-r-sas-programmers).
 
 <br/>
 <br/>
