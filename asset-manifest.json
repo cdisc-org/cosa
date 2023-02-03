@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.ea13c8ec.js",
+    "main.js": "/static/js/main.84b2c78d.js",
     "static/js/417.db0fe592.chunk.js": "/static/js/417.db0fe592.chunk.js",
     "static/js/180.89f233db.chunk.js": "/static/js/180.89f233db.chunk.js",
     "static/js/534.a95bbc63.chunk.js": "/static/js/534.a95bbc63.chunk.js",
     "static/js/294.a70fed1e.chunk.js": "/static/js/294.a70fed1e.chunk.js",
     "static/js/626.f2d2f0b0.chunk.js": "/static/js/626.f2d2f0b0.chunk.js",
-    "static/js/310.cb0394e1.chunk.js": "/static/js/310.cb0394e1.chunk.js",
+    "static/js/310.d162ac51.chunk.js": "/static/js/310.d162ac51.chunk.js",
     "static/js/178.52fcc844.chunk.js": "/static/js/178.52fcc844.chunk.js",
     "static/js/603.094fa1ab.chunk.js": "/static/js/603.094fa1ab.chunk.js",
     "static/js/242.b70b9f91.chunk.js": "/static/js/242.b70b9f91.chunk.js",
@@ -46,13 +46,13 @@
     "static/media/about_evaluation_criteria.md": "/static/media/about_evaluation_criteria.efb0798196037ce3578f.md",
     "static/media/about_charter.md": "/static/media/about_charter.c94d574d4ccfa1814b7f.md",
     "static/media/about_board.md": "/static/media/about_board.534d07fa1956ced8265a.md",
+    "static/media/hackathon_admiral_2023_Q1.md": "/static/media/hackathon_admiral_2023_Q1.343e54631d96cb8e4af0.md",
     "static/media/eu_workshop_2022.md": "/static/media/eu_workshop_2022.5a1ab3194c0519ec49e4.md",
     "static/media/Q12022_Webinar.md": "/static/media/Q12022_Webinar.7e298981b2a1eed8afc7.md",
     "static/media/spotlight_Q2_2022.md": "/static/media/spotlight_Q2_2022.71d7ed7cf30967ffaa8a.md",
     "static/media/spotlight_Q4_2022.md": "/static/media/spotlight_Q4_2022.0ffb4cf78bd7d6b3b9f1.md",
     "index.html": "/index.html",
     "static/media/us_interchange_2021.md": "/static/media/us_interchange_2021.d4a588275957623b0be8.md",
-    "static/media/hackathon_admiral_2023_Q1.md": "/static/media/hackathon_admiral_2023_Q1.7ede1996ebe118674245.md",
     "static/media/other_os.md": "/static/media/other_os.eaf087b2481ea88778e1.md",
     "static/media/spotlight_Q4_2021.md": "/static/media/spotlight_Q4_2021.372ace8e7844cc8e8b14.md",
     "static/media/hackathon_admiral_2023_Q1_pre.md": "/static/media/hackathon_admiral_2023_Q1_pre.b956131d845f4dbd4996.md",
@@ -66,10 +66,10 @@
     "static/media/eu_interchange_2023.md": "/static/media/eu_interchange_2023.efb3bb72a4b30237b6f1.md",
     "static/media/spotlight_Q3_2022.md": "/static/media/spotlight_Q3_2022.9d349c7419ce41c5beb9.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.ea13c8ec.js.map": "/static/js/main.ea13c8ec.js.map"
+    "main.84b2c78d.js.map": "/static/js/main.84b2c78d.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.ea13c8ec.js"
+    "static/js/main.84b2c78d.js"
   ]
 }
