@@ -4,6 +4,10 @@ import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import IconButton from '@mui/material/IconButton';
+import RedditIcon from '@mui/icons-material/Reddit';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ProjectInfo from './ProjectInfo';
 import ProjectAbout from './ProjectAbout';
 import { IProject } from '../../interfaces/common.d';
@@ -20,6 +24,29 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
   const navigate = useNavigate();
 
   const { id } = useParams();
+
+  const shareLinks = [
+    {
+      href: `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`,
+      icon: <LinkedInIcon sx={{ width: 32, height: 32 }} />,
+      color: 'primary.main',
+    },
+    {
+      href: `https://www.reddit.com/submit?url=${window.location.href}`,
+      icon: (
+        <RedditIcon
+          sx={{
+            width: 28,
+            height: 28,
+            transform: 'translateY(4px)',
+            backgroundColor: 'orangered',
+            borderRadius: '50%',
+          }}
+        />
+      ),
+      color: 'white',
+    },
+  ];
 
   useEffect(() => {
     const loadYaml = async () => {
@@ -88,6 +115,28 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
           <ProjectInfo projectInfo={projectInfo} id='programmingLanguage' />
           <ProjectInfo projectInfo={projectInfo} id='projectContact' />
           <ProjectInfo projectInfo={projectInfo} id='projectMaturity' />
+          <Typography variant='subtitle1' color='grey.600'>
+            Share This Page
+          </Typography>
+          <Stack key='shareLinks' direction='row' spacing={2}>
+            {shareLinks.map((link, index) => (
+              <IconButton
+                key={index}
+                component='a'
+                href={link.href}
+                target='_blank'
+                rel='noreferrer'
+                sx={{
+                  width: 23,
+                  height: 23,
+                  margin: 0.5,
+                  color: link.color,
+                }}
+              >
+                {link.icon}
+              </IconButton>
+            ))}
+          </Stack>
         </Stack>
         <Stack spacing={2}>
           <ProjectAbout description={detailedDescription} id='problem' />
