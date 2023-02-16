@@ -163,5 +163,17 @@
       "ODM",
       "ARM"
     ]
+  },
+  {
+    "id": "CDISC-ODM-XML-CRF-SDTM-Annotations",
+    "name": "CDISC-ODM-XML-CRF-SDTM-Annotations",
+    "description": "An XMLMAP for ODM-XML and for Define-XML along with a  small set of SAS macros for each, converting the XML documents to SAS datasets following familiar data models shared by MDR and validation tools.",
+    "categories": [
+      "Define-XML",
+      "SDTM",
+      "ADaM",
+      "ODM",
+      "ARM"
+    ]
   }
 ]
