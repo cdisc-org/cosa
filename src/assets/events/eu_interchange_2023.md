@@ -1,4 +1,4 @@
-27 April 2022 - 28 April 2022
+26 April 2023 - 27 April 2023
 
 ---
 **Registration** is available [here](https://www.cdisc.org/events/interchange/2023-europe-interchange).
@@ -9,6 +9,6 @@ The 2023 CDISC Europe Interchange is an event consisting of workshops, training 
 
 <br/>
 
-Additional information on COSA related presentations will be provided soon. Please also note, that various events and trainings are planned prior conference start.
+We do have a COSA booth, where you can come around and ask questions. There will be also demonstration sessions for the TLF Designer and the OpenStudyBuilder. Please check here or at the booth for the concrete schedule soon.
 
 ---

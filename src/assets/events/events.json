@@ -95,5 +95,35 @@
     "logo": "https://www.cdisc.org/sites/default/files/landing/banner/2021-09-13_US%20VIRTUAL%20WEBSITE%20BANNER-R2-01.png",
     "startDate": "2021-10-20",
     "endDate": "2021-10-21"
+  },
+  {
+    "title": "COSA Biomedical Concept & OpenStudyBuilder Workshop",
+    "description": "2023_osb_workshop.md",
+    "type": "workshop",
+    "startDate": "2023-04-25"
+  },
+  {
+    "title": "COSA Spotlight Q1 2023",
+    "description": "2023_Q1_spotlight.md",
+    "type": "webinar",
+    "startDate": "2023-03-28"
+  },
+  {
+    "title": "COSA Spotlight Q2 2023",
+    "description": "2023_Q2_spotlight.md",
+    "type": "webinar",
+    "startDate": "2023-06-29"
+  },
+  {
+    "title": "COSA Spotlight Q3 2023",
+    "description": "2023_Q3_spotlight.md",
+    "type": "webinar",
+    "startDate": "2023-09-19"
+  },
+  {
+    "title": "COSA Spotlight Q4 2023",
+    "description": "2023_Q4_spotlight.md",
+    "type": "webinar",
+    "startDate": "2023-12-12"
   }
 ]
