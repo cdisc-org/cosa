@@ -175,5 +175,13 @@
       "ODM",
       "ARM"
     ]
+  },
+  {
+    "id": "odm-xml-stylesheet",
+    "name": "ODM XML Stylesheet",
+    "description": "Apply a style sheet to ODM-XML, exactly as you apply a style sheet to define-xml to display it in a browser.",
+    "categories": [
+      "ODM"
+    ]
   }
 ]
