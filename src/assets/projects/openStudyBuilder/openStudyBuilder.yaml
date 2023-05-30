@@ -19,8 +19,9 @@ projectInfo:
   - CDASH
   - SDTM
   - ADaM
-  - ODM-XML 
+  - ODM
   - Define-XML
+  - USDM
   agreeWithCdiscCodeOfEthics: true
   projectMaturity: Stable (V1)
   user: 
