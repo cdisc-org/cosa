@@ -22,8 +22,9 @@
       "CDASH",
       "SDTM",
       "ADaM",
-      "ODM-XML",
-      "Define-XML"
+      "ODM",
+      "Define-XML",
+      "USDM"
     ],
     "agreeWithCdiscCodeOfEthics": true,
     "projectMaturity": "Stable (V1)",
