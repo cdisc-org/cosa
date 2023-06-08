@@ -1,5 +1,5 @@
 projectInfo:
-  projectName: Open SAS Clinical  Standards Toolkit
+  projectName: Open-source release of SAS Clinical Standards Toolkit
   projectOwner: COSA
   projectContact: https://github.com/sassoftware/clinical-standards-toolkit/issues
   projectLandingPage: https://github.com/sassoftware/clinical-standards-toolkit
@@ -28,14 +28,16 @@ detailedDescription:
     as working in SAS with XML based standards (Define-XML, ODM, ...) and
     validation of clinical data. "
   solution: >-
-    The SAS Open Clinical Standards Toolkit (OpenCST) is a framework to support
+    The open-source release of SAS Clinical Standards Toolkit (openCST) is a framework to support
     clinical research activities. OpenCST focuses on the registration and use of
-    standards defined by CDISC. The OpenCST framework is designed to support the
+    standards defined by CDISC. The openCST framework is designed to support the
     specification and use of any user-defined standard. Originally developed by
     SAS it is now available as an open source resource. Examples of current
     functionality include:
 
     - creating/reading Define-XML v2.0
+
+    - creating/reading Define-XML v2.1
 
     - creating/reading Dataset-XML
 
@@ -43,7 +45,7 @@ detailedDescription:
 
     - creating/reading CT-XML
 
-    - registration of CDASH, SDTM, SEND and ADaM data
+    - registration of CDASH, SDTM, SEND and ADaM metadata
   openSourceConsiderations: CST has been published as Open Source to support
     Community development and continued use by supporting new standards.
   maintenanceModel: Community open source model
