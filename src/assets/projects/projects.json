@@ -184,5 +184,14 @@
     "categories": [
       "ODM"
     ]
+  },
+  {
+    "id": "datasetJson",
+    "name": "Dataset-JSON Hackathon Projects",
+    "description": "Projects developed as part of the Dataset-JSON hackathon",
+    "type": "hackathon",
+    "categories": [
+      "Dataset-JSON"
+    ]
   }
 ]
