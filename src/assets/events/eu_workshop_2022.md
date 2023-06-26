@@ -2,7 +2,7 @@
 
 ---
 
-COSA has hosted a free workshop focusing on the OpenStudyBuilder at the [2022 European Interchange](https://www.cdisc.org/events/interchange/2022-europe-interchange).  
+COSA has hosted a free workshop focusing on the OpenStudyBuilder at the 2022 European Interchange.  
 <br/>
 The OpenStudyBuilder is an open-source project for clinical study specification. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes - all the way from protocol development and CRF design - to creation of datasets, analysis, reporting, submission to health authorities and public disclosure of study information.  
 <br/>

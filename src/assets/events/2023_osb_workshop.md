@@ -1,7 +1,6 @@
 24 April 2023 - 9:00 - 15:00 - Copenhagen, Denmark
 
 ---
-**Registration** is available [here](https://web.cvent.com/event/692520b3-5d88-48f1-b291-269010defffb/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce).
 
 <br/>
 
