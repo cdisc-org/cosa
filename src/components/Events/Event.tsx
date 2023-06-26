@@ -8,6 +8,14 @@ import Markdown from '../../utils/Markdown';
 import { IEvent } from './index.d';
 
 const Event: React.FC<{ event: IEvent }> = ({ event }) => {
+  // If event is past, remove the registration link;
+  if (event.past) {
+    event.description = event.description.replace(
+      /\W*Registration\W* is available \[here\]\(.*\).*?[\r\n]*|\W*Register\W* \[here\]\(.*\).*?[\r\n]*/,
+      ''
+    );
+  }
+
   return (
     <Stack spacing={4} key={event.title}>
       <Typography variant='h2' color='primary.main'>
