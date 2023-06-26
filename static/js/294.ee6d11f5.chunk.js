@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[294],{89294:function(e,c,t){e.exports=t.p+"static/media/eu_interchange_2023.e595c0090fe2c019a412.md"}}]);
