@@ -32,14 +32,24 @@ categories = categories.sort((cat1, cat2) => {
 });
 
 const DirectoryItem: React.FC<{ item: IDirectoryItem }> = ({ item }) => {
+  let folder: string;
+  let link: string;
+  if (item.type === 'hackathon') {
+    folder = 'hackathons';
+    link = `hackathons/${item.id}`;
+  } else {
+    folder = 'projects';
+    link = `directory/${item.id}`;
+  }
+
   return (
     <ListItem disablePadding key={item.name}>
-      <ListItemButton component={RouterLink} to={`directory/${item.id}`}>
+      <ListItemButton component={RouterLink} to={link}>
         <ListItemIcon sx={{ width: 50, mr: 2, justifyContent: 'center' }}>
           <Box
             component='img'
             sx={{ height: 50 }}
-            src={require(`../assets/projects/${item.id}/logo.png`)}
+            src={require(`../assets/${folder}/${item.id}/logo.png`)}
           />
         </ListItemIcon>
         <ListItemText primary={item.name} secondary={item.description} />

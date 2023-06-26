@@ -2,7 +2,7 @@
 
 ---
 
-**Registration** is available [here](https://www.cdisc.org/events/webinar/cosa-quarterly-spotlight-q1-2023).
+**Recording** is available [here](https://www.cdisc.org/events/webinar/cosa-quarterly-spotlight-q1-2023).
 
 <br/>
 

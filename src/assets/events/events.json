@@ -3,7 +3,7 @@
     "title": "Admiral",
     "description": "hackathon_admiral_2023_Q1.md",
     "type": "hackathon",
-    "logo": "https://pharmaverse.github.io/admiral/logo.png",
+    "logo": "https://pharmaverse.github.io/admiral/cran-release/logo.png",
     "startDate": "2023-02-01",
     "endDate": "2023-02-28"
   },
@@ -11,7 +11,7 @@
     "title": "Introduction to R for SAS Programmers",
     "description": "hackathon_admiral_2023_Q1_pre.md",
     "type": "other",
-    "logo": "https://pharmaverse.github.io/admiral/logo.png",
+    "logo": "https://pharmaverse.github.io/admiral/cran-release/logo.png",
     "startDate": "2023-01-17",
     "endDate": "2023-01-17"
   },

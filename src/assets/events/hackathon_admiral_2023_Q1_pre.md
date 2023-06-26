@@ -2,7 +2,7 @@
 
 ---
 
-**Register** [here](https://www.cdisc.org/events/webinar/pre-admiral-hackathon-workshop-introduction-r-sas-programmers)!
+**Recording** [here](https://www.cdisc.org/events/webinar/pre-admiral-hackathon-workshop-introduction-r-sas-programmers)!
 
 <br/>
 

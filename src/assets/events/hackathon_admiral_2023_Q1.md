@@ -2,8 +2,6 @@
 
 ---
 
-**Register** [here](https://cdisc.zoom.us/webinar/register/WN_iA7utwGkSpiH1znyNmomAg).
-
 <br/>
 COSA is excited to announce the <a href="https://cosa.cdisc.org/directory/admiral" target="_blank">admiral</a> Hackathon running the full month of February 2023.
 
@@ -19,11 +17,6 @@ Participants will get access to a set of SDTM datasets with accompanying specifi
 * **Introduction to R for SAS Programmers Workshop:**  Tuesday, 17 January, 10AM - 1PM ET
 * **Admiral Hackathon Kickoff:**  Thursday, 26 January, 10AM - 12PM ET
 * **Admiral Hackathon:**  1-28 February
-
-<br/>
-<br/>
-You can join the hackathon by registering <a href="https://cdisc.zoom.us/webinar/register/WN_iA7utwGkSpiH1znyNmomAg" target="_blank">here</a>.
-(This will also provide you with a weekly check-in webinar link which can be used to review short demos, allow for questions, etc. )
 
 <br/>
 <br/>

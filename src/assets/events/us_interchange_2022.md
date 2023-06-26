@@ -2,7 +2,7 @@
 
 ---
 
-Please see the <a href="https://www.cdisc.org/events/interchange/2022-us-interchange/program" target="_blank">2022 US Interchange Program</a> for many OSS related sessions, including:
+The 2022 US Interchange Program contained many OSS related sessions, including:
 
 * TransCelerate Digital Data Flow 
 * DDF's CDISC Community Benefit and the View Forward 
