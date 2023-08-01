@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.7acdf9b3.js",
+    "main.js": "/static/js/main.79c5d66f.js",
     "static/js/383.71bb66db.chunk.js": "/static/js/383.71bb66db.chunk.js",
     "static/js/473.a74e6c92.chunk.js": "/static/js/473.a74e6c92.chunk.js",
-    "static/js/285.2dbff189.chunk.js": "/static/js/285.2dbff189.chunk.js",
+    "static/js/285.a7b28b2d.chunk.js": "/static/js/285.a7b28b2d.chunk.js",
     "static/js/29.c0592871.chunk.js": "/static/js/29.c0592871.chunk.js",
     "static/js/676.b037e63e.chunk.js": "/static/js/676.b037e63e.chunk.js",
     "static/js/417.db0fe592.chunk.js": "/static/js/417.db0fe592.chunk.js",
@@ -78,14 +78,14 @@
     "static/media/eu_interchange_2023.md": "/static/media/eu_interchange_2023.e595c0090fe2c019a412.md",
     "static/media/us_interchange_2022.md": "/static/media/us_interchange_2022.0e6e3357d8f90af40e5f.md",
     "static/media/spotlight_Q3_2022.md": "/static/media/spotlight_Q3_2022.9d349c7419ce41c5beb9.md",
-    "static/media/2023_Q3_spotlight.md": "/static/media/2023_Q3_spotlight.6c07e1b2ef303c2d4de9.md",
+    "static/media/2023_Q3_spotlight.md": "/static/media/2023_Q3_spotlight.5d6f7fd6877926b60d0c.md",
     "static/media/2023_Q2_spotlight.md": "/static/media/2023_Q2_spotlight.e11dae1b1225e78af451.md",
     "static/media/2023_Q4_spotlight.md": "/static/media/2023_Q4_spotlight.a2c3dc84f967aff5c2fb.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.7acdf9b3.js.map": "/static/js/main.7acdf9b3.js.map"
+    "main.79c5d66f.js.map": "/static/js/main.79c5d66f.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.7acdf9b3.js"
+    "static/js/main.79c5d66f.js"
   ]
 }
