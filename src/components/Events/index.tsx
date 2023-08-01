@@ -15,7 +15,7 @@ import Event from './Event';
 
 const Events: React.FC = () => {
   const [data, setData] = useState<Array<IEvent>>([]);
-  const [tab, setTab] = useState('upcoming');
+  const [tab, setTab] = useState<'upcoming' | 'past'>('upcoming');
   const [loading, setLoading] = useState(false);
 
   const { id } = useParams();
@@ -40,6 +40,17 @@ const Events: React.FC = () => {
         } else {
           newEvent.past = false;
         }
+
+        // Load only events for the current tab
+        if (
+          !(
+            (tab === 'upcoming' && newEvent.past === false) ||
+            (tab === 'past' && newEvent.past === true)
+          )
+        ) {
+          continue;
+        }
+
         if (rawEvent.description) {
           const file = await import(
             `../../assets/events/${rawEvent.description}`
@@ -70,7 +81,7 @@ const Events: React.FC = () => {
     };
 
     loadEvents();
-  }, []);
+  }, [tab]);
 
   let filteredData;
   if (id !== undefined) {
