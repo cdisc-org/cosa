@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[361],{60361:function(e,a,c){e.exports=c.p+"static/media/hackathon_ars.28aaedb63e12bfec9211.md"}}]);
