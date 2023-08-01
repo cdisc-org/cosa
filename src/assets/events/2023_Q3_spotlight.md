@@ -1,4 +1,4 @@
-19 September 2023, 11am - 12:30pm EDT
+05 October 2023, 11am - 12:30pm EDT
 
 ---
 
