@@ -188,10 +188,35 @@
   {
     "id": "datasetJson",
     "name": "Dataset-JSON Hackathon Projects",
-    "description": "Projects developed as part of the Dataset-JSON hackathon",
+    "description": "Projects developed as part of the Dataset-JSON hackathon.",
     "type": "hackathon",
     "categories": [
       "Dataset-JSON"
+    ]
+  },
+  {
+    "id": "dataset-json-r-implementation",
+    "name": "Dataset-JSON R Package Implementation",
+    "description": "Read and write Dataset-JSON files in R.",
+    "categories": [
+      "Dataset-JSON"
+    ]
+  },
+  {
+    "id": "dataset-json-sas-implementation",
+    "name": "Dataset-JSON SAS Implementation",
+    "description": "This project provides support for reading, writing, and validating Dataset-JSON files in a SAS environment.",
+    "categories": [
+      "Dataset-JSON",
+      "Define-XML"
+    ]
+  },
+  {
+    "id": "CDISC-Library-Client",
+    "name": "CDISC Library Client",
+    "description": "Provide a way to make api calls to CDISC Library without having to develop any boilerplate code for connecting to the library.",
+    "categories": [
+      "CDISC Library"
     ]
   }
 ]

@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Directory from './Directory';
 import About from './About';
 import Events from './Events';
+import Media from './Media';
 import Application from './Application';
 import Editor from './Application/Editor';
 import ProjectDescription from './ProjectDescription';
@@ -20,6 +21,7 @@ const App: React.FC = () => {
       <Route path='/' element={<Directory />} />
       <Route path='/about' element={<About />} />
       <Route path='/events' element={<Events />} />
+      <Route path='/media' element={<Media />} />
       <Route path='/events/:id' element={<Events />} />
       <Route path='/application' element={<Application />} />
       <Route path='/application/editor' element={<Editor />} />

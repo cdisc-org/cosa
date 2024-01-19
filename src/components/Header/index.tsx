@@ -19,6 +19,7 @@ const pages = [
   { name: 'Directory', to: '' },
   { name: 'About', to: 'about' },
   { name: 'Events', to: '' },
+  { name: 'Media', to: 'media' },
   { name: 'Application', to: 'application' },
 ];
 
