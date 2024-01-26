@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[473],{25473:function(e,t,s){e.exports=s.p+"static/media/2023_Q2_spotlight.e11dae1b1225e78af451.md"}}]);
