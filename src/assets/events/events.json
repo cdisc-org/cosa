@@ -171,5 +171,13 @@
     "logo": "https://www.cdisc.org/sites/default/files/landing/banner/2024-Events_Heros_EU_Plus-TMF-Expo_v2.png",
     "startDate": "2024-04-24",
     "endDate": "2024-04-25"
+  },
+  {
+    "title": "Use OpenStudyBuilder to drive EDC setup - a COSA Workshop",
+    "description": "2024_Q1_osb_workshop.md",
+    "type": "workshop",
+    "logo": "https://www.cdisc.org/sites/default/files/landing/banner/2024-Events_Heros_EU_Plus-TMF-Expo_v2.png",
+    "startDate": "2024-04-23",
+    "endDate": "2024-04-23"
   }
 ]
