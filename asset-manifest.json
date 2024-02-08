@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.57c67ca4.js",
+    "main.js": "/static/js/main.7a0f8ce5.js",
     "static/js/383.71bb66db.chunk.js": "/static/js/383.71bb66db.chunk.js",
     "static/js/473.127a5ee3.chunk.js": "/static/js/473.127a5ee3.chunk.js",
     "static/js/285.97d6a50a.chunk.js": "/static/js/285.97d6a50a.chunk.js",
-    "static/js/29.0744a497.chunk.js": "/static/js/29.0744a497.chunk.js",
+    "static/js/29.f66a47ff.chunk.js": "/static/js/29.f66a47ff.chunk.js",
     "static/js/676.b037e63e.chunk.js": "/static/js/676.b037e63e.chunk.js",
+    "static/js/892.c9d32302.chunk.js": "/static/js/892.c9d32302.chunk.js",
     "static/js/456.03d01c8a.chunk.js": "/static/js/456.03d01c8a.chunk.js",
     "static/js/523.000fa201.chunk.js": "/static/js/523.000fa201.chunk.js",
     "static/js/883.8b5ec9f1.chunk.js": "/static/js/883.8b5ec9f1.chunk.js",
@@ -15,7 +16,7 @@
     "static/js/180.89f233db.chunk.js": "/static/js/180.89f233db.chunk.js",
     "static/js/534.a95bbc63.chunk.js": "/static/js/534.a95bbc63.chunk.js",
     "static/js/294.ee6d11f5.chunk.js": "/static/js/294.ee6d11f5.chunk.js",
-    "static/js/131.0262ab74.chunk.js": "/static/js/131.0262ab74.chunk.js",
+    "static/js/131.e397ecd0.chunk.js": "/static/js/131.e397ecd0.chunk.js",
     "static/js/626.05de8a2d.chunk.js": "/static/js/626.05de8a2d.chunk.js",
     "static/js/310.e5a2537d.chunk.js": "/static/js/310.e5a2537d.chunk.js",
     "static/js/178.a9bde1f5.chunk.js": "/static/js/178.a9bde1f5.chunk.js",
@@ -62,6 +63,7 @@
     "static/media/about_board.md": "/static/media/about_board.534d07fa1956ced8265a.md",
     "static/media/eu_workshop_2022.md": "/static/media/eu_workshop_2022.4ae14ba92108997a1036.md",
     "static/media/hackathon_admiral_2023_Q1.md": "/static/media/hackathon_admiral_2023_Q1.3f200ddfab1da8b89e5c.md",
+    "static/media/2024_Q1_osb_workshop.md": "/static/media/2024_Q1_osb_workshop.6b0f252ee96c5f89c7f0.md",
     "static/media/Q12022_Webinar.md": "/static/media/Q12022_Webinar.7e298981b2a1eed8afc7.md",
     "static/media/2023_Q1_spotlight.md": "/static/media/2023_Q1_spotlight.9c7d9e135951d1463404.md",
     "static/media/spotlight_Q2_2022.md": "/static/media/spotlight_Q2_2022.71d7ed7cf30967ffaa8a.md",
@@ -75,13 +77,14 @@
     "static/media/2023_osb_workshop.md": "/static/media/2023_osb_workshop.c4500ad5f2c815906317.md",
     "static/media/hackathon_dataset_json_2.md": "/static/media/hackathon_dataset_json_2.76d10d26f93589ed1237.md",
     "static/media/hackathon_admiral_2023_Q1_pre.md": "/static/media/hackathon_admiral_2023_Q1_pre.01322ddf1f16a0d7b288.md",
+    "static/media/2023_Q4_spotlight.md": "/static/media/2023_Q4_spotlight.37f1964b46c5f27b06a9.md",
     "static/media/hackathon_dataset_json.md": "/static/media/hackathon_dataset_json.b146f5cfd458a7f97426.md",
-    "static/media/2023_Q4_spotlight.md": "/static/media/2023_Q4_spotlight.8d5f3cea7de2241c066b.md",
     "static/media/README.md": "/static/media/README.aae63fe7383a8e2d467a.md",
     "static/media/tlfdesigner_workshop_2022.md": "/static/media/tlfdesigner_workshop_2022.532f304320432de8a8a5.md",
     "static/media/other_application_empty.md": "/static/media/other_application_empty.894970fd44d57125327b.md",
     "static/media/application_empty.yaml": "/static/media/application_empty.1612579b1b856880298f.yaml",
     "static/media/eu_interchange_2022.md": "/static/media/eu_interchange_2022.08fc28892bf3f160787d.md",
+    "static/media/eu_interchange_2024.md": "/static/media/eu_interchange_2024.0ea7d383a007781ac364.md",
     "static/media/2023_Q3_spotlight.md": "/static/media/2023_Q3_spotlight.4a02461ed93e84447527.md",
     "static/media/eu_interchange_2023.md": "/static/media/eu_interchange_2023.e595c0090fe2c019a412.md",
     "static/media/us_interchange_2022.md": "/static/media/us_interchange_2022.0e6e3357d8f90af40e5f.md",
@@ -89,13 +92,12 @@
     "static/media/2024_Q3_spotlight.md": "/static/media/2024_Q3_spotlight.b3541d4c1a19e9109da4.md",
     "static/media/2024_Q1_spotlight.md": "/static/media/2024_Q1_spotlight.9722bdb2553903898dd5.md",
     "static/media/2024_Q2_spotlight.md": "/static/media/2024_Q2_spotlight.270240deb26e6f1e75e0.md",
-    "static/media/eu_interchange_2024.md": "/static/media/eu_interchange_2024.b5db6684bf17c602dfab.md",
     "static/media/2024_Q4_spotlight.md": "/static/media/2024_Q4_spotlight.1f95a6612fabd73f63a8.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.57c67ca4.js.map": "/static/js/main.57c67ca4.js.map"
+    "main.7a0f8ce5.js.map": "/static/js/main.7a0f8ce5.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.57c67ca4.js"
+    "static/js/main.7a0f8ce5.js"
   ]
 }
