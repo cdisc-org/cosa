@@ -139,5 +139,45 @@
     "type": "hackathon",
     "startDate": "2023-09-01",
     "endDate": "2023-10-19"
+  },
+  {
+    "title": "COSA Spotlight Q1 2024",
+    "description": "2024_Q1_spotlight.md",
+    "type": "webinar",
+    "startDate": "2024-03-26"
+  },
+  {
+    "title": "COSA Spotlight Q2 2024",
+    "description": "2024_Q2_spotlight.md",
+    "type": "webinar",
+    "startDate": "2024-06-26"
+  },
+  {
+    "title": "COSA Spotlight Q3 2024",
+    "description": "2024_Q3_spotlight.md",
+    "type": "webinar",
+    "startDate": "2024-09-24"
+  },
+  {
+    "title": "COSA Spotlight Q4 2024",
+    "description": "2024_Q4_spotlight.md",
+    "type": "webinar",
+    "startDate": "2024-12-10"
+  },
+  {
+    "title": "CDISC + TMF EU Interchange",
+    "description": "eu_interchange_2024.md",
+    "type": "conference",
+    "logo": "https://www.cdisc.org/sites/default/files/landing/banner/2024-Events_Heros_EU_Plus-TMF-Expo_v2.png",
+    "startDate": "2024-04-24",
+    "endDate": "2024-04-25"
+  },
+  {
+    "title": "Use OpenStudyBuilder to drive EDC setup - a COSA Workshop",
+    "description": "2024_Q1_osb_workshop.md",
+    "type": "workshop",
+    "logo": "https://www.cdisc.org/sites/default/files/landing/banner/2024-Events_Heros_EU_Plus-TMF-Expo_v2.png",
+    "startDate": "2024-04-23",
+    "endDate": "2024-04-23"
   }
 ]
