@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[8626],{58626:function(e,s,t){e.exports=t.p+"static/media/eu_workshop_2022.4ae14ba92108997a1036.md"}}]);

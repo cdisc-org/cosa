@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[892],{25892:function(e,c,s){e.exports=s.p+"static/media/2024_Q1_osb_workshop.6b0f252ee96c5f89c7f0.md"}}]);
