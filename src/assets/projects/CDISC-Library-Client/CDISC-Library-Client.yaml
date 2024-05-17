@@ -1,0 +1,36 @@
+projectInfo:
+  projectName: CDISC-LIBRARY-CLIENT
+  projectOwner: CDISC
+  projectContact: nhaydel@cdisc.org
+  projectLandingPage: https://github.com/cdisc-org/cdisc-library-client
+  projectRepository: https://github.com/cdisc-org/cdisc-library-client
+  programmingLanguage:
+    - Python
+  openSourceLicense:
+    - MIT
+  cdiscStandards: []
+  agreeWithCdiscCodeOfEthics: true
+  projectMaturity: Development
+  user:
+    - Programmer
+  logoUrl: ""
+detailedDescription:
+  problem: Multiple projects require access to the CDISC library. Implementing a client for each project increases the complexity of maintaining library interactions when the library is updated or changed as well as tracking down bugs present in one implementation, but not in others.
+  solution: Create a cdisc-library-client library that can be shared between all
+    projects.
+  openSourceConsiderations: This project was published as open source to be used
+    with our other open source projects as well as to be used as a tool for
+    anyone else looking to connect to the CDISC Library
+  maintenanceModel: "Issues should be reported here:
+    https://github.com/cdisc-org/cdisc-library-client"
+  projectSize: Small - This project is only meant to provide a way to make api
+    calls to cdisc library without having to develop any boilerplate code for
+    connecting to the library. It is very simple.
+  contributors: ""
+  users: ""
+  preRequisites: ""
+  projectServiceOptions: ""
+  sponsors: ""
+  goalsObjectives: ""
+  communications: ""
+  additonalInformation: ""

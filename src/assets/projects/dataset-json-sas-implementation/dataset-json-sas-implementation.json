@@ -1,0 +1,39 @@
+{
+   "projectInfo": {
+      "projectName": "Dataset-JSON SAS Implementation",
+      "projectOwner": "Lex Jansen",
+      "projectContact": "lexjansen@gmail.com",
+      "projectLandingPage": "https://github.com/lexjansen/dataset-json-sas",
+      "projectRepository": "https://github.com/lexjansen/dataset-json-sas",
+      "programmingLanguage": [
+         "SAS",
+         "Python"
+      ],
+      "openSourceLicense": [
+         "MIT"
+      ],
+      "cdiscStandards": [
+         "Dataset-JSON",
+         "Define-XML"
+      ],
+      "agreeWithCdiscCodeOfEthics": true,
+      "projectMaturity": "Development",
+      "user": [],
+      "logoUrl": ""
+   },
+   "detailedDescription": {
+      "problem": "Dataset-JSON (https://www.cdisc.org/dataset-json) is a proposed\nreplacement for the SAS Version 5 XPORT as an alternative transport format\nfor regulatory submissions. This project provides support for reading,\nwriting, and validating Dataset-JSON files in a SAS environment.",
+      "solution": "The Dataset-JSON SAS Implementation has the capability to convert SAS datasets to and from Dataset-JSON files. It supports providing metadata through Define-XML. It can also compare libraries with SAS datasets to support round-tripping validation. It includes a Python script for validating Dataset-JSON files against the schema.\n",
+      "openSourceConsiderations": "SAS itself is not Open Source. The main reason to\ncreate an open-source solution is to have a SAS application available that\nsupports Dataset-JSON and have transparency of the application.",
+      "maintenanceModel": "Issues can be reported either by GitHub (https://github.com/lexjansen/dataset-json-sas/issues) or by e-mail.\n",
+      "projectSize": "Medium",
+      "contributors": "Contributions should not have errors, warnings or significant\nnotes that indicate issues in the LOG file.",
+      "users": "The primary users of are SAS programmers creating and reading\nDataset-JSON files. There is no external training for the code.\nDocumentation for is available within the repository in the form of a paper,\nslides, and example programs.",
+      "preRequisites": "The project has been test on Windows 10 with SAS 9.4 (TS1M7). The\ncode is also known to work on SAS® OnDemand for Academics.",
+      "projectServiceOptions": "N.A.",
+      "sponsors": "N.A.",
+      "goalsObjectives": "The main goal is providing support for the emerging\ndataset-JSON submission format, so that the community has a SAS based tool\nthat can be used for testing Dataset-JSON and can provide user feedback.",
+      "communications": "Presentations at webinars and conferences.",
+      "additonalInformation": "N.A."
+   }
+}

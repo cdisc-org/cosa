@@ -1,3 +1,5 @@
+12 July 2023 – 31 August 2023
+
 ---
 
 **Recording** is available [here](https://www.cdisc.org/events/webinar/analysis-results-standards-hackathon-kick)!

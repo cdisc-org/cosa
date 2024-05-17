@@ -1,0 +1,50 @@
+projectInfo:
+  projectName: Dataset-JSON SAS Implementation
+  projectOwner: Lex Jansen
+  projectContact: lexjansen@gmail.com
+  projectLandingPage: https://github.com/lexjansen/dataset-json-sas
+  projectRepository: https://github.com/lexjansen/dataset-json-sas
+  programmingLanguage:
+    - SAS
+    - Python
+  openSourceLicense:
+    - MIT
+  cdiscStandards:
+    - Define-XML
+  agreeWithCdiscCodeOfEthics: true
+  projectMaturity: Development
+  user: []
+  logoUrl: ""
+detailedDescription:
+  problem: Dataset-JSON (https://www.cdisc.org/dataset-json) is a proposed
+    replacement for the SAS Version 5 XPORT as an alternative transport format
+    for regulatory submissions. This project provides support for reading,
+    writing, and validating Dataset-JSON files in a SAS environment.
+  solution: >
+    The Dataset-JSON SAS Implementation has the capability to convert SAS
+    datasets to and from Dataset-JSON files. It supports providing metadata
+    through Define-XML. It can also compare libraries with SAS datasets to
+    support round-tripping validation. It includes a Python script for
+    validating Dataset-JSON files against the schema.
+  openSourceConsiderations: SAS itself is not Open Source. The main reason to
+    create an open-source solution is to have a SAS application available that
+    supports Dataset-JSON and have transparency of the application.
+  maintenanceModel: >
+    Issues can be reported either by GitHub
+    (https://github.com/lexjansen/dataset-json-sas/issues) or by e-mail.
+  projectSize: Medium
+  contributors: Contributions should not have errors, warnings or significant
+    notes that indicate issues in the LOG file.
+  users: The primary users of are SAS programmers creating and reading
+    Dataset-JSON files. There is no external training for the code.
+    Documentation for is available within the repository in the form of a paper,
+    slides, and example programs.
+  preRequisites: The project has been test on Windows 10 with SAS 9.4 (TS1M7). The
+    code is also known to work on SAS® OnDemand for Academics.
+  projectServiceOptions: N.A.
+  sponsors: N.A.
+  goalsObjectives: The main goal is providing support for the emerging
+    dataset-JSON submission format, so that the community has a SAS based tool
+    that can be used for testing Dataset-JSON and can provide user feedback.
+  communications: Presentations at webinars and conferences.
+  additonalInformation: N.A.
