@@ -64,6 +64,8 @@ const fields: {
         'Define-XML',
         'NCI/CDISC CT',
         'Dataset-XML',
+        'Dataset-JSON',
+        'CDISC Library',
       ],
       freeSolo: true,
       multiple: true,

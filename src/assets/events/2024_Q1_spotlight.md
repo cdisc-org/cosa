@@ -2,7 +2,7 @@
 
 ---
 
-**Registration** is available [here](https://www.cdisc.org/events/webinar/cdisc-open-source-alliance-quarterly-spotlight-q1).
+**Recording** is available [here](https://www.cdisc.org/events/webinar/cdisc-open-source-alliance-quarterly-spotlight-q1).
 
 <br/>
 

@@ -1,7 +1,6 @@
+01 September 2023 - 19 October 2023
+
 ---
-
-**Registration** is available [here](https://www.cdisc.org/form/dataset-json-hackathon-2023-registration).
-
 
 ### About
 
