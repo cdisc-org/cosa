@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.e1af832c.js",
+    "main.js": "/static/js/main.444f5cef.js",
     "static/js/2383.b020f192.chunk.js": "/static/js/2383.b020f192.chunk.js",
     "static/js/5473.b470b858.chunk.js": "/static/js/5473.b470b858.chunk.js",
     "static/js/3285.e76ef88f.chunk.js": "/static/js/3285.e76ef88f.chunk.js",
@@ -9,7 +9,7 @@
     "static/js/4676.4fad6455.chunk.js": "/static/js/4676.4fad6455.chunk.js",
     "static/js/5892.6cf8b5a0.chunk.js": "/static/js/5892.6cf8b5a0.chunk.js",
     "static/js/6456.f23adfff.chunk.js": "/static/js/6456.f23adfff.chunk.js",
-    "static/js/5523.745923d7.chunk.js": "/static/js/5523.745923d7.chunk.js",
+    "static/js/5523.29abf947.chunk.js": "/static/js/5523.29abf947.chunk.js",
     "static/js/8883.161ac07a.chunk.js": "/static/js/8883.161ac07a.chunk.js",
     "static/js/2247.8d1ca81f.chunk.js": "/static/js/2247.8d1ca81f.chunk.js",
     "static/js/417.db0fe592.chunk.js": "/static/js/417.db0fe592.chunk.js",
@@ -63,6 +63,7 @@
     "static/media/other_faq.md": "/static/media/other_faq.ef7245b5d7b59ebf0aee.md",
     "static/media/about_evaluation_criteria.md": "/static/media/about_evaluation_criteria.efb0798196037ce3578f.md",
     "static/media/about_charter.md": "/static/media/about_charter.c94d574d4ccfa1814b7f.md",
+    "static/media/2024_Q2_spotlight.md": "/static/media/2024_Q2_spotlight.ab33cc62b2b222cd2a06.md",
     "static/media/about_board.md": "/static/media/about_board.534d07fa1956ced8265a.md",
     "static/media/2024_Q1_spotlight.md": "/static/media/2024_Q1_spotlight.7b072c371d4a08c1ac55.md",
     "static/media/eu_workshop_2022.md": "/static/media/eu_workshop_2022.4ae14ba92108997a1036.md",
@@ -94,13 +95,12 @@
     "static/media/us_interchange_2022.md": "/static/media/us_interchange_2022.0e6e3357d8f90af40e5f.md",
     "static/media/spotlight_Q3_2022.md": "/static/media/spotlight_Q3_2022.9d349c7419ce41c5beb9.md",
     "static/media/2024_Q3_spotlight.md": "/static/media/2024_Q3_spotlight.b3541d4c1a19e9109da4.md",
-    "static/media/2024_Q2_spotlight.md": "/static/media/2024_Q2_spotlight.270240deb26e6f1e75e0.md",
     "static/media/2024_Q4_spotlight.md": "/static/media/2024_Q4_spotlight.1f95a6612fabd73f63a8.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.e1af832c.js.map": "/static/js/main.e1af832c.js.map"
+    "main.444f5cef.js.map": "/static/js/main.444f5cef.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.e1af832c.js"
+    "static/js/main.444f5cef.js"
   ]
 }
