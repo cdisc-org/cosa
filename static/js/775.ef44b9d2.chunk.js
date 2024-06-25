@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[775],{775:(e,c,r)=>{e.exports=r.p+"static/media/webinar_Q2_2022.97dbb603768c36e1ef71.png"}}]);

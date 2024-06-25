@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[6252],{46252:(e,a,d)=>{e.exports=d.p+"static/media/hackathon_admiral_2023_Q1_pre.01322ddf1f16a0d7b288.md"}}]);

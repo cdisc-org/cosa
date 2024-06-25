@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[6977],{6977:(e,s,t)=>{e.exports=t.p+"static/media/us_interchange_2022.0e6e3357d8f90af40e5f.md"}}]);
