@@ -179,5 +179,13 @@
     "logo": "https://www.cdisc.org/sites/default/files/landing/banner/2024-Events_Heros_EU_Plus-TMF-Expo_v2.png",
     "startDate": "2024-04-23",
     "endDate": "2024-04-23"
+  },
+  {
+    "title": "OSB-Hub & OSB-Trail-ControlledTerminology",
+    "description": "2024_Q3_OSB_hub.md",
+    "type": "webinar",
+    "logo": "",
+    "startDate": "2024-07-15",
+    "endDate": "2024-07-15"
   }
 ]
