@@ -218,5 +218,13 @@
     "categories": [
       "CDISC Library"
     ]
+  },
+  {
+    "id": "carver",
+    "name": "carver",
+    "description": "carver is an R package that helps develop Tables and Figures from CDISC-standard ADaM datasets.",
+    "categories": [
+      "ADaM"
+    ]
   }
 ]
