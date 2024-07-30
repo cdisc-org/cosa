@@ -2,7 +2,7 @@
 
 ---  
 
-**Invite** can be downloaded [here](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/project-description/-/raw/main/docs/other/2024-07-15-OSB-Hub-OSB-Trail-ControlledTerminology.ics?ref_type=heads&inline=false).
+**Summary and Recording** is available [here](https://github.com/cdisc-org/osb-hub/wiki/Trail-ControlledTerminology).
 
 <br/>  
 

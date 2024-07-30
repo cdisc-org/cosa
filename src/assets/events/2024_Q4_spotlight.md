@@ -1,7 +1,7 @@
 10 December 2024, 11am - 12:30pm EDT
 ---
 
-**Registration** will come later.
+**Registration** is available [here](https://www.cdisc.org/events/webinar/cdisc-open-source-alliance-quarterly-spotlight-q4-0).
 
 <br/>
 
