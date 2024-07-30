@@ -2,15 +2,25 @@
   "projectInfo": {
     "projectName": "admiral (ADaM In R Asset Library)",
     "projectOwner": "F. Hoffmann-La Roche AG and GlaxoSmithKline LLC",
-    "projectContact": ["Thomas Neitmann & Alice Ehmann"],
+    "projectContact": [
+      "Thomas Neitmann & Alice Ehmann"
+    ],
     "projectLandingPage": "https://pharmaverse.github.io/admiral/index.html",
     "projectRepository": "https://github.com/pharmaverse/admiral",
-    "programmingLanguage": ["R"],
-    "openSourceLicense": ["Apache-2.0"],
-    "cdiscStandards": ["ADaM"],
+    "programmingLanguage": [
+      "R"
+    ],
+    "openSourceLicense": [
+      "Apache-2.0"
+    ],
+    "cdiscStandards": [
+      "ADaM"
+    ],
     "projectMaturity": "Stable",
     "agreeWithCdiscCodeOfEthics": true,
-    "user": ["Clinical Programmers"],
+    "user": [
+      "Clinical Programmers"
+    ],
     "logoUrl": "https://github.com/pharmaverse/admiral/blob/main/man/figures/logo.png"
   },
   "detailedDescription": {
@@ -20,7 +30,7 @@
     "maintenanceModel": "See https://pharmaverse.github.io/admiral/articles/git_usage.html",
     "projectSize": "Extra-large given 20 companies are now engaged via either contributing to development or testing the package",
     "contributors": "See https://pharmaverse.github.io/admiral/articles/contribution_model.html",
-    "users": "Purposefully made the package simple enough for any users to use once they read through our documentation, assuming they have basic knowledge of ADaM standards and R",
+    "userDetails": "Purposefully made the package simple enough for any users to use once they read through our documentation, assuming they have basic knowledge of ADaM standards and R",
     "preRequisites": "See https://github.com/pharmaverse/admiral#readme",
     "projectServiceOptions": "See FAQ related to validation here https://pharmaverse.github.io/admiral/articles/faq.html",
     "sponsors": "Ross Farrugia & Lucy Hoch",

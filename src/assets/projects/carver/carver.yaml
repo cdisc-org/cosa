@@ -12,11 +12,12 @@ projectInfo:
     - ADaM
   agreeWithCdiscCodeOfEthics: true
   projectMaturity: Development
-  user: 
+  user:
     - Clinical Programmers
   logoUrl: https://github.com/pfizer-opensource/carver/blob/main/man/figures/carver.png
 detailedDescription:
-  problem: Clinical reports used in submissions are still predominantly developed
+  problem:
+    Clinical reports used in submissions are still predominantly developed
     using SAS; with few specifications being common across the industry. Also,
     while reviewing outputs, minor changes may be required which currently
     involves an extra step where the programmer needs to write new code. This
@@ -38,10 +39,11 @@ detailedDescription:
     will be fixed via hotfixes and reflected in subsequent development releases.
   projectSize: The current size of the project is L. Estimated time taken to
     develop the code-base was over 500 hours.
-  contributors: "Contributors must adhere to the code of conduct described within
+  contributors:
+    'Contributors must adhere to the code of conduct described within
     the project:
-    https://github.com/pfizer-opensource/carver/blob/main/CODE_OF_CONDUCT.md"
-  users: The users of this package are clinical programmers, clinicians or
+    https://github.com/pfizer-opensource/carver/blob/main/CODE_OF_CONDUCT.md'
+  userDetails: The users of this package are clinical programmers, clinicians or
     statisticians. They are required to have knowledge of CDISC standards and
     basic R skills. Help and instructional documentation is available within the
     package.
@@ -49,9 +51,11 @@ detailedDescription:
     installation. It can be used with Windows, Linux and macOS.
   projectServiceOptions: None.
   sponsors: Pfizer Inc
-  goalsObjectives: The goal is to expand the package beyond its current status to cover
+  goalsObjectives:
+    The goal is to expand the package beyond its current status to cover
     several submission-ready reports (safety and efficacy), both as standalone
     code and within a Shiny application.
-  communications: The project will be promoted at conferences when possible, and contributors
+  communications:
+    The project will be promoted at conferences when possible, and contributors
     can interact via Github.
-  additonalInformation: ""
+  additonalInformation: ''

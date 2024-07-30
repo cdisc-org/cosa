@@ -32,7 +32,7 @@
     "maintenanceModel": "",
     "projectSize": "",
     "contributors": "",
-    "users": "",
+    "userDetails": "",
     "preRequisites": "#### Installation\n* From Github with devtools <br>\nRun following command in R console.  \n```R\nlibrary(devtools)  \ninstall_github(\"i-akiya/R4DSXML/R4DSXML\")\n```\n* From package archive file <br>\nIt is able to obtain source package from [Release Page](https://github.com/i-akiya/R4DSXML/releases).\n\n#### Dependencies\n* [R](https://cran.r-project.org/) (>= 3.6.0)\n* [R package XML](https://cran.r-project.org/web/packages/XML/index.html)\n* [R package stringr](https://cran.r-project.org/web/packages/stringr/index.html)",
     "projectServiceOptions": "",
     "sponsors": "",

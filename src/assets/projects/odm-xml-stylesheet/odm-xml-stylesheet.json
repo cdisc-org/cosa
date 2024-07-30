@@ -28,7 +28,7 @@
     "maintenanceModel": "Bugs and wishes reported to the GitHub repostory will be assessed and fixed",
     "projectSize": "About 1000 lines of code in one style sheet.\nAdditional HTML pages for applying the style sheet.\nExample input and output files",
     "contributors": "",
-    "users": "",
+    "userDetails": "",
     "preRequisites": "Web server or stand-alone XSL 1.0 engine (PowerShell, gnome xsltproc)",
     "projectServiceOptions": "",
     "sponsors": "",

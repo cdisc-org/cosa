@@ -30,7 +30,7 @@
     "maintenanceModel": "Issues are collected through our GitHub repo and is the quickest way to garner attention from a {tidyCDISC} developer for bug fixes and maintenance.",
     "projectSize": "X-Large. {tidyCDISC} is a larger shiny app with various modules, including some custom JavaScript",
     "contributors": "All contributors are welcome! It’s best if contributors have a working knowledge of shiny apps designed with the golem R-package. Also, we have a number of developer guides to help get them started: https://biogen-inc.github.io/tidyCDISC/articles/index.html. Contributors must also comply with our code of conduct: https://biogen-inc.github.io/tidyCDISC/CODE_OF_CONDUCT.html",
-    "users": "It would be helpful to be familiar with clinical data & ADaM standards",
+    "userDetails": "It would be helpful to be familiar with clinical data & ADaM standards",
     "preRequisites": "CDISC Pilot data is baked into the application for demonstration purposes but if the user aims to use their own data, a CDISC compliant ADSL data is required (at a  minimum).",
     "projectServiceOptions": "Our goal would be similar to other pharma projects (admiral, etc.): a community would form around it to guide it’s evolution overtime",
     "sponsors": "It was initially developed at Biogen, Inc., but there are now no other sources of funding",

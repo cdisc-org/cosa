@@ -14,7 +14,7 @@ projectInfo:
   agreeWithCdiscCodeOfEthics: true
   projectMaturity: Development
   user: []
-  logoUrl: ""
+  logoUrl: ''
 detailedDescription:
   problem: Dataset-JSON (https://www.cdisc.org/dataset-json) is a proposed
     replacement for the SAS Version 5 XPORT as an alternative transport format
@@ -35,11 +35,12 @@ detailedDescription:
   projectSize: Medium
   contributors: Contributions should not have errors, warnings or significant
     notes that indicate issues in the LOG file.
-  users: The primary users of are SAS programmers creating and reading
+  userDetails: The primary users of are SAS programmers creating and reading
     Dataset-JSON files. There is no external training for the code.
     Documentation for is available within the repository in the form of a paper,
     slides, and example programs.
-  preRequisites: The project has been test on Windows 10 with SAS 9.4 (TS1M7). The
+  preRequisites:
+    The project has been test on Windows 10 with SAS 9.4 (TS1M7). The
     code is also known to work on SAS® OnDemand for Academics.
   projectServiceOptions: N.A.
   sponsors: N.A.

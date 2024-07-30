@@ -30,7 +30,7 @@
     "maintenanceModel": "The project has a stable and development branches. Issues can be reported either by GitHub, e-mail or pharmaverse slack channel.",
     "projectSize": "The T-shirt size is large, with 153 functions and ~12,000 lines of code. Also multiple companies have engaged with this package",
     "contributors": "Contributors must make a pull request, and have it reviewed by a core team member.",
-    "users": "No qualifications are required to use this software. But, it is helpful to be familiar with the tidyverse ",
+    "userDetails": "No qualifications are required to use this software. But, it is helpful to be familiar with the tidyverse ",
     "preRequisites": "This is an R package, so the base R installation is needed. Other despendancies are listed in the DESCRIPTION file. ",
     "projectServiceOptions": "",
     "sponsors": "N.A.",

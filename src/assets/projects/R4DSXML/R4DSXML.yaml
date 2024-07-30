@@ -1,7 +1,7 @@
 projectInfo:
   projectName: R4DSXML
   projectOwner: Ippei Akiya
-  projectContact: ""
+  projectContact: ''
   projectLandingPage: https://github.com/i-akiya/R4DSXML/
   projectRepository: https://github.com/i-akiya/R4DSXML/
   programmingLanguage:
@@ -18,7 +18,7 @@ projectInfo:
     - Data Manager
     - Programmer
     - Biostatistician
-  logoUrl: ""
+  logoUrl: ''
 detailedDescription:
   problem: R4DSXML is R package for import CDISC Dataset-XML and Define-XML as R
     data frame.
@@ -35,11 +35,11 @@ detailedDescription:
       * Value level metadata
       * Controlled Terms
       * Analysis Results Metadata
-  openSourceConsiderations: ""
-  maintenanceModel: ""
-  projectSize: ""
-  contributors: ""
-  users: ""
+  openSourceConsiderations: ''
+  maintenanceModel: ''
+  projectSize: ''
+  contributors: ''
+  userDetails: ''
   preRequisites: >-
     #### Installation
 
@@ -67,10 +67,10 @@ detailedDescription:
     * [R package XML](https://cran.r-project.org/web/packages/XML/index.html)
 
     * [R package stringr](https://cran.r-project.org/web/packages/stringr/index.html)
-  projectServiceOptions: ""
-  sponsors: ""
-  goalsObjectives: ""
-  communications: ""
+  projectServiceOptions: ''
+  sponsors: ''
+  goalsObjectives: ''
+  communications: ''
   additonalInformation: >-
     * [Dataset-XML](https://www.cdisc.org/standards/foundational/dataset-xml)
 

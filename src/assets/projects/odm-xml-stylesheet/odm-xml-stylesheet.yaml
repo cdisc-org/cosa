@@ -15,7 +15,7 @@ projectInfo:
     - Data Manager
     - Programmer
     - Study Designer
-  logoUrl: ""
+  logoUrl: ''
 detailedDescription:
   problem: Display in a browser any well-formed ODM-XML file as a CRF rendition,
     complete with Title Page, Visit Matrix, TOC, CRF pages, or complete CRF
@@ -30,11 +30,11 @@ detailedDescription:
     About 1000 lines of code in one style sheet.
     Additional HTML pages for applying the style sheet.
     Example input and output files
-  contributors: ""
-  users: ""
+  contributors: ''
+  userDetails: ''
   preRequisites: Web server or stand-alone XSL 1.0 engine (PowerShell, gnome xsltproc)
-  projectServiceOptions: ""
-  sponsors: ""
+  projectServiceOptions: ''
+  sponsors: ''
   goalsObjectives: ODM-XML version 2.x
   communications: GitHub issues
   additonalInformation: The programming language is XSL 1.0

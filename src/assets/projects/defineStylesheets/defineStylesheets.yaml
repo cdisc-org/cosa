@@ -24,7 +24,7 @@ detailedDescription:
     be used to transform XML to a human readable format, like HTML. XSLT does not regulate the
     output format, but the stylesheet described in this project transforms XML to HTML which
     can be easily viewed in a browser.
-  solution: 
+  solution:
     To provide Define-XML v2.x XSL stylesheets that can be used in the case of electronic submissions to regulatory agencies.
 
     The stylesheets for version 2.1 are located in this <a href="https://github.com/lexjansen/define-xml-2.1-stylesheets" target="_blank">Define-XML v2.1 Stylesheet</a>
@@ -33,7 +33,7 @@ detailedDescription:
   maintenanceModel: Issues can be reported either by GitHub or e-mail.
   projectSize:
   contributors:
-  users:
+  userDetails:
   preRequisites:
   projectServiceOptions:
   sponsors:

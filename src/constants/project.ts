@@ -20,7 +20,7 @@ export const labels = {
     maintenanceModel: 'Maintenance Model',
     projectSize: 'Project Size',
     contributors: 'Contributors',
-    users: 'Users',
+    userDetails: 'Users',
     preRequisites: 'Pre-Requisites',
     projectServiceOptions: 'Project Service Options',
     sponsors: 'Sponsors',

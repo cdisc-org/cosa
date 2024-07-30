@@ -97,7 +97,7 @@ const fields: {
     { id: 'maintenanceModel', multiline: true },
     { id: 'projectSize', multiline: true },
     { id: 'contributors', multiline: true },
-    { id: 'users', multiline: true },
+    { id: 'userDetails', multiline: true },
     { id: 'preRequisites', multiline: true },
     { id: 'projectServiceOptions', multiline: true },
     { id: 'sponsors', multiline: true },

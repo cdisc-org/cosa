@@ -3,7 +3,7 @@ projectInfo:
   projectName: odmlib
   projectOwner: Sam Hume
   projectContact:
-  - swhume@gmail.com
+    - swhume@gmail.com
   projectLandingPage: https://swhume.github.io/odmlib/
   projectRepository: https://github.com/swhume/odmlib
   programmingLanguage:
@@ -16,7 +16,7 @@ projectInfo:
   agreeWithCdiscCodeOfEthics: true
   projectMaturity: Stable
   user: Clinical Programmers
-  logoUrl: "./logo.png"
+  logoUrl: './logo.png'
 detailedDescription:
   problem: >-
     Odmlib provides an easy way for Python programmers to create or process ODM and Define-XML documents.
@@ -47,16 +47,16 @@ detailedDescription:
     I plan to share the blog posts on LinkedIn.
     I will also share odmlib and its example applications with CDISC staff and others that have an interest in ODM.
     If there's sufficient interest, I will highlight odmlib in conference presentations and possibly at a future hackathon.
-  projectSize:  |-
+  projectSize: |-
     Large
-  contributors:  |-
+  contributors: |-
     As the primary author, I have been the main user of this new ODM library.
     CDISC will likely use this library to produce its ODM service for the CDISC Library.
     As an ODM team lead, I will share odmlib with other ODM experts.
     Since it makes it easy for Python programmers to work with ODM, I hope this library appeals to other Python developers.
 
     After ODM v2.0 has been released as a draft, an ODM v2.0 model will be included as part of the odmlib package.
-  users:  |-
+  userDetails: |-
     As a new project that is just about to be released, it's too early to comment on the community or users.
     Personally, if odmlib makes it easier for me and CDISC staff to create ODM solutions I will consider the project a success.
     If other developers also find it useful that would be even better.
@@ -65,15 +65,15 @@ detailedDescription:
     It is not a CDISC project, but others in CDISC may use it and be contributing authors.
   preRequisites: |-
     Follow getting started [instructions](https://swhume.github.io/odmlib/#getting-started).
-  projectServiceOptions:  |-
+  projectServiceOptions: |-
 
   sponsors: N.A.
-  goalsObjectives:  |-
+  goalsObjectives: |-
     The odmlib Python library will be the only general purpose Python package that I'm aware of for creating ODM tools.
     It will work with ODM, its extensions, as well as allow developers to create software tools that support their own extensions.
     It also makes it much simpler to produce or process ODM documents.
     Published under the MIT license, I hope others that find it useful will contribute to it.
-  communications:  |-
+  communications: |-
     * [Github](https://github.com/swhume/odmlib)
 
   additonalInformation: |-

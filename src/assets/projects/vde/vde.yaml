@@ -3,19 +3,19 @@ projectInfo:
   projectName: Visual Define-XML Editor
   projectOwner: Dmitry Kolosov
   projectContact:
-  - support@defineeditor.com
-  - t.me/defineeditor
+    - support@defineeditor.com
+    - t.me/defineeditor
   projectLandingPage: www.defineeditor.com
   projectRepository: github.com/defineEditor/editor/
   programmingLanguage: JavaScript
   openSourceLicense: AGPL-3.0
   cdiscStandards:
-  - Define-XML
-  - ARM
+    - Define-XML
+    - ARM
   agreeWithCdiscCodeOfEthics: true
   projectMaturity: Stable
   user: Clinical Programmers
-  logoUrl: "./logo.png"
+  logoUrl: './logo.png'
 detailedDescription:
   problem: >-
     Define-XML CDISC standard is an ODM-XML-based standard which is used to
@@ -38,13 +38,13 @@ detailedDescription:
   maintenanceModel: |-
     The project has a stable and development branches. Issues can be reported either by GitHub, e-mail or Telegram channel.
     Issues in the stable version are fixed via hotfixes (the project uses git-flow approach), although de-facto the development version is far ahead of the stable version and now issues are fixed in the next development release.
-  projectSize:  |-
+  projectSize: |-
     Using a T-shirt estimation the project size is large. It has been developed
     since 2018 and a rough estimate is that it was spend more than a thousand hours
     on the project.
-  contributors:  |-
+  contributors: |-
     Contributors must follow eslint rules specified in the .eslintrc file in the root folder.
-  users:  |-
+  userDetails: |-
     The primary users of VDE are clinical programmers developing and reviewing
     dataset specifications. It is expected that VDE users know Define-XML and ARM
     standards. There is no external training or documentation for the editor, help
@@ -52,15 +52,14 @@ detailedDescription:
   preRequisites: |-
     The software is distributed for MS Windows (Windows 7 and above) and Linux systems. It was complied by one person on MacOS, but it is not supported on that platform as support requires to have a Mac.
     The project can be used as is and does not require any feedback or communication.
-  projectServiceOptions:  |-
+  projectServiceOptions: |-
     For the company where I am working, I performed in-house validation of the software.
   sponsors: N.A.
-  goalsObjectives:  |-
+  goalsObjectives: |-
     The main goal is the usage by an industry, so that the community
     can provide user feedback and develop plugins (interface is not exposed in the
     current version).
-  communications:  |-
+  communications: |-
     The interaction with users is organized via a Telegram channel and
     a LinkedIn group. Where possible, it is promoted at conference.
-  additonalInformation:  N.A.
-  
+  additonalInformation: N.A.

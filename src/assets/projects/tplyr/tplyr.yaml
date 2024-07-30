@@ -4,18 +4,18 @@ projectInfo:
   projectName: Tplyr
   projectOwner: Mike Stackhouse
   projectContact:
-  - mike.stackhouse@atorusresearch.com
-  projectLandingPage: "https://atorus-research.github.io/Tplyr/"
-  projectRepository: "https://github.com/atorus-research/Tplyr"
+    - mike.stackhouse@atorusresearch.com
+  projectLandingPage: 'https://atorus-research.github.io/Tplyr/'
+  projectRepository: 'https://github.com/atorus-research/Tplyr'
   programmingLanguage: R
   openSourceLicense: MIT
   cdiscStandards:
-  - ADaM
-  - SDTM
+    - ADaM
+    - SDTM
   projectMaturity: Stable
   agreeWithCdiscCodeOfEthics: true
   user:
-  - Clinical Programmers
+    - Clinical Programmers
   logoUrl: ./TplyrLogo.png
 detailedDescription:
   problem: |-
@@ -38,7 +38,7 @@ detailedDescription:
     - adhere to the code of conduct found [here](https://atorus-research.github.io/Tplyr/CONTRIBUTING.html).
     - Submit a GitHub issue or pull request detailing the changes and rationale.
     - Include tests if applicable to test their changes.
-  users: |-
+  userDetails: |-
     Primary users are clinical programmers who are creating tables for regulatory submissions, however knowledge of CDISC standards is not a requirement.
     It is expected that users know the requirements for the tables they are developing and how they are calculated.
   preRequisites: |-
@@ -47,7 +47,7 @@ detailedDescription:
     Tplyr is qualified by Atorus Research. Assistance to consult on how it fits in an existing reporting pipeline is available.
   sponsors: Atorus Research
   goalsObjectives: |-
-    Tplyr seeks to provide the infrastructure for reducing redundancy across organizations when creating clinical tables. As standards for TLFs change, Tplyr hopes to provide guidance for how to represent the new tables programmatically. Furthermore, Tplyr seeks to make the traceability of the construction of a table more accessible as well by capturing and maintaining metadata about the table. This provides insight into from where the summary numbers presented in the resulting table originated. This metadata can then be leveraged in the creation of interactive tables to provide drilldown functionality. Tplyr does not focus on the presentation of a table, but rather focuses on the numeric derivations and the character formatting of numeric strings. Presentation and output of tables are left to existing, powerful libraries such as gt, huxtable, flextable, pharmaRTF, and more. 
+    Tplyr seeks to provide the infrastructure for reducing redundancy across organizations when creating clinical tables. As standards for TLFs change, Tplyr hopes to provide guidance for how to represent the new tables programmatically. Furthermore, Tplyr seeks to make the traceability of the construction of a table more accessible as well by capturing and maintaining metadata about the table. This provides insight into from where the summary numbers presented in the resulting table originated. This metadata can then be leveraged in the creation of interactive tables to provide drilldown functionality. Tplyr does not focus on the presentation of a table, but rather focuses on the numeric derivations and the character formatting of numeric strings. Presentation and output of tables are left to existing, powerful libraries such as gt, huxtable, flextable, pharmaRTF, and more.
   communications: |-
     Updates for Tplyr can be followed on the GitHub page. As development shifts more from AzureDevOps to GitHub, feature changes and plans can be found in issues or projects.
   additonalInformation: N.A

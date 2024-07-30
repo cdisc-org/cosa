@@ -28,19 +28,21 @@ detailedDescription:
     beyond what reviewers at the regulatory authorities usually have available,
     this thanks to the use of the modern XML format (regulatory authorities
     still use the outdated XPT - Transport 5 - format).
-  openSourceConsiderations: The "Smart Submission Dataset Viewer" uses most modern
+  openSourceConsiderations:
+    The "Smart Submission Dataset Viewer" uses most modern
     technologies such as RESTful web services and XQuery for validation (support
     for the "Open Rules for CDISC Standards" initiative). It is one of the first
     open source applications implementing the "CDISC Library API".
-  maintenanceModel: ""
-  projectSize: ""
-  contributors: ""
-  users: The "Smart Submission Dataset Viewer" is not only ideally suited for
+  maintenanceModel: ''
+  projectSize: ''
+  contributors: ''
+  userDetails:
+    The "Smart Submission Dataset Viewer" is not only ideally suited for
     reviewers at the regulatory authorities but also for pharma sponsors, CROs,
     technology and service providers who work with CDISC electronic submissions.
-  preRequisites: ""
-  projectServiceOptions: ""
-  sponsors: ""
-  goalsObjectives: ""
-  communications: ""
-  additonalInformation: ""
+  preRequisites: ''
+  projectServiceOptions: ''
+  sponsors: ''
+  goalsObjectives: ''
+  communications: ''
+  additonalInformation: ''
