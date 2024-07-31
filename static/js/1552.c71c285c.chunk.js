@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[1552],{89171:(e,c,s)=>{e.exports=s.p+"static/media/2024_Q3_OSB_hub.d8cbc4346e57b8900764.md"}}]);
