@@ -24,16 +24,19 @@ detailedDescription:
     figure this out on their own, and have a single R based solution for
     organizations to use to read/write Dataset-JSON files
   maintenanceModel: Issues can be submitted per GitHub
-  projectSize: Relatively small project for now - standard is very straightforward
+  projectSize:
+    Relatively small project for now - standard is very straightforward
     and needs to be maintained to support the standard
   contributors: Submit issues / pull requests via GitHub. Changes accepted or
     rejected by repository maintainers.
-  users: Basic R skills
+  userDetails: Basic R skills
   preRequisites: Install the package via CRAN
   projectServiceOptions: None
   sponsors: NA
-  goalsObjectives: Aim to be the single and centralized R solution for reading and
+  goalsObjectives:
+    Aim to be the single and centralized R solution for reading and
     writing Dataset-JSON files
-  communications: Aim to be part of pharmaverse, COSA, and communicate via our own
+  communications:
+    Aim to be part of pharmaverse, COSA, and communicate via our own
     organizations. Package website will continually be maintained to detail
     changes

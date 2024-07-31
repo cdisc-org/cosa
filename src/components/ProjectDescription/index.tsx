@@ -141,7 +141,7 @@ const ProjectDescription: React.FC<IProjectDescriptionProps> = ({
         <Stack spacing={2}>
           <ProjectAbout description={detailedDescription} id='problem' />
           <ProjectAbout description={detailedDescription} id='solution' />
-          <ProjectAbout description={detailedDescription} id='users' />
+          <ProjectAbout description={detailedDescription} id='userDetails' />
           <ProjectAbout
             description={detailedDescription}
             id='maintenanceModel'

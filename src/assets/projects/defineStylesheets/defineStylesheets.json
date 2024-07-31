@@ -10,13 +10,17 @@
     "programmingLanguage": [
       "XSLT"
     ],
-    "openSourceLicense": ["MIT"],
+    "openSourceLicense": [
+      "MIT"
+    ],
     "cdiscStandards": [
       "Define-XML"
     ],
     "agreeWithCdiscCodeOfEthics": true,
     "projectMaturity": "Stable",
-    "user": ["Clinical Programmers"],
+    "user": [
+      "Clinical Programmers"
+    ],
     "logoUrl": "./logo.png"
   },
   "detailedDescription": {
@@ -26,7 +30,7 @@
     "maintenanceModel": "Issues can be reported either by GitHub or e-mail.",
     "projectSize": "Small",
     "contributors": "",
-    "users": "",
+    "userDetails": "",
     "preRequisites": "",
     "projectServiceOptions": "",
     "sponsors": "",

@@ -7,8 +7,12 @@
     ],
     "projectLandingPage": "https://atorus-research.github.io/Tplyr/",
     "projectRepository": "https://github.com/atorus-research/Tplyr",
-    "programmingLanguage": ["R"],
-    "openSourceLicense": ["MIT"],
+    "programmingLanguage": [
+      "R"
+    ],
+    "openSourceLicense": [
+      "MIT"
+    ],
     "cdiscStandards": [
       "ADaM",
       "SDTM"
@@ -27,7 +31,7 @@
     "maintenanceModel": "Tplyr has a main branch that is used for stable version releases, and a dev branch that is used for development features and merged into the main branch regularly, along with a push to CRAN.\nBugs found in the stable version are patched in hotfixes and merged directly into the main branch. Issues can be reported in the GitHub repository. Tplyr was initially developed on AzureDevOps but is transitioning to development on GitHub",
     "projectSize": "Large - Tplyr has nearly 2000 lines of R code, not including tests, function documentation, and vignettes. Tplyr is in active development and plans for future function updates and functionality is ongoing.",
     "contributors": "Contributions are welcome as long as contributors:\n- adhere to the code of conduct found [here](https://atorus-research.github.io/Tplyr/CONTRIBUTING.html).\n- Submit a GitHub issue or pull request detailing the changes and rationale.\n- Include tests if applicable to test their changes.",
-    "users": "Primary users are clinical programmers who are creating tables for regulatory submissions, however knowledge of CDISC standards is not a requirement.\nIt is expected that users know the requirements for the tables they are developing and how they are calculated.",
+    "userDetails": "Primary users are clinical programmers who are creating tables for regulatory submissions, however knowledge of CDISC standards is not a requirement.\nIt is expected that users know the requirements for the tables they are developing and how they are calculated.",
     "preRequisites": "Tplyr relies on R >= 3.5.0. A full list of R package dependancies can be found [here](https://github.com/atorus-research/Tplyr/blob/master/DESCRIPTION).",
     "projectServiceOptions": "Tplyr is qualified by Atorus Research. Assistance to consult on how it fits in an existing reporting pipeline is available.",
     "sponsors": "Atorus Research",

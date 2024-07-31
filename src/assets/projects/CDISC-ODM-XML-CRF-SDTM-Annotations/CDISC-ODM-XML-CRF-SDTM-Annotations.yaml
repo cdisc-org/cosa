@@ -16,9 +16,10 @@ projectInfo:
   projectMaturity: Stable
   user:
     - Programmer
-  logoUrl: ""
+  logoUrl: ''
 detailedDescription:
-  problem: ODM-XML and Define-XML are usually seen as outputs, documenting the CRF
+  problem:
+    ODM-XML and Define-XML are usually seen as outputs, documenting the CRF
     and the study data. But they can also be regarded as specifications of the
     same items, produced by MDR tools at trial setup. Applying the macros
     (relying on the XMLMAPs) makes these XML documents machine readable in SAS.
@@ -34,11 +35,11 @@ detailedDescription:
   openSourceConsiderations: Maximium adaptation by industry
   maintenanceModel: Bugs and wishes reported to the GitHub repostory will be assessed and fixed
   projectSize: Small
-  contributors: ""
-  users: SAS programming skills
+  contributors: ''
+  userDetails: SAS programming skills
   preRequisites: SAS version 9.x
-  projectServiceOptions: ""
-  sponsors: ""
+  projectServiceOptions: ''
+  sponsors: ''
   goalsObjectives: ODM-XML version 2.x and Define-XML version 2.1.x
   communications: GitHub issues
-  additonalInformation: ""
+  additonalInformation: ''

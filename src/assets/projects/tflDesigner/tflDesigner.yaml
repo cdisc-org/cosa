@@ -1,8 +1,8 @@
 projectInfo:
   projectName: TFL Designer
-  projectOwner: "Bhavin Busa "
-  projectContact: ""
-  projectLandingPage: ""
+  projectOwner: 'Bhavin Busa '
+  projectContact: ''
+  projectLandingPage: ''
   projectRepository: https://github.com/bhavinbusa/tfldesigner
   programmingLanguage: []
   openSourceLicense:
@@ -16,7 +16,7 @@ projectInfo:
     - Programmer
     - Biostatistician
     - Data Standards Expert
-  logoUrl: ""
+  logoUrl: ''
 detailedDescription:
   problem: >-
     The industry spends countless number of hours manually designing TFL shells
@@ -48,10 +48,10 @@ detailedDescription:
     * In line with the CDISC vision of concept-based standards
 
     * Professional services offering for Sponsor-specific implementation/ customization.
-  maintenanceModel: ""
-  projectSize: ""
-  contributors: ""
-  users: >-
+  maintenanceModel: ''
+  projectSize: ''
+  contributors: ''
+  userDetails: >-
     Support from Microsoft, CDISC (COSA), PHUSE, and 3 large Sponsor companies
 
     * Contributors
@@ -59,8 +59,8 @@ detailedDescription:
     * Thought leaders in the space.
 
     * Integrations with other CDISC projects (CDISC Library, Analysis Results Standards, Safety User Guide, and other open-source projects).
-  preRequisites: ""
-  projectServiceOptions: ""
+  preRequisites: ''
+  projectServiceOptions: ''
   sponsors: >-
     * Funding required for 2-3 paid developers (core team to initiate the
     project or continue contributing).
@@ -89,4 +89,4 @@ detailedDescription:
     * CDISC and PHUSE Conferences
     * White papers, Blog post
     * Weekly meetings
-  additonalInformation: ""
+  additonalInformation: ''

@@ -38,7 +38,7 @@ export interface IProject {
     maintenanceModel: string;
     projectSize: string;
     contributors: string;
-    users: string;
+    userDetails: string;
     preRequisites: string;
     projectServiceOptions: string;
     sponsors: string;

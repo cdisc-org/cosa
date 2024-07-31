@@ -45,9 +45,10 @@ detailedDescription:
     grow with the needs of the industry.
   maintenanceModel: Issues will be reported through GitHub.
   projectSize: This is considered a small-medium project.
-  contributors: In addition to agreeing with the CDISC and COSA codes of conduct,
+  contributors:
+    In addition to agreeing with the CDISC and COSA codes of conduct,
     the contributors will submit issues and pull requests through GitHub.
-  users: |-
+  userDetails: |-
     Users of the Rule Editor must:
     - have basic knowledge of YAML
     - understand the Rule Schema
@@ -64,4 +65,4 @@ detailedDescription:
     authored.  The GitHub issues will maintain additional objectives the
     community wants for the Rule Editor.
   communications: The Rule Editor Community can utilize the open CORE Slack channel.
-  additonalInformation: ""
+  additonalInformation: ''

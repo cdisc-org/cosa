@@ -34,7 +34,7 @@ const Editor: React.FC = () => {
       maintenanceModel: '',
       projectSize: '',
       contributors: '',
-      users: '',
+      userDetails: '',
       preRequisites: '',
       projectServiceOptions: '',
       sponsors: '',
