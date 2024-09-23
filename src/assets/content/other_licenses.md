@@ -8,6 +8,7 @@ Resource | Description
 <a href="https://opensource.org/licenses " target="_blank">opensource.org/licenses </a> |	Widely used site on open source licenses from the Open Source Initiative
 CC0 1.0 Universal (CC0 1.0)<br/>Public Domain Dedication or <br/>BSD Zero Clause License | Code snippets used in examples, blogs, etc that you want to release into the public domain without the need for attribution, etc.
 MIT | open source license	Popular, permissive open source license used by CDISC, Microsoft, and many others.
+<a href="https://youtu.be/6CtoH2yZb-I" target="_blank">YouTube: Open Source Licenses</a>	| Presentation "Open Source Licenses - Practicalities and the Legal Side" by Katja Gla&#223;
 <a href="./resources/Open Source and OSPOs_JAN2021.pdf" target="_blank">Open Source & Microsoft Licensing & OSPOs</a>	| Presentation about microsoft Open Source & Standards / GitHub Developer Policy by Justin C. Colannino (Microsoft)
 
 # Open Source Archetypes & OSOP
