@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.3e1a49c9.js",
+    "main.js": "/static/js/main.2fdd7c5e.js",
     "static/js/6926.5b22ea8f.chunk.js": "/static/js/6926.5b22ea8f.chunk.js",
     "static/js/1427.69c03906.chunk.js": "/static/js/1427.69c03906.chunk.js",
     "static/js/7320.58ea3e55.chunk.js": "/static/js/7320.58ea3e55.chunk.js",
@@ -50,7 +50,6 @@
     "static/js/9095.180b74c2.chunk.js": "/static/js/9095.180b74c2.chunk.js",
     "static/js/4221.663dec13.chunk.js": "/static/js/4221.663dec13.chunk.js",
     "static/js/191.add3441b.chunk.js": "/static/js/191.add3441b.chunk.js",
-    "static/js/3635.d74a2a02.chunk.js": "/static/js/3635.d74a2a02.chunk.js",
     "static/js/8819.3d2a24bf.chunk.js": "/static/js/8819.3d2a24bf.chunk.js",
     "static/js/6347.1883561c.chunk.js": "/static/js/6347.1883561c.chunk.js",
     "static/js/2371.5af9b653.chunk.js": "/static/js/2371.5af9b653.chunk.js",
@@ -59,7 +58,7 @@
     "static/media/logo.png": "/static/media/logo.238dd83360ff540884a7.png",
     "static/media/cosaLogo.png": "/static/media/cosaLogo.97dbb603768c36e1ef71.png",
     "static/media/webinar_Q2_2022.png": "/static/media/webinar_Q2_2022.97dbb603768c36e1ef71.png",
-    "static/media/other_licenses.md": "/static/media/other_licenses.ca7cf290eee8f8a680d2.md",
+    "static/media/other_licenses.md": "/static/media/other_licenses.a48f4c6b6117169ea03f.md",
     "static/media/other_application_example.md": "/static/media/other_application_example.6121839791e855e08309.md",
     "static/media/application_example.yaml": "/static/media/application_example.b7a800e44b84b0f75836.yaml",
     "static/media/other_application_guidance.md": "/static/media/other_application_guidance.6424966c492365dc8cde.md",
@@ -102,10 +101,10 @@
     "static/media/2024_Q3_spotlight.md": "/static/media/2024_Q3_spotlight.b3541d4c1a19e9109da4.md",
     "static/media/2024_Q4_spotlight.md": "/static/media/2024_Q4_spotlight.aa9f3949a9bc730cd71c.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.3e1a49c9.js.map": "/static/js/main.3e1a49c9.js.map"
+    "main.2fdd7c5e.js.map": "/static/js/main.2fdd7c5e.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.3e1a49c9.js"
+    "static/js/main.2fdd7c5e.js"
   ]
 }
