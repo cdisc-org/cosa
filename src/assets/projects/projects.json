@@ -94,16 +94,6 @@
     ]
   },
   {
-    "id": "tflDesigner",
-    "name": "TFL Designer",
-    "description": "An open-source TFL designer to create study-specific analysis output display and in parallel generate machine-readable metadata.",
-    "categories": [
-      "Define-XML",
-      "ARM",
-      "ADaM"
-    ]
-  },
-  {
     "id": "vde",
     "name": "Visual Define-XML Editor",
     "description": "Visual Editor for Define-XML 2.0 and ARM standards.",
