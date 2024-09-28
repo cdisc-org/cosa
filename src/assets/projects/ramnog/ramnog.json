@@ -1,0 +1,41 @@
+{
+  "projectInfo": {
+      "projectName": "ramnog",
+      "projectOwner": "HTA-R openstatsware workstream",
+      "projectContact": "cino@novonordisk.com",
+      "projectLandingPage": "hta-pharma.github.io/ramnog/",
+      "projectRepository": "https://github.com/hta-pharma/ramnog",
+      "programmingLanguage": [
+          "R"
+      ],
+      "openSourceLicense": [
+          "MIT"
+      ],
+      "cdiscStandards": [
+          "ADaM"
+      ],
+      "agreeWithCdiscCodeOfEthics": true,
+      "projectMaturity": "Stable",
+      "user": [
+          "Clinical Programmers",
+          "Clinical Statisticians",
+          "Anyone with a minimal knowledge of R"
+      ],
+      "logoUrl": "./logo.png"
+  },
+  "detailedDescription": {
+      "problem": "Analysing different subsets of data - as is required for example for the German AMNOG process - are often tedious and repetitive, and the largest challenge involved is often in keeping tabs of input and results amid new data or analysis requirements. To add to the challenge the EU Health Technology Assessment Joint Clinical Assessment (EU HTA JCA) will expand the scope of these types of analysis to all EU countries when it comes into effect in the coming years.\nA typical AMNOG-submission contains thousands of endpoints, so a classical one-program-per-output approach is very resource demanding in production and validation.\nThe goal of the ramnog collection of R-packages is to automate and orchestrate these types of analysis to reduce workload and increase quality.",
+      "solution": "The ramnog suite of R-packages consists of three different elements. chef is the cornerstone package responsible for orchestrating the analysis: doing the slicing, calling in the right statistical methods and keeping tabs on the results. chefStats provide statistical methods in the format needed for chef, while chefCriteria provide implementation of inclusion criteria (currently for AMNOG only).\n\nTo specify a set of analysis the user provides\n* a custom function that loads and prepares the source data\n* any filters that needs to be applied\n* variables to slice the data by\n* a list of statistical analysis\n* criteria to use for the results\n\nDuring execution chef will apply the selected filters, slice the data as specified, and for each of the slices call the specified statistical analyses function to retrieve the result, while using the criteria functions to determine if the results fulfil the criteria specified.\n\nWhile automating these steps, dependencies is tracked using the targets package which also controls the distribution of computational tasks between available cores. This allows parallelisation in the execution, but more importantly ensures that analysis are only re-run when the specification or data is updated. This allows one to work incrementally on larger deliveries, starting perhaps before data is final, without having to worry about manually ensuring that everything is up-to-date.",
+      "openSourceConsiderations": "The packages are released under MIT license.\nThey are developed open-source and hosted in an open organisation to foster collaboration and adaptation on equal terms. It is important that we have transparency and trust in software we use for statistical analysis, and we believe that industry collaboration in an open and transparent environment is the best way to achieve this goal.",
+      "maintenanceModel": "The project has a stable and development branches. Issues can be reported on GitHub.",
+      "projectSize": "Using a T-shirt estimation the project size is medium. It has been developed\nsince early 2022, and has gone through one major rewrite. More than 1000 hours have been spent on the project.",
+      "contributors": "Users can contribute through pull requests through GitHub.",
+      "userDetails": "The primary users are clinical programmers and statisticians responsible for AMNOG deliveries or similar analyses.",
+      "preRequisites": "R",
+      "projectServiceOptions": "We do have ideas for more packages that could be part of the ramong suite. In particular tools for making analysis specification easier as well as easy formatting of analysis results for presentation.",
+      "sponsors": "",
+      "goalsObjectives": "The goal is to create the de facto standard for orchestrating statistical analysis in scenarios where repetition poses a challenge.",
+      "communications": "The interaction with users is organized via GitHub, through the HTA-workstream of openstatsware.\nWhen possible the package is promoted at conferences.",
+      "additonalInformation": ""
+  }
+}

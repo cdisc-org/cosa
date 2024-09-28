@@ -8,7 +8,7 @@
     ]
   },
   {
-    "id": "ddt",
+    "id": "ddf",
     "name": "Digital Data Flow",
     "description": "The DDF initiative aims to modernize clinical trials by enabling a digital workflow that allows for automated creation of study content and configuration of study systems to support clinical trial execution.",
     "categories": [
@@ -213,6 +213,14 @@
     "id": "carver",
     "name": "carver",
     "description": "carver is an R package that helps develop Tables and Figures from CDISC-standard ADaM datasets.",
+    "categories": [
+      "ADaM"
+    ]
+  },
+  {
+    "id": "ramnog",
+    "name": "ramnog",
+    "description": "Ramnog is an R-package to support the requirements according the German AMNOG process",
     "categories": [
       "ADaM"
     ]
