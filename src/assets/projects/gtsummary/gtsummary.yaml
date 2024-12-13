@@ -1,0 +1,46 @@
+projectInfo:
+  projectName: gtsummary
+  projectOwner: Daniel Sjoberg
+  projectContact: danield.sjoberg@gmail.com
+  projectLandingPage: https://www.danieldsjoberg.com/gtsummary/
+  projectRepository: https://github.com/ddsjoberg/gtsummary
+  programmingLanguage:
+    - R
+  openSourceLicense:
+    - MIT
+  cdiscStandards:
+    - ARS
+  agreeWithCdiscCodeOfEthics: true
+  projectMaturity: Stable
+  user:
+    - Programmer
+    - Biostatistician
+    - Medical Writer
+    - Study Designer
+  logoUrl: https://github.com/ddsjoberg/gtsummary/blob/main/data-raw/logo/gtsummary-HexSticker.png
+detailedDescription:
+  problem: Clinical trials report many tables summarizing the results of the
+    study, but creating these tables can be difficult.
+  solution: The {gtsummary} project makes is simple to create summary tables
+    directly from an ADaM data set, or from an Analysis Result Dataset (ARD;
+    part of the Analysis Results Standard). When users create tables directly
+    from ADaM data sets, they are able to extract an ARD from the table object.
+  openSourceConsiderations: "The product is a collaboration and we are able to
+    utilize the skills and knowledge across companies to build a better product.
+    "
+  maintenanceModel: Daniel Sjoberg is the maintainer of the project, which is
+    administered on GitHub.com where users can communicate with the authors to
+    report any bugs and make feature requests.
+  projectSize: Large
+  contributors: Anyone is welcome to contribute to this open source project.
+  userDetails: Users may freely download the project from CRAN or directly from GitHub.
+  preRequisites: Users must have the R programming language available.
+  projectServiceOptions: Questions are answered in public forums on GitHub where
+    project authors or community members may respond.
+  sponsors: ""
+  goalsObjectives: "The {gtsummary} package provides an elegant and flexible way
+    to create publication-ready analytical and summary tables using the R
+    programming language. "
+  communications: Users can subscribe to changes on the GitHub repository to be
+    notified immediately of all changes.
+  additonalInformation: ""
