@@ -15,7 +15,7 @@ projectInfo:
   agreeWithCdiscCodeOfEthics: true
   projectMaturity: Beta. Formal tests are currently being added.
   user:
-  - Use of the tool has a wide scope. It may be tool developers, it may be those aopting or users of USDM/M11.
+  - Use of the tool has a wide scope. It may be tool developers, it may be those adopting or users of USDM/M11.
   logoUrl: https://github.com/data4knowledge/study_definitions_workbench/blob/main/app/static/images/logo.png
 detailedDescription:
   problem: >-
@@ -23,8 +23,8 @@ detailedDescription:
     standard combined with the HL7 Vulcan FHIR message support for M11. The emergence of these new standards comes with significant change management issues and many 
     in the indusry who adopt, or wish to impelement support for the standards, will need simpe tool support to assist them in their journey. 
   solution: |-
-    The Study Definitions Workbench provides a set of tools to assist users and developers in adopting USDM, M11 and the associated FHIR messages. It will alos bring together 
-    some of the early tooling develop to show the USDM into one place. Currently functions include (but being rapidly expanded):
+    The Study Definitions Workbench provides a set of tools to assist users and developers in adopting USDM, M11 and the associated FHIR messages. It will also bring together 
+    some of the early tooling development to show the USDM in one place. Currently functions include (but being rapidly expanded):
     * Import of USDM Excel study definitions
     * Import of ICH M11 protocl documents
     * Export to USDM JSON
@@ -33,7 +33,7 @@ detailedDescription:
   openSourceConsiderations: |-
     SDW is published under the AGPL-3.0 license. 
   maintenanceModel: |-
-    The project usees the usual GitHub main and development branches. Issues and feedback can be reported via GitHub from within the tool. The intention is to improve the 
+    The project uses the usual GitHub main and development branches. Issues and feedback can be reported via GitHub from within the tool. The intention is to improve the 
     development process to include CI/CD along with automated testing etc.
   projectSize:  |-
     Currently small but envisaged to be medium longer term.
