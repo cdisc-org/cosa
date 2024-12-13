@@ -224,5 +224,45 @@
     "categories": [
       "ADaM"
     ]
+  },
+  {
+    "id": "SDW",
+    "name": "Study Definitions Workbench (SDW)",
+    "description": "The Study Definitions Workbench provides a set of tools to assist users and developers in adopting USDM, M11 and the associated FHIR messages. It will alos bring together some of the early tooling develop to show the USDM into one place.",
+    "categories": [
+      "USDM"
+    ]
+  },
+  {
+    "id": "sdtm.oak",
+    "name": "sdtm.oak",
+    "description": "{sdtm.oak} is an EDC (Electronic Data Capture systems) and Data Standard agnostic solution that enables the pharmaceutical programming community to develop CDISC (Clinical Data Interchange Standards Consortium) SDTM (Study Data Tabulation Model) datasets in R.",
+    "categories": [
+      "SDTM"
+    ]
+  },
+  {
+    "id": "gtsummary",
+    "name": "gtsummary",
+    "description": "The {gtsummary} project makes is simple to create summary tables directly from an ADaM data set, or from an Analysis Result Dataset (ARD; part of the Analysis Results Standard). When users create tables directly from ADaM data sets, they are able to extract an ARD from the table object.",
+    "categories": [
+      "ARS"
+    ]
+  },
+  {
+    "id": "cards",
+    "name": "cards",
+    "description": "The {cards} R package is a tool to create ARDs. The package also includes many utilities to assist users in creating ARDs for bespoke statistical analyses.",
+    "categories": [
+      "ARS"
+    ]
+  },
+  {
+    "id": "cardx",
+    "name": "cardx",
+    "description": "The {cardx} R package is a tool that builds on the {cards} project to create ARDs for simple and complex statistical methods.",
+    "categories": [
+      "ARS"
+    ]
   }
 ]

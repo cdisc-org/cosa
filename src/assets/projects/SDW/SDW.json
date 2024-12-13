@@ -1,0 +1,41 @@
+﻿{
+  "projectInfo": {
+    "projectName": "Study Definitions Workbench (SDW)",
+    "projectOwner": "Dave Iberson-Hurst",
+    "projectContact": [
+      "dih@data4knowledge.dk"
+    ],
+    "projectLandingPage": "https://github.com/data4knowledge/study_definitions_workbench",
+    "projectRepository": "https://github.com/data4knowledge/study_definitions_workbench",
+    "programmingLanguage": [
+      "Python"
+    ],
+    "openSourceLicense": [
+      "AGPL-3.0"
+    ],
+    "cdiscStandards": [
+      "USDM"
+    ],
+    "agreeWithCdiscCodeOfEthics": true,
+    "projectMaturity": "Beta. Formal tests are currently being added.",
+    "user": [
+      "Use of the tool has a wide scope. It may be tool developers, it may be those aopting or users of USDM/M11."
+    ],
+    "logoUrl": "https://github.com/data4knowledge/study_definitions_workbench/blob/main/app/static/images/logo.png"
+  },
+  "detailedDescription": {
+    "problem": "The Unified Study Definitions Model (USDM) is a new CDISC standard. Alongside, and associated with USDM, is the emerging ICH M11 protocol document template  standard combined with the HL7 Vulcan FHIR message support for M11. The emergence of these new standards comes with significant change management issues and many  in the indusry who adopt, or wish to impelement support for the standards, will need simpe tool support to assist them in their journey. ",
+    "solution": "The Study Definitions Workbench provides a set of tools to assist users and developers in adopting USDM, M11 and the associated FHIR messages. It will alos bring together \nsome of the early tooling develop to show the USDM into one place. Currently functions include (but being rapidly expanded):\n* Import of USDM Excel study definitions\n* Import of ICH M11 protocl documents\n* Export to USDM JSON\n* Export to HL7 FHIR messages\n* Dashboard views of imported content",
+    "openSourceConsiderations": "SDW is published under the AGPL-3.0 license. ",
+    "maintenanceModel": "The project usees the usual GitHub main and development branches. Issues and feedback can be reported via GitHub from within the tool. The intention is to improve the \ndevelopment process to include CI/CD along with automated testing etc.",
+    "projectSize": "Currently small but envisaged to be medium longer term.",
+    "contributors": "Currently d4k support development of the tool",
+    "userDetails": "The primary users are those wanting to gain expereince with the USDM, ICH M11 and/or the associated FHIR implementations.",
+    "preRequisites": "The software is a web application utilizing Python, FastAPI, Uvicorn and Bootstrap. As such it can be hosted in a variety of environments. Currently the following are supported:\n- A d4k hosted version such that users can just use the application without the need to host. Login via username/password, Google, Apple or GitHub accounts.\n- Self hosting via a Docker image (https://hub.docker.com/r/data4knowledge/sdw).\n  - Currently linux/amd64 and linux/arm64 builds supported.\n  - Further docker builds will be supported (e.g windows environments) in the future.\n- Self hosted via cloning the github library and execute within whatever environment the user wishes.\nThe software can execute in single or multiple user modes. The multiple user mode requires an external Okta Auth0 account to handle user management.",
+    "projectServiceOptions": "TBD.",
+    "sponsors": "N.A.",
+    "goalsObjectives": "The main goal is to foster the adoption of USDM and M11",
+    "communications": "Via LinkedIn. Where possible it will be promoted at industry conferences.",
+    "additonalInformation": "N.A."
+  }
+}
