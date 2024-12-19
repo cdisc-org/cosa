@@ -195,5 +195,21 @@
     "logo": "",
     "startDate": "2024-09-09",
     "endDate": "2024-09-09"
+  },
+  {
+    "title": "OSB-Trail-System Engineers Kick-Off",
+    "description": "2025_CollabTeam_OSB-Trail-System_Engineers.md",
+    "type": "webinar",
+    "logo": "https://cosa.cdisc.org/static/media/logo.eddc862991edb4e8f6b4.png",
+    "startDate": "2025-01-20",
+    "endDate": "2025-01-20"
+  },
+  {
+    "title": "{carver} Collaboration and Planning Kick-off",
+    "description": "2025_CollabTeam_{carver}.md",
+    "type": "webinar",
+    "logo": "https://cosa.cdisc.org/static/media/logo.bffdf5354f6d582dc774.png",
+    "startDate": "2025-01-27",
+    "endDate": "2025-01-27"
   }
 ]
