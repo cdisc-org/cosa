@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.9e2b48c0.js",
+    "main.js": "/static/js/main.492746ee.js",
     "static/js/6926.5b22ea8f.chunk.js": "/static/js/6926.5b22ea8f.chunk.js",
     "static/js/1427.69c03906.chunk.js": "/static/js/1427.69c03906.chunk.js",
     "static/js/7320.58ea3e55.chunk.js": "/static/js/7320.58ea3e55.chunk.js",
@@ -14,6 +14,8 @@
     "static/js/3877.ab5b4cce.chunk.js": "/static/js/3877.ab5b4cce.chunk.js",
     "static/js/9507.a39f0e87.chunk.js": "/static/js/9507.a39f0e87.chunk.js",
     "static/js/4370.22d0051a.chunk.js": "/static/js/4370.22d0051a.chunk.js",
+    "static/js/6400.35d78ed7.chunk.js": "/static/js/6400.35d78ed7.chunk.js",
+    "static/js/853.4a1c14da.chunk.js": "/static/js/853.4a1c14da.chunk.js",
     "static/js/3076.7d5a1ce9.chunk.js": "/static/js/3076.7d5a1ce9.chunk.js",
     "static/js/2359.ce5a99f2.chunk.js": "/static/js/2359.ce5a99f2.chunk.js",
     "static/js/6747.b30ab1ce.chunk.js": "/static/js/6747.b30ab1ce.chunk.js",
@@ -74,6 +76,7 @@
     "static/media/2024_Q2_spotlight.md": "/static/media/2024_Q2_spotlight.3debca58f72f5402ef14.md",
     "static/media/about_board.md": "/static/media/about_board.534d07fa1956ced8265a.md",
     "static/media/2024_Q1_spotlight.md": "/static/media/2024_Q1_spotlight.7b072c371d4a08c1ac55.md",
+    "static/media/2025_CollabTeam_{carver}.md": "/static/media/2025_CollabTeam_{carver}.11a855139edb4fa148cf.md",
     "static/media/eu_workshop_2022.md": "/static/media/eu_workshop_2022.4ae14ba92108997a1036.md",
     "static/media/hackathon_admiral_2023_Q1.md": "/static/media/hackathon_admiral_2023_Q1.3f200ddfab1da8b89e5c.md",
     "static/media/2024_Q1_osb_workshop.md": "/static/media/2024_Q1_osb_workshop.6b0f252ee96c5f89c7f0.md",
@@ -90,6 +93,7 @@
     "static/media/hackathon_ars.md": "/static/media/hackathon_ars.0e3f34d29227e245b645.md",
     "static/media/spotlight_Q4_2021.md": "/static/media/spotlight_Q4_2021.372ace8e7844cc8e8b14.md",
     "static/media/2023_osb_workshop.md": "/static/media/2023_osb_workshop.c4500ad5f2c815906317.md",
+    "static/media/2025_CollabTeam_OSB-Trail-System_Engineers.md": "/static/media/2025_CollabTeam_OSB-Trail-System_Engineers.4d6ee845acd8ff2a047a.md",
     "static/media/hackathon_admiral_2023_Q1_pre.md": "/static/media/hackathon_admiral_2023_Q1_pre.01322ddf1f16a0d7b288.md",
     "static/media/hackathon_dataset_json_2.md": "/static/media/hackathon_dataset_json_2.142d7a93fc1d539b4771.md",
     "static/media/2023_Q4_spotlight.md": "/static/media/2023_Q4_spotlight.37f1964b46c5f27b06a9.md",
@@ -107,10 +111,10 @@
     "static/media/2024_Q3_spotlight.md": "/static/media/2024_Q3_spotlight.b3541d4c1a19e9109da4.md",
     "static/media/2024_Q4_spotlight.md": "/static/media/2024_Q4_spotlight.aa9f3949a9bc730cd71c.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.9e2b48c0.js.map": "/static/js/main.9e2b48c0.js.map"
+    "main.492746ee.js.map": "/static/js/main.492746ee.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.9e2b48c0.js"
+    "static/js/main.492746ee.js"
   ]
 }

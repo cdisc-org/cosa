@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[853],{60853:(e,a,c)=>{e.exports=c.p+"static/media/2025_CollabTeam_{carver}.11a855139edb4fa148cf.md"}}]);
