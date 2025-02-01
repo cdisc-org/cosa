@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.1d8b1328.js",
+    "main.js": "/static/js/main.103a998a.js",
     "static/js/6926.5b22ea8f.chunk.js": "/static/js/6926.5b22ea8f.chunk.js",
     "static/js/1427.69c03906.chunk.js": "/static/js/1427.69c03906.chunk.js",
     "static/js/7320.58ea3e55.chunk.js": "/static/js/7320.58ea3e55.chunk.js",
@@ -74,7 +74,7 @@
     "static/media/about_evaluation_criteria.md": "/static/media/about_evaluation_criteria.efb0798196037ce3578f.md",
     "static/media/about_charter.md": "/static/media/about_charter.c94d574d4ccfa1814b7f.md",
     "static/media/2024_Q2_spotlight.md": "/static/media/2024_Q2_spotlight.3debca58f72f5402ef14.md",
-    "static/media/about_board.md": "/static/media/about_board.534d07fa1956ced8265a.md",
+    "static/media/about_board.md": "/static/media/about_board.e6c54daecbe58b0708da.md",
     "static/media/2024_Q1_spotlight.md": "/static/media/2024_Q1_spotlight.7b072c371d4a08c1ac55.md",
     "static/media/2025_CollabTeam_{carver}.md": "/static/media/2025_CollabTeam_{carver}.11a855139edb4fa148cf.md",
     "static/media/eu_workshop_2022.md": "/static/media/eu_workshop_2022.4ae14ba92108997a1036.md",
@@ -111,10 +111,10 @@
     "static/media/2024_Q3_spotlight.md": "/static/media/2024_Q3_spotlight.b3541d4c1a19e9109da4.md",
     "static/media/2024_Q4_spotlight.md": "/static/media/2024_Q4_spotlight.aa9f3949a9bc730cd71c.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.1d8b1328.js.map": "/static/js/main.1d8b1328.js.map"
+    "main.103a998a.js.map": "/static/js/main.103a998a.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.1d8b1328.js"
+    "static/js/main.103a998a.js"
   ]
 }
