@@ -264,5 +264,13 @@
     "categories": [
       "ARS"
     ]
+  },
+  {
+    "id": "siera",
+    "name": "siera",
+    "description": "siera produces fully automated R programs from ARS metadata, ready to be run to generate ARDs from relevant ADaM datasets. ",
+    "categories": [
+      "ARS"
+    ]
   }
 ]

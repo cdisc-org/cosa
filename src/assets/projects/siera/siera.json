@@ -1,0 +1,40 @@
+{
+  "projectInfo": {
+    "projectName": "siera",
+    "projectOwner": "Clymb Clinical",
+    "projectContact": "Malan Bosman, mbosman@clymbclinical.com",
+    "projectLandingPage": "https://github.com/clymbclinical/siera",
+    "projectRepository": "https://github.com/clymbclinical/siera",
+    "programmingLanguage": [
+      "R"
+    ],
+    "openSourceLicense": [
+      "MIT"
+    ],
+    "cdiscStandards": [
+      "ARS"
+    ],
+    "agreeWithCdiscCodeOfEthics": true,
+    "projectMaturity": "Development",
+    "user": [
+      "Biostatistician",
+      "Programmer"
+    ],
+    "logoUrl": null
+  },
+  "detailedDescription": {
+    "problem": "Generating Analysis Results Datasets (ARDs) requires manual input on a programming level. An ARD can be described using ARS metadata, but there is no open-source package available to ingest ARS metadata, and produce an ARD. Unless ARS metadata can be implemented into an automated solution, the real value of ARS remains untapped.",
+    "solution": "siera ingests ARS metadata (Excel or JSON format), and produces fully automated R programs (one for each output described in the ARS metadata), ready to be run to generate ARDs directly when supplied with the relevant ADaM datasets. The package includes the function readARS(), which could be called to read in ARS metadata in JSON or Excel format.",
+    "openSourceConsiderations": "Since ARS is now a foundational CDISC Standard, it is anticipated to be adopted across the industry in the future. In addition to providing a tool like TFL Designer, which generates ARS metadata, we want to provide an open-source solution which allows a user to make use of this metadata in an efficient and transparent way. This complements the TFL Designer tool and it helps operationalize CDISC ARS standards.",
+    "maintenanceModel": "Issues are reported via the Github repository, which will be addressed an updated by the Author (Malan Bosman).",
+    "projectSize": "Currently small, and development is primarily handled by Clymb Clinical. We look forward to collaborating with other companies who are in the process of implementing CDISC ARS.",
+    "contributors": "Users can contribute by submitting issues / change requests via Github. They would be required to read the package documentation and work through examples prior to contributing.",
+    "userDetails": "Knowledge of ADaM and ARS. Reading through ARS documentation on CDISC website would be useful. They would need some knowledge of R - about package installation and function usage.",
+    "preRequisites": "R installed, as well as \"siera\" R package installed. They would need a working version of an ARS file (JSON or Excel), as well as ADaM datasets ready if the ARD programs should be run.",
+    "projectServiceOptions": "The software can be integrated into companies' TFL generation workflow (as automation tool). It can also be applied in a Consulting model, where consulting is offered in addition to the software, to guide a company in its usage. If other companies want to provide service for this software, they would need ARS knowledge, and have some way to generate ARS documentation.",
+    "sponsors": "Clymb Clinical. It is funded as R&D, to be complementary to TFL Designer.",
+    "goalsObjectives": "To create robust software, aligning with CDISC ARS standard, enabling most of the industry to radically automate ARD (and subsequent TFL) generation, using ARS standards. The aim is to have a large enough library of statistical operations, so that it covers most of the operations required in TFLs.",
+    "communications": "This project will be presented at PHUSE US 2025, under \"Advancing TFL Automation: R-Based Meta-Programming Powered by ARS\". Additionally, there will be a LinkedIn update / communication to stay in touch with the users. We will continue to publicize and communicate via CDISC Interchanges, PHUSE SDEs, Social Media and Working Groups as far as possible.",
+    "additonalInformation": null
+  }
+}
