@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.103a998a.js",
+    "main.js": "/static/js/main.dfe0bc82.js",
     "static/js/6926.5b22ea8f.chunk.js": "/static/js/6926.5b22ea8f.chunk.js",
     "static/js/1427.69c03906.chunk.js": "/static/js/1427.69c03906.chunk.js",
     "static/js/7320.58ea3e55.chunk.js": "/static/js/7320.58ea3e55.chunk.js",
@@ -57,6 +57,7 @@
     "static/js/4221.663dec13.chunk.js": "/static/js/4221.663dec13.chunk.js",
     "static/js/8397.ae4ca7d8.chunk.js": "/static/js/8397.ae4ca7d8.chunk.js",
     "static/js/7939.a9d891d5.chunk.js": "/static/js/7939.a9d891d5.chunk.js",
+    "static/js/4291.06c40c81.chunk.js": "/static/js/4291.06c40c81.chunk.js",
     "static/js/191.17ff58f7.chunk.js": "/static/js/191.17ff58f7.chunk.js",
     "static/js/8819.3d2a24bf.chunk.js": "/static/js/8819.3d2a24bf.chunk.js",
     "static/js/6347.1883561c.chunk.js": "/static/js/6347.1883561c.chunk.js",
@@ -111,10 +112,10 @@
     "static/media/2024_Q3_spotlight.md": "/static/media/2024_Q3_spotlight.b3541d4c1a19e9109da4.md",
     "static/media/2024_Q4_spotlight.md": "/static/media/2024_Q4_spotlight.aa9f3949a9bc730cd71c.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.103a998a.js.map": "/static/js/main.103a998a.js.map"
+    "main.dfe0bc82.js.map": "/static/js/main.dfe0bc82.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.103a998a.js"
+    "static/js/main.dfe0bc82.js"
   ]
 }
