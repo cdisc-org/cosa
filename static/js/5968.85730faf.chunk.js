@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[5968],{65968:(a,e,t)=>{a.exports=t.p+"static/media/2025_Q1_spotlight.1afa703a6c1ca2939a6a.md"}}]);
