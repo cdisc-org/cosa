@@ -211,5 +211,13 @@
     "logo": "https://cosa.cdisc.org/static/media/logo.bffdf5354f6d582dc774.png",
     "startDate": "2025-01-27",
     "endDate": "2025-01-27"
+  },
+  {
+    "title": "COSA Spotlight Q1 2025",
+    "description": "2025_Q1_spotlight.md",
+    "type": "webinar",
+    "logo": "",
+    "startDate": "2025-03-25",
+    "endDate": "2025-03-25"
   }
 ]
