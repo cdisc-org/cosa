@@ -176,15 +176,6 @@
     ]
   },
   {
-    "id": "datasetJson",
-    "name": "Dataset-JSON Hackathon Projects",
-    "description": "Projects developed as part of the Dataset-JSON hackathon.",
-    "type": "hackathon",
-    "categories": [
-      "Dataset-JSON"
-    ]
-  },
-  {
     "id": "dataset-json-r-implementation",
     "name": "Dataset-JSON R Package Implementation",
     "description": "Read and write Dataset-JSON files in R.",
@@ -271,6 +262,15 @@
     "description": "siera produces fully automated R programs from ARS metadata, ready to be run to generate ARDs from relevant ADaM datasets. ",
     "categories": [
       "ARS"
+    ]
+  },
+  {
+    "id": "handyct",
+    "name": "HandyCT",
+    "description": "HandyCT is a point-and-click R Shiny web application that integrates with CDISC API to provide easy access to control terminologies with minimal effort.",
+    "categories": [
+      "CDISC Library",
+      "CDISC CT"
     ]
   }
 ]

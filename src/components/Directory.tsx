@@ -63,9 +63,7 @@ const Directory: React.FC = () => {
   const [category, setCategory] = useState<string | null>(null);
 
   const handleFilterChange = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === 'Enter') {
-      setFilter((event.target as HTMLInputElement).value);
-    }
+    setFilter((event.target as HTMLInputElement).value);
   };
 
   const handleSelectCategory = (name: string | null) => {
@@ -99,7 +97,16 @@ const Directory: React.FC = () => {
 
   return (
     <Stack sx={{ flex: '1', my: 2, mx: 1 }} spacing={3}>
-      <Typography variant='h1'>COSA Repository Directory</Typography>
+      <Stack direction='row' justifyContent='space-between' alignItems='center'>
+        <Typography variant='h1'>COSA Repository Directory</Typography>
+        <TextField
+          size='small'
+          onKeyPress={handleFilterChange}
+          InputProps={{ sx: { backgroundColor: 'white' } }}
+          placeholder='Search...'
+          sx={{ width: '250px' }}
+        />
+      </Stack>
       <Typography variant='body1'>
         The following repositories are officially recognized by COSA as being
         open-source projects focused on implementing or developing CDISC
@@ -117,11 +124,6 @@ const Directory: React.FC = () => {
       </Typography>
       <Stack direction='row' spacing={8}>
         <Stack sx={{ ml: 2 }}>
-          <TextField
-            size='small'
-            onKeyPress={handleFilterChange}
-            InputProps={{ sx: { backgroundColor: 'white' } }}
-          />
           <List>
             <ListItem disablePadding>
               <ListItemButton

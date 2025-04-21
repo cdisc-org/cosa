@@ -7,7 +7,48 @@ import Typography from '@mui/material/Typography';
 import RedditIcon from '@mui/icons-material/Reddit';
 import Stack from '@mui/material/Stack';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Box from '@mui/material/Box';
 import { IHackathonProject } from '../../interfaces/common';
+
+// Helper function to extract YouTube video ID
+const getYouTubeVideoId = (url: string): string | null => {
+  const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+  const match = url.match(regExp);
+  return match && match[2].length === 11 ? match[2] : null;
+};
+
+// YouTube Video Embed Component
+const YouTubeEmbed: React.FC<{ videoUrl: string }> = ({ videoUrl }) => {
+  const videoId = getYouTubeVideoId(videoUrl);
+
+  if (!videoId) return null;
+
+  return (
+    <Box
+      sx={{
+        position: 'relative',
+        width: '100%',
+        paddingTop: '56.25%', // 16:9 Aspect Ratio
+        mb: 2,
+      }}
+    >
+      <iframe
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          border: 0,
+        }}
+        src={`https://www.youtube.com/embed/${videoId}`}
+        title='YouTube video player'
+        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+        allowFullScreen
+      />
+    </Box>
+  );
+};
 
 const HackathonDescription: React.FC<{
   id: string;
@@ -75,18 +116,58 @@ const HackathonDescription: React.FC<{
           <Typography variant='body1' color='grey.800'>
             {project.description}
           </Typography>
-          <Typography variant='subtitle1' color='grey.600'>
-            Purpose
-          </Typography>
-          <Typography variant='body1' color='grey.800'>
-            {project.purpose}
-          </Typography>
+
+          {project.purpose && (
+            <>
+              <Typography variant='subtitle1' color='grey.600'>
+                Purpose
+              </Typography>
+              <Typography variant='body1' color='grey.800'>
+                {project.purpose}
+              </Typography>
+            </>
+          )}
+
           <Typography variant='subtitle1' color='grey.600'>
             Authors
           </Typography>
           <Typography variant='body1' color='grey.800'>
             {(project.author as Array<string>).join(', ')}
           </Typography>
+
+          {project.video && (
+            <>
+              <Typography variant='subtitle1' color='grey.600'>
+                Video
+              </Typography>
+              <YouTubeEmbed videoUrl={project.video} />
+            </>
+          )}
+
+          {project.demo && (
+            <>
+              <Typography variant='subtitle1' color='grey.600'>
+                Demo
+              </Typography>
+              <Link href={project.demo} target='_blank' rel='noopener'>
+                {project.demo}
+              </Link>
+            </>
+          )}
+
+          {project.contacts && (
+            <>
+              <Typography variant='subtitle1' color='grey.600'>
+                Contacts
+              </Typography>
+              {(project.contacts as Array<string>).map((contact, index) => (
+                <Typography key={index} variant='body1' color='grey.800'>
+                  {contact}
+                </Typography>
+              ))}
+            </>
+          )}
+
           <Typography variant='subtitle1' color='grey.600'>
             Repository
           </Typography>

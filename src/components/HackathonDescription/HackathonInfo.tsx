@@ -12,7 +12,7 @@ const HackathonInfo: React.FC<{
     <Stack spacing={2}>
       <Box
         component='img'
-        sx={{ height: 80, width: 80 }}
+        sx={{ maxWidth: 80 }}
         src={
           id === undefined
             ? require(`../../assets/images/cosaLogo.png`)
