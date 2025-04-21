@@ -12,7 +12,6 @@ import Logo from '../../assets/images/cdiscLogo.png';
 import RedditIcon from '@mui/icons-material/Reddit';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EventsMenu from './EventsMenu';
 import OtherMenu from './OtherMenu';
 
 const pages = [
