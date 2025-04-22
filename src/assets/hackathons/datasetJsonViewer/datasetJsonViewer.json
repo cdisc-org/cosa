@@ -29,6 +29,21 @@
       ],
       "license": "MIT"
     },
+    "DatasetJSONVisualization": {
+      "name": "Dataset-JSON Visualization",
+      "author": [
+        "Allan Hungria",
+        "Marcelina Hungria"
+      ],
+      "repository": "",
+      "demo": "www.dicoregroup.com",
+      "video": "https://youtu.be/OxIcZIaU_nw",
+      "description": "A generic web based Dataset-JSON viewer for visualization of Dataset-JSON v1.1 files in either JSON or NDJSON representations. It works with files compliant with the standard Dataset-JSON v1.1 schema or an extension of it.\n Implemented in Python.",
+      "contacts": [
+        "MHungria@DIcoreGroup.com"
+      ],
+      "license": "Proprietary License"
+    },
     "DatasetJSONViewer": {
       "name": "Dataset-JSON Viewer",
       "author": [
