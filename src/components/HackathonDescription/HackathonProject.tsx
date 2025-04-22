@@ -113,7 +113,11 @@ const HackathonDescription: React.FC<{
           <Typography variant='subtitle1' color='grey.600'>
             Description
           </Typography>
-          <Typography variant='body1' color='grey.800'>
+          <Typography
+            variant='body1'
+            color='grey.800'
+            sx={{ whiteSpace: 'pre-line' }}
+          >
             {project.description}
           </Typography>
 

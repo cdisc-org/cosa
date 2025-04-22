@@ -98,7 +98,7 @@
       ],
       "repository": "https://github.com/explore-eda/dataset-json-viewer",
       "demo": "https://viewer.edacro.com",
-      "description": "Inspired by SAS Universal Viewer. Efficiently fetches requests from our Dataset-JSON API. Try it out: Back-end https://api.edacro.com/docs, Front-end https://viewer.edacro.com",
+      "description": "Inspired by SAS Universal Viewer. Efficiently fetches requests from our Dataset-JSON API. \n\n Try it out: \n  - Back-end https://api.edacro.com/docs, \n  - Front-end https://viewer.edacro.com",
       "contacts": [
         "support@edaclinical.com"
       ],
