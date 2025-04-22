@@ -12,13 +12,13 @@ import Logo from '../../assets/images/cdiscLogo.png';
 import RedditIcon from '@mui/icons-material/Reddit';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EventsMenu from './EventsMenu';
 import OtherMenu from './OtherMenu';
 
 const pages = [
   { name: 'Directory', to: '' },
   { name: 'About', to: 'about' },
-  { name: 'Events', to: '' },
+  { name: 'Events', to: 'events' },
+  { name: 'Hackathons', to: 'hackathons' },
   { name: 'Application', to: 'application' },
 ];
 
@@ -52,29 +52,31 @@ const Header: React.FC = () => {
           sx={{ width: '100%' }}
         >
           <Stack direction='row' spacing={3} alignItems='center'>
-            <Link href='https://cdisc.org' target='_blank' rel='noreferrer'>
+            <Link href='/' rel='noreferrer' underline='none'>
               <Box sx={{ width: 100, ml: 2 }} component='img' src={Logo} />
             </Link>
-            <Typography variant='h3' sx={{ ml: 2, color: 'grey.400' }}>
+            <Typography
+              variant='h3'
+              sx={{
+                ml: 2,
+                color: 'grey.400',
+              }}
+            >
               CDISC Open Source Alliance
             </Typography>
           </Stack>
           <Stack direction='row' spacing={2} alignItems='center' sx={{ pr: 2 }}>
             {pages.map((page) => {
-              if (page.name === 'Events') {
-                return <EventsMenu key={page.name} />;
-              } else {
-                return (
-                  <Button
-                    key={page.name}
-                    component={RouterLink}
-                    to={page.to}
-                    sx={{ my: 2, color: 'white', display: 'block' }}
-                  >
-                    {page.name}
-                  </Button>
-                );
-              }
+              return (
+                <Button
+                  key={page.name}
+                  component={RouterLink}
+                  to={page.to}
+                  sx={{ my: 2, color: 'white', display: 'block' }}
+                >
+                  {page.name}
+                </Button>
+              );
             })}
             <OtherMenu />
             <Stack key='icons' direction='row' spacing={0}>

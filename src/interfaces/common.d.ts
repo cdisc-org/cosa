@@ -53,9 +53,13 @@ export interface IHackathonProject {
   author: Array<string>;
   repository: string;
   description: string;
-  purpose: string;
+  purpose?: string;
   license: string;
+  demo?: string;
+  contacts?: Array<string>;
+  video?: string;
 }
+
 export interface IHackathon {
   hackathonInfo: {
     name: string;

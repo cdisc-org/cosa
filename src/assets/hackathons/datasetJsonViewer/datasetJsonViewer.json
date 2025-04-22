@@ -1,0 +1,107 @@
+{
+  "hackathonInfo": {
+    "name": "Dataset-JSON Viewer Hackathon",
+    "description": "A virtual hackathon with the primary objective of creating Dataset-JSON Viewer software. This hackathon addresses the significant and broad interest in viewer software for Dataset-JSON, which was a finding from the Dataset-JSON as an Alternative Transport Format for Regulatory Submissions Pilot.",
+    "landingPage": "https://wiki.cdisc.org/display/DSJSONHACK/Hackathon+III%3A+Dataset-JSON+v1.1+Viewer+Projects",
+    "slides": "./../resources/datasetJsonViewerHackathon.pdf",
+    "slidesDescription": "Dataset JSON Viewer Hackathon Slides",
+    "dates": "8 October 2024 - 6 January 2025",
+    "cdiscStandards": [
+      "ODM",
+      "Dataset-JSON"
+    ],
+    "logoUrl": ""
+  },
+  "projects": {
+    "OpenDatasetJSON": {
+      "name": "Open Dataset-JSON",
+      "author": [
+        "Junze Zhang",
+        "Yuxin Shen"
+      ],
+      "repository": "https://github.com/1mgroot/Open-Dataset-JSON",
+      "demo": "https://opendatasetjson.vercel.app/",
+      "video": "https://www.youtube.com/watch?v=q9zXLHmDEhY",
+      "description": "This is a web app using Next.JS for viewing and analyzing Dataset-JSON files based on the Dataset-JSON 1.1 specification. It supports JSON and NDJSON formats, multi-file handling, metadata integration, and efficient streaming for large files. Features include SAS-style filtering, familiar to SAS users, and interactive tables with sorting, filtering, and column reordering.",
+      "contacts": [
+        "zjzsmail@gmail.com",
+        "ys6743@nyu.edu"
+      ],
+      "license": "MIT"
+    },
+    "DatasetJSONViewer": {
+      "name": "Dataset-JSON Viewer",
+      "author": [
+        "Sebastia Barcelo",
+        "Hugo Signol"
+      ],
+      "repository": "https://github.com/sbarcelo777/Dataset-JSON-hackathon",
+      "demo": "",
+      "description": "A powerful and user-friendly Shiny application for exploring and analyzing JSON datasets with interactive features and comprehensive data visualization capabilities.",
+      "contacts": [
+        "sebastia.barcelobauza@cytel.com",
+        "hugo.signol1@cytel.com"
+      ],
+      "license": "GPL-3.0"
+    },
+    "JSONVisualizer": {
+      "name": "JSON Visualizer",
+      "author": [
+        "Deepika S",
+        "Sai Pooja V R",
+        "Swetha Rameswaran"
+      ],
+      "repository": "https://github.com/pfizer-opensource/JSON_Visualizer.git",
+      "demo": "https://github.com/pfizer-opensource/JSON_Visualizer/blob/main/JSON_Visualizer_Demo.mp4",
+      "description": "A versatile Python based web-application for viewing Dataset-JSON files, which is compatible with files adhering to the Dataset-JSON v1.1 schema, supporting both JSON and NDJSON formats.",
+      "contacts": [
+        "deepika.s@pfizer.com",
+        "saipooja.vr@pfizer.com",
+        "swetha.rameswaran@pfizer.com"
+      ],
+      "license": "Apache 2.0"
+    },
+    "VDEDatasetViewer": {
+      "name": "VDE Dataset Viewer",
+      "author": [
+        "Dmitry Kolosov"
+      ],
+      "repository": "https://github.com/defineEditor/vde-dataset-viewer",
+      "demo": "",
+      "video": "https://youtu.be/xdV8gyyyk3c",
+      "description": "A viewer for Dataset-JSON files based on Electron.",
+      "contacts": [
+        "info@defineeditor.com"
+      ],
+      "license": "MIT"
+    },
+    "EDADatasetJSONViewer": {
+      "name": "EDA Dataset-JSON Viewer",
+      "author": [
+        "James A Joseph",
+        "Florian R Reihl"
+      ],
+      "repository": "https://github.com/explore-eda/dataset-json-viewer",
+      "demo": "https://viewer.edacro.com",
+      "description": "Inspired by SAS Universal Viewer. Efficiently fetches requests from our Dataset-JSON API. Try it out: Back-end https://api.edacro.com/docs, Front-end https://viewer.edacro.com",
+      "contacts": [
+        "support@edaclinical.com"
+      ],
+      "license": ""
+    },
+    "SmartSubmissionDatasetViewer": {
+      "name": "Smart Submission Dataset Viewer",
+      "author": [
+        "Jozef Aerts"
+      ],
+      "repository": "https://sourceforge.net/projects/smart-submission-dataset-viewe/",
+      "demo": "http://www.xml4pharma.com/Smart_Submission_Dataset_Viewer/",
+      "description": "A \"smart\" viewer for inspecting (submission) datasets in either CDISC Dataset-JSON or NDJSON v.1.1 or CSV format, with or without define.xml. Also has the feature to transform XPT datasets to Dataset-JSON 1.1 datasets.",
+      "video": "https://youtu.be/veUXQecUp2s",
+      "contacts": [
+        "Jozef.Aerts@XML4Pharma.com"
+      ],
+      "license": "MIT"
+    }
+  }
+}

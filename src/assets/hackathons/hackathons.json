@@ -7,5 +7,14 @@
       "ODM",
       "Dataset-JSON"
     ]
+  },
+  {
+    "id": "datasetJsonViewer",
+    "name": "Dataset-JSON Viewer Hackathon",
+    "description": "A virtual hackathon with the primary objective of creating Dataset-JSON Viewer software. This hackathon addresses the significant and broad interest in viewer software for Dataset-JSON, which was a finding from the Dataset-JSON as an Alternative Transport Format for Regulatory Submissions Pilot.",
+    "categories": [
+      "ODM",
+      "Dataset-JSON"
+    ]
   }
 ]
