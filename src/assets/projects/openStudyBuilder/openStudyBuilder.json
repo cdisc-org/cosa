@@ -6,7 +6,7 @@
       "OpenStudyBuilder@gmail.com"
     ],
     "projectLandingPage": "https://openstudybuilder.com",
-    "projectRepository": "https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder",
+    "projectRepository": "https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution",
     "programmingLanguage": [
       "Python",
       "Cypher (Neo4j)",
