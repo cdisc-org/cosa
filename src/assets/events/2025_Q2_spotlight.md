@@ -21,14 +21,14 @@ Register to hear from open-source developers in the CDISC community as they show
 
 This presentation introduces the {cards} R package, a powerful and flexible tool designed to simplify the creation of Analysis Results Datasets. Whether you're working with standard analyses or bespoke statistical methods, {cards} streamlines the process and equips researchers with practical utilities to produce ARDs efficiently and accurately.
 
-* Daniel Sjoberg, Genentech  
-  
+* Daniel Sjoberg, Genentech
+
 <br/>
 <br/>
 
 **More Dataset-JSON Viewer Hackathon Viewers**
 
-<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/datasetJson.png" class="blockMax100" alt="cards">
+<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/datasetJson.png" class="blockMax100" alt="datasetJson">
 
 **JSON Visualizer**
 
@@ -36,9 +36,9 @@ This presentation introduces the {cards} R package, a powerful and flexible tool
 
 * Deepika S, Pfizer
 * Sai Pooja V R, Pfizer
-* Swetha Rameswaran, Pfizer  
+* Swetha Rameswaran, Pfizer
 
-<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/datasetJson.png" class="blockMax100" alt="cards">  
+<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/datasetJson.png" class="blockMax100" alt="datasetJson">
 
 > **EDA Dataset-JSON Viewer**
 
