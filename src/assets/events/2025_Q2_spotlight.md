@@ -28,7 +28,7 @@ This presentation introduces the {cards} R package, a powerful and flexible tool
 
 **More Dataset-JSON Viewer Hackathon Viewers**
 
-<img style="float: left;" src="./img/Event_Images/cards.png" class="blockMax100" alt="cards">
+<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/datasetJson.png" class="blockMax100" alt="cards">
 
 **JSON Visualizer**
 
@@ -38,7 +38,7 @@ This presentation introduces the {cards} R package, a powerful and flexible tool
 * Sai Pooja V R, Pfizer
 * Swetha Rameswaran, Pfizer  
 
-<img style="float: left;" src="./img/Event_Images/cards.png" class="blockMax100" alt="cards">  
+<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/datasetJson.png" class="blockMax100" alt="cards">  
 
 > **EDA Dataset-JSON Viewer**
 
