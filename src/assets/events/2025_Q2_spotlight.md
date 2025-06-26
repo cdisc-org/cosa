@@ -1,7 +1,7 @@
 24 June 2025, 11:00 -12:30 AM ET
 ---
 
-**Registration** is available [here](https://events.teams.microsoft.com/event/3b313459-80e5-4ca1-b9a2-f78b00a26268@078244a1-de67-4c9e-9088-986d7f110a37/registration).
+**Recording** is available [here](https://www.cdisc.org/events/webinar/cosa-spotlight-q2-2025).
 
 <br/>
 
