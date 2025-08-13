@@ -272,5 +272,14 @@
       "CDISC Library",
       "CDISC CT"
     ]
+  },
+  {
+    "id": "usdm-to-sdtm-ts-domains",
+    "name": "usdm-to-sdtm-ts-domains",
+    "description": "This applicaiton processes jsonata commands with a USDM JSON file to generate the corresponding data items.",
+    "categories": [
+      "SDTM",
+      "USDM"
+    ]
   }
 ]
