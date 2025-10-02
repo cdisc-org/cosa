@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0ee5e8b.css",
-    "main.js": "/static/js/main.c141de98.js",
+    "main.js": "/static/js/main.4ea3bd75.js",
     "static/js/6926.5b22ea8f.chunk.js": "/static/js/6926.5b22ea8f.chunk.js",
     "static/js/1427.69c03906.chunk.js": "/static/js/1427.69c03906.chunk.js",
     "static/js/7320.58ea3e55.chunk.js": "/static/js/7320.58ea3e55.chunk.js",
@@ -18,6 +18,8 @@
     "static/js/853.4a1c14da.chunk.js": "/static/js/853.4a1c14da.chunk.js",
     "static/js/5968.85730faf.chunk.js": "/static/js/5968.85730faf.chunk.js",
     "static/js/9041.031d2bed.chunk.js": "/static/js/9041.031d2bed.chunk.js",
+    "static/js/4294.bd332ffa.chunk.js": "/static/js/4294.bd332ffa.chunk.js",
+    "static/js/2607.649faf1f.chunk.js": "/static/js/2607.649faf1f.chunk.js",
     "static/js/3076.7d5a1ce9.chunk.js": "/static/js/3076.7d5a1ce9.chunk.js",
     "static/js/2359.ce5a99f2.chunk.js": "/static/js/2359.ce5a99f2.chunk.js",
     "static/js/6747.b30ab1ce.chunk.js": "/static/js/6747.b30ab1ce.chunk.js",
@@ -107,6 +109,7 @@
     "static/media/hackathon_dataset_json.md": "/static/media/hackathon_dataset_json.b146f5cfd458a7f97426.md",
     "static/media/README.md": "/static/media/README.aae63fe7383a8e2d467a.md",
     "static/media/tlfdesigner_workshop_2022.md": "/static/media/tlfdesigner_workshop_2022.532f304320432de8a8a5.md",
+    "static/media/2025_Q3_spotlight.md": "/static/media/2025_Q3_spotlight.ba46a9edd1e55f929045.md",
     "static/media/other_application_empty.md": "/static/media/other_application_empty.894970fd44d57125327b.md",
     "static/media/application_empty.yaml": "/static/media/application_empty.1612579b1b856880298f.yaml",
     "static/media/eu_interchange_2022.md": "/static/media/eu_interchange_2022.08fc28892bf3f160787d.md",
@@ -118,11 +121,12 @@
     "static/media/spotlight_Q3_2022.md": "/static/media/spotlight_Q3_2022.9d349c7419ce41c5beb9.md",
     "static/media/2024_Q3_spotlight.md": "/static/media/2024_Q3_spotlight.b3541d4c1a19e9109da4.md",
     "static/media/2024_Q4_spotlight.md": "/static/media/2024_Q4_spotlight.aa9f3949a9bc730cd71c.md",
+    "static/media/2025_Q4_spotlight.md": "/static/media/2025_Q4_spotlight.f5ea281f8abfc2e35a45.md",
     "main.c0ee5e8b.css.map": "/static/css/main.c0ee5e8b.css.map",
-    "main.c141de98.js.map": "/static/js/main.c141de98.js.map"
+    "main.4ea3bd75.js.map": "/static/js/main.4ea3bd75.js.map"
   },
   "entrypoints": [
     "static/css/main.c0ee5e8b.css",
-    "static/js/main.c141de98.js"
+    "static/js/main.4ea3bd75.js"
   ]
 }
