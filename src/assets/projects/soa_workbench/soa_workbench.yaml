@@ -5,8 +5,8 @@ projectInfo:
   projectOwner: Darren Moreland
   projectContact:
     - dmoreland@cdisc.org
-  projectLandingPage: http://localhost:8000/
-  projectRepository: https://github.com/pendingintent/soa-builder
+  projectLandingPage: https://github.com/pendingintent/soa-workbench
+  projectRepository: https://github.com/pendingintent/soa-workbench
   programmingLanguage: 
     - Python
   openSourceLicense:
@@ -22,7 +22,7 @@ projectInfo:
   logoUrl: images/CDISC-360i-Logo.png
 detailedDescription:
   problem: >-
-    An easy-to-use utility with user interface does not exist for the creation of a study schedule of activties. This 
+    An easy-to-use utility with user interface does not exist for the creation of a study schedule of activities. This 
     interface must allow the creation of an encounter matrix with the linking of CDISC Biomedical Concepts with the 
     activities to support the export of valid, standard-conformant USDM v4.0.
   solution: |- 
@@ -31,12 +31,12 @@ detailedDescription:
     library with activities defined in the SoA.  Diff reporting is supported for impact analysis. Multiple AI solutions are
     used in the implementation of this project.  copilot is also used in GitHub pull requests and code reviews.
   openSourceConsiderations: |- 
-    This project is concsered fully open-source and is available for cloning, branching, and forking.  This project is in 
+    This project is considered fully open-source and is available for cloning, branching, and forking.  This project is in 
     its early stages and, by making it open-source, the hope is other developers and volunteers will get involved to help 
     create a more robust solution that adds additional benefits to the industry.
   maintenanceModel: |- 
-    The project is in development and available for branching, forking and contriubution. Issues can be reported in GitHub.
-    Issues are fixed via branching and raising Pull Requests which must be assinged to a Reviewer prior to Merge.
+    The project is in development and available for branching, forking and contribution. Issues can be reported in GitHub.
+    Issues are fixed via branching and raising Pull Requests which must be assigned to a Reviewer prior to Merge.
   projectSize: |-
     260MB currently with the expectation the project will grow as the project matures and features are added.
   contributors: |-
@@ -60,5 +60,5 @@ detailedDescription:
       * Simple SoA visualization (or at least csv/xlsx export) to review SoA.
       * Import existing protocols (can possibly use one of the open-source solutions from the AI Challenge; bonus add, not MVP)
   communications: n/a
-  additonalInformation: |-
-    https://github.com/pendingintent/soa-builder
+  additionalInformation: |-
+    https://github.com/pendingintent/soa-workbench
