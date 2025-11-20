@@ -5,8 +5,8 @@ projectInfo:
   projectOwner: Darren Moreland
   projectContact:
     - dmoreland@cdisc.org
-  projectLandingPage: http://localhost:8000/
-  projectRepository: https://github.com/pendingintent/soa-builder
+  projectLandingPage: https://github.com/pendingintent/soa-workbench
+  projectRepository: https://github.com/pendingintent/soa-workbench
   programmingLanguage: 
     - Python
   openSourceLicense:
@@ -61,4 +61,4 @@ detailedDescription:
       * Import existing protocols (can possibly use one of the open-source solutions from the AI Challenge; bonus add, not MVP)
   communications: n/a
   additonalInformation: |-
-    https://github.com/pendingintent/soa-builder
+    https://github.com/pendingintent/soa-workbench
