@@ -23,10 +23,7 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-<<<<<<< pendingintent-fix-vulnerabilities
         if: github.ref == 'refs/heads/main'
-=======
->>>>>>> main
         uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f # v4
         with:
           branch: gh-pages # The branch the action should deploy to.
