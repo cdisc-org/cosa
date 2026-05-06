@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdirectory=self.webpackChunkdirectory||[]).push([[2359],{92359:(e,a,s)=>{e.exports=s.p+"static/media/README.aae63fe7383a8e2d467a.md"}}]);
