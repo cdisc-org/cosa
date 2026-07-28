@@ -314,5 +314,14 @@
     "categories": [
         "USDM"
     ]
+  },
+    {
+    "id": "usdm-biomedical-concept-mapper",
+    "name": "USDM Biomedical Concept Mapper",
+    "description": "Delivers a metadata-driven workflow that retrieves candidate biomedical concepts, reasons across them with large language models, and writes validated mappings back into USDM packages.",
+    "categories": [
+        "USDM",
+        "SDTM"
+    ]
   }
 ]

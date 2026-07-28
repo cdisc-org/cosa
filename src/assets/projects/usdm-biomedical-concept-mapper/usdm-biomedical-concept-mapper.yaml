@@ -1,0 +1,96 @@
+projectInfo:
+  projectName: USDM Biomedical Concept Mapper
+  projectOwner: AI-LENS
+  projectContact:
+  - pritamdey@ailens.ai
+  - rchpradeep@ailens.ai
+  - chekresh.hosbect@ailens.ai
+  projectLandingPage: https://github.com/AI-LENS/usdm-bc-mapper
+  projectRepository: https://github.com/AI-LENS/usdm-bc-mapper
+  programmingLanguage:
+  - Python
+  openSourceLicense:
+  - GPL-3.0
+  cdiscStandards:
+  - USDM
+  - SDTM
+  projectMaturity: Beta
+  agreeWithCdiscCodeOfEthics: true
+  user:
+  - Clinical standards leads
+  - Clinical programmers
+  - Study data managers
+  logoUrl:
+detailedDescription:
+  problem: >-
+    Clinical teams need dependable ways to express protocol and study activities as
+    structured metadata that can drive automation across design, build, and analysis.
+    Today, mappings between planned activities and CDISC biomedical concepts within
+    the Unified Study Data Model (USDM) is done manually, which is hard to replicate, 
+    audit, and scale. This slows study startup,increases rework, and limits the ability 
+    to standardize processes.
+  solution: |-
+    The USDM Biomedical Concept Mapper delivers a metadata-driven workflow that
+    retrieves candidate biomedical concepts, reasons across them with commercial or
+    open-source large language models, and writes validated mappings back into USDM
+    packages. The lightweight CLI (`bcm`) supports mapping full studies, targeted
+    concept lookups, and retrieval-only searches, providing explainable outputs and
+    confidence scoring. Retrieval uses BM25 plus Polars indices over the latest CDISC
+    biomedical concepts and SDTM dataset specializations, while the mapper writes
+    deterministic JSON aligned with the official USDM SDK to enable automation across
+    study design and build.
+  openSourceConsiderations: |-
+    The project is released under the GNU General Public License v3.0 to encourage
+    collaboration, transparency, and community auditability. Core dependencies are
+    permissively licensed, and the repository ships with reproducible retrieval
+    datasets under the CDISC terms-of-use. Open-source distribution ensures
+    organizations can deploy the agent with their preferred infrastructure, including
+    self-hosted LLMs.
+  maintenanceModel: |-
+    AI-LENS stewards the GitHub repository, tags semantic versions (current release
+    0.3.2), and tracks issues and feature requests through GitHub Issues. Continuous
+    integration relies on pytest and pre-commit hooks, and data updates to the CDISC
+    indices are scripted to keep pace with COSMoS exports. Roadmap discussions happen
+    in pull requests to maintain traceable decision history.
+  projectSize: |-
+    Medium. The codebase spans multiple modules, packaged datasets (~40 MB of CDISC
+    terminology), and a CLI surface. Active development began in 2025 and continues
+    with frequent releases.
+  contributors: |-
+    Contributors follow the repository's contributing guidelines, run `pre-commit run
+    --all-files`, and add pytest coverage for new features. Pull requests require
+    descriptive change logs and must respect the GPL-3.0 licensing obligations and
+    CDISC data usage terms.
+  userDetails: |-
+    Target users are CDISC standards teams, study data managers, and clinical
+    programmers who want explainable USDM-to-biomedical concept mappings to drive
+    metadata reuse and automation. Users are expected to understand USDM structures,
+    CDISC controlled terminology, and basic command-line workflows. Output artifacts
+    are designed for downstream study build, analytics, and documentation pipelines.
+  preRequisites: |-
+    Python 3.13+, `uv` or another PEP 668-compliant environment manager, and read
+    access to CDISC biomedical concept data packaged with the repository. For
+    LLM-assisted mapping, users must configure API credentials (e.g., OpenAI, Gemini,
+    or self-hosted endpoints) in `config.yaml`.
+  projectServiceOptions: |-
+    Community support is offered through the GitHub issue tracker. Enterprise users
+    can engage AI-LENS for collaboration or validation partnerships on request; there
+    is no mandatory commercial service.
+  sponsors: Self-funded by AI-LENS
+  goalsObjectives: |-
+    Deliver a production-ready, transparent pipeline that:
+    - Keeps USDM artifacts aligned with authoritative CDISC biomedical concepts
+    - Improves metadata reuse and traceability across studies
+    - Reduces manual reconciliation and review effort
+    - Standardizes mappings with explainability
+    - Enables downstream automation across study build, analytics, and documentation
+    - Integrates with existing metadata repositories and CI workflows via a CLI
+  communications: |-
+    Primary communication channels are GitHub Issues and pull requests. Project news
+    is shared via repository releases and README updates; contributors may reach the
+    maintainers directly via the published email contacts.
+  additonalInformation: |-
+    The CLI exposes `usdm`, `find-bc-cdisc`, and `search-bc-cdisc` commands. Detailed
+    configuration guidance, architecture diagrams, and AI SDK compatibility notes are
+    available in the README and `docs` folder. Early adopters can iterate on automated
+    data flows today and contribute improvements via GitHub issues and pull requests.
