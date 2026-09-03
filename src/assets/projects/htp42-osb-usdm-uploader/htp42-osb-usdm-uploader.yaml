@@ -1,0 +1,75 @@
+---
+projectInfo:
+  projectName: HTP42 OSB USDM UPLOADER
+  projectOwner: HealthTechPartners42 (HTP42)
+  projectContact: Phoebe@htp42.com
+  projectLandingPage: 
+  - https://github.com/HTP42-OpenStudyBuilder/OSB-usdm-uploader?tab=readme-ov-file#usdm-uploader
+  - https://www.youtube.com/watch?v=w3EffuJrzRs
+
+  projectRepository: https://github.com/HTP42-OpenStudyBuilder/OSB-usdm-uploader
+  programmingLanguage: Python
+  openSourceLicense: MIT License
+  cdiscStandards: 
+    - Digital Data Flow (DDF)
+    - USDM
+  projectMaturity: Stable
+  agreeWithCdiscCodeOfEthics: true
+  user: 
+    - Programmer 
+    - study designer
+  logoUrl:
+detailedDescription:
+  problem: >- 
+    It solves the problem of manually creating or updating studies in OSB, which is slow, error-prone, and inconsistent.
+    By automatically reading a USDM-formatted JSON, it ensures that study definitions (objectives, endpoints, arms, visits, etc.) are uploaded accurately and consistently.
+    It eliminates the need for users to click through OSB’s UI to build each study component manually.
+    It ensures alignment with CDISC/TransCelerate’s USDM model, so data in OSB follows the same standardized structure used across systems.
+    It speeds up study onboarding, versioning, and automation, especially when mapping from sources like ClinicalTrials.gov or protocol systems.
+
+  solution: |-
+   It ingests a study defined in CDISC/TransCelerate’s USDM and materializes it inside OpenStudyBuilder (OSB), 
+   so protocol metadata isn’t just “standardized”—it’s operational in a live study-spec platform that can drive downstream assets 
+   (SoA, CRFs, EDC setup). 
+   Bridges the DDF ecosystem to a working MDR/SDR. Unlike generic ETL scripts or one-off importers, 
+   it’s designed specifically to align with Digital Data Flow (DDF) concepts (USDM + SDR) and land them in a production-grade 
+   OSB metadata repository—enabling “write once, use many” across authoring, EDC, and submissions.
+   
+   #### List of presentations
+   * - https://www.youtube.com/watch?v=w3EffuJrzRs
+   * - https://www.youtube.com/watch?v=eJ4C1ZFtK-8 
+
+  openSourceConsiderations: |- 
+    The USDM uploader is open source because it’s designed to accelerate community adoption and
+    interoperability of the CDISC Digital Data Flow (DDF) ecosystem. Allows for transparency and trust.
+  maintenanceModel: |-
+   issue_tracking: https://github.com/HTP42-OpenStudyBuilder/OSB-usdm-uploader/issues\
+   contribution_guidelines: https://github.com/HTP42-OpenStudyBuilder/OSB-usdm-uploader\
+
+  projectSize: |- 
+     Project size Medium
+     About 300 -350 hrs spent on this
+     Size of team small 1-2 people
+
+  contributors: |-
+     Contributors must follow the code of conduct stipulated in root folder in github page
+  userDetails: |- 
+    The primary users are developers working on OSB and USDM. Should have knowledge of USDM, 
+    what it is and python to work or edit the root script.
+  preRequisites: |- 
+    The script was complied on MS Windows (Windows 7 and above) and can work on MAC as well. 
+    Only pre-requisite would be software on Python version 3.10 and above
+  projectServiceOptions: |- 
+    Professional services such as integration, customization, validation,   and consulting may be provided by HealthTechPartners42 or other partners. 
+    The software itself remains fully open source and vendor-neutral.
+  sponsors: |-
+    The project is currently self-funded and maintained by HealthTechPartners42, with no external sponsorship.
+  goalsObjectives: |- 
+    To automate the ingestion of USDM-compliant study definitions into OpenStudyBuilder (OSB), enabling end-to-end digital study setup 
+    that aligns with CDISC Digital Data Flow (DDF) and TransCelerate USDM standards.
+  communications: |- 
+    Linkedin HTP42
+    https://www.youtube.com/watch?v=w3EffuJrzRs
+    https://www.youtube.com/watch?v=eJ4C1ZFtK-8
+
+  additionalInformation: N.A.
