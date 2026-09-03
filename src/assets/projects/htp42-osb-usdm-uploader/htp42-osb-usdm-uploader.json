@@ -2,14 +2,17 @@
   "projectInfo": {
     "projectName": "HTP42 OSB USDM UPLOADER",
     "projectOwner": "HealthTechPartners42 (HTP42)",
-    "projectContact": "Phoebe@htp42.com",
-    "projectLandingPage": [
-      "https://github.com/HTP42-OpenStudyBuilder/OSB-usdm-uploader?tab=readme-ov-file#usdm-uploader",
-      "https://www.youtube.com/watch?v=w3EffuJrzRs"
+    "projectContact": [
+      "Phoebe@htp42.com"
     ],
+    "projectLandingPage": "https://github.com/HTP42-OpenStudyBuilder/OSB-usdm-uploader?tab=readme-ov-file#usdm-uploader",
     "projectRepository": "https://github.com/HTP42-OpenStudyBuilder/OSB-usdm-uploader",
-    "programmingLanguage": "Python",
-    "openSourceLicense": "MIT License",
+    "programmingLanguage": [
+      "Python"
+    ],
+    "openSourceLicense": [
+      "MIT License"
+    ],
     "cdiscStandards": [
       "Digital Data Flow (DDF)",
       "USDM"
