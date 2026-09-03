@@ -323,5 +323,13 @@
         "USDM",
         "SDTM"
     ]
+  },
+  {
+    "id": "htp42-osb-usdm-uploader",
+    "name": "HTP42 OSB USDM Uploader",
+    "description": "A Python tool that ingests USDM-formatted study definitions and automatically uploads and manages them in OpenStudyBuilder (OSB), automating study setup and reducing manual errors.",
+    "categories": [
+      "USDM"
+    ]
   }
 ]
