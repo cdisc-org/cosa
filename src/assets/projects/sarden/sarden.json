@@ -1,0 +1,43 @@
+{
+  "projectInfo": {
+    "projectName": "sARDen",
+    "projectOwner": "Yutaka Morioka",
+    "projectContact": [
+      "Yutaka Morioka <morioka.yutaka038@eps.co.jp>, <sasyupi@gmail.com>:"
+    ],
+    "projectLandingPage": "https://github.com/Morioka-Yutaka/sARDen",
+    "projectRepository": "https://github.com/Morioka-Yutaka/sARDen",
+    "programmingLanguage": [
+      "SAS"
+    ],
+    "openSourceLicense": [
+      "MIT"
+    ],
+    "cdiscStandards": [
+      "ARS"
+    ],
+    "agreeWithCdiscCodeOfEthics": true,
+    "projectMaturity": "Development",
+    "user": [
+      "Programmer",
+      "Biostatistician",
+      "Study Designer"
+    ],
+    "logoUrl": "https://github.com/Morioka-Yutaka/sARDen/blob/main/sARDen_small.png"
+  },
+  "detailedDescription": {
+    "problem": "Clinical reporting teams need Analysis Results Datasets (ARDs) metadata to make TLF production reproducible, traceable, and automation-ready. However, in many SAS-centric workflows ARD concepts have been handled implicitly in code or spreadsheets rather than as structured, machine-readable metadata. At the time of developing sARDen, there was no practical, SAS-native framework to author and operationalize ARD within SAS itself: users could not stay inside SAS to define ARD-style study/output/analysis metadata, validate it, and drive display generation end-to-end. This gap makes it hard to standardize outputs across studies, reuse definitions, or align smoothly with ARM-TS/ARS-oriented submission processes.",
+    "solution": "sARDen provides a SAS-native ARD builder and execution framework. Users define ARD/ARS-aligned metadata in normalized SAS tables via simple, consistent macros, with built-in checks for required fields and controlled values. sARDen then uses this metadata to generate TLFs reproducibly, reducing manual programming and ensuring consistent structure and calculations across outputs. The project is designed as a modular ecosystem: core, standard ARD-driven TLF production lives in sARDen, while more exploratory or extended analytical capabilities (beyond the baseline ARD scope) will be implemented in sARDenX. This keeps sARDen stable and submission-friendly, while allowing sARDenX to evolve rapidly for advanced methods, custom display logic, and R/SAS hybrid extensions.",
+    "openSourceConsiderations": "sARDen is published as open-source to accelerate the adoption and evolution of ARS/ARM-TS-aligned workflows within the SAS community. A SAS-native ARS authoring and ARD-driven reporting ecosystem is still emerging, and making sARDen openly available lowers the barrier for SAS users to experiment with, critique, and extend a metadata-first approach to TLF production.\n\nAnother key reason is practicality: supporting the full diversity of real-world analysis methods and display patterns cannot be achieved by a single developer. Open development invites contributions from statisticians and programmers across organizations, enabling broader method coverage, better validation, and faster iteration toward robust ARM-TS compliance.\n\nFinally, sARDen aims to maintain a degree of structural compatibility with related initiatives such as cards/cardx. By releasing sARDen as OSS and placing it in the open, the project can be reviewed, discussed, and aligned by a wider audience. This visibility helps converge on shared conventions and promotes interoperable, community-driven standards rather than isolated, vendor- or team-specific solutions.",
+    "maintenanceModel": "If you have any questions, please contact me via GitHub (https://github.com/Morioka-Yutaka/sARDen) or email.",
+    "projectSize": "Medium",
+    "contributors": "Contributions (issues/pull requests) can be made through GitHub, and the repository maintainers will determine if the changes are approved or declined.",
+    "userDetails": "Basic SAS skills and a minimum understanding of  ARS/ARD",
+    "preRequisites": "This package was developed and tested in a Windows environment with SAS 9.4 (TS1M8). It is expected to run properly on SAS 9.4 or later regardless of the maintenance release version, and is also assumed to work in cloud environments such as Viya; however, it has not been tested there. The SAS macros in this package can be executed individually, but they are also designed to be installed and loaded through the SAS Packages Framework (SPF) [https://github.com/yabwon/SAS_PACKAGES].",
+    "projectServiceOptions": "Project Service Options (draft)\nsARDen provides a SAS-native, metadata-driven ARD authoring and TLF production workflow. Users can adopt it in multiple ways depending on their needs:\n\nCore ARD authoring and validation in SAS, producing standardized ARD tables for downstream reporting.\n\nOptional ARM-TS/ARS export using sARDenMTS [https://github.com/Morioka-Yutaka/sARDenMTS], which generates hierarchical YAML compliant with CDISC ARM-TS from normalized SAS metadata tables.\n\nAn extension track, sARDenX [https://github.com/Morioka-Yutaka/sARDenX], is being developed to host more advanced or study-specific analysis patterns beyond the core scope, allowing users to scale from descriptive outputs to complex inferential methods while keeping a consistent metadata-first interface",
+    "sponsors": "NA",
+    "goalsObjectives": "sARDen provides a SAS-native authoring and execution framework for CDISC ARD/ARS, with export to ARM-TS-consistent YAML. The long-term goal is to make ARD/ARS creation and reuse as routine and reproducible in SAS as SDTM/ADaM-based reporting, lowering the barrier for SAS users to adopt metadata-driven workflows.",
+    "communications": "I share release information in the SAS Packages Users & Developers group on LinkedIn, publish it on PharmaForest (https://github.com/PharmaForest), and also present it at SAS-related events in Japan.",
+    "additionalInformation": "I would like to express my gratitude to my organization, EPS Corporation, for their understanding and support. I am also deeply grateful to the members of the Phuse Japan OST Working Group, as their activities served as the inspiration for this project."
+  }
+}
