@@ -324,6 +324,14 @@
         "SDTM"
     ]
   },
+    {
+    "id": "sarden",
+    "name": "sARDen",
+    "description": "sARDen is a SAS-native ARD builder and execution framework that lets users define ARD/ARS-aligned metadata directly in SAS and generate TLFs reproducibly, reducing manual programming.",
+    "categories": [
+        "ARS"
+    ]
+  },
   {
     "id": "htp42-osb-usdm-uploader",
     "name": "HTP42 OSB USDM Uploader",
