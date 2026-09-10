@@ -43,8 +43,8 @@ detailedDescription:
     The USDM uploader is open source because it’s designed to accelerate community adoption and
     interoperability of the CDISC Digital Data Flow (DDF) ecosystem. Allows for transparency and trust.
   maintenanceModel: |-
-   issue_tracking: https://github.com/HTP42-OpenStudyBuilder/OSB-usdm-uploader/issues\
-   contribution_guidelines: https://github.com/HTP42-OpenStudyBuilder/OSB-usdm-uploader\
+   issue_tracking: https://github.com/HTP42-OpenStudyBuilder/OSB-usdm-uploader/issues
+   contribution_guidelines: https://github.com/HTP42-OpenStudyBuilder/OSB-usdm-uploader
 
   projectSize: |- 
      Project size Medium
