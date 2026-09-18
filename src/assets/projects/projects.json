@@ -112,7 +112,9 @@
       "Define-XML",
       "SDTM",
       "SDTMIG",
-      "SEND"
+      "SEND",
+      "USDM",
+      "TIG"
     ]
   },
   {
