@@ -17,7 +17,9 @@
       "Define-XML",
       "SDTM",
       "SDTMIG",
-      "SEND"
+      "SEND",
+      "USDM",
+      "TIG"
     ],
     "agreeWithCdiscCodeOfEthics": true,
     "projectMaturity": "Development",
