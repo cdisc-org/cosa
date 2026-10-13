@@ -346,6 +346,8 @@
     "id": "bc-to-usdm-configurator",
     "name": "BC to USDM configurator",
     "description": "Links directly to the CDISC Biomedical Concept Library so users can select and configure company-specific sets of Biomedical Concepts and store them in USDM format for fast, consistent study design.",
-    "categories": []
+    "categories": [
+      "USDM"
+    ]
   }
 ]

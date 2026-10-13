@@ -13,7 +13,9 @@
     "openSourceLicense": [
       "MIT"
     ],
-    "cdiscStandards": [],
+    "cdiscStandards": [
+      "USDM"
+    ],
     "agreeWithCdiscCodeOfEthics": true,
     "projectMaturity": "Development",
     "user": [
