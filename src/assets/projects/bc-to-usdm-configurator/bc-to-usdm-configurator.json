@@ -1,0 +1,41 @@
+{
+  "projectInfo": {
+    "projectName": "BC to USDM configurator",
+    "projectOwner": "ClinLine",
+    "projectContact": [
+      "Berber Snoeijer"
+    ],
+    "projectLandingPage": "https://github.com/ClinLine/BC2USDM/blob/main/README.md",
+    "projectRepository": "https://github.com/ClinLine/BC2USDM",
+    "programmingLanguage": [
+      "Python"
+    ],
+    "openSourceLicense": [
+      "MIT"
+    ],
+    "cdiscStandards": [
+      "USDM"
+    ],
+    "agreeWithCdiscCodeOfEthics": true,
+    "projectMaturity": "Development",
+    "user": [
+      "Data Manager"
+    ],
+    "logoUrl": ""
+  },
+  "detailedDescription": {
+    "problem": "Study designers and Medical Writers will be less familiar with selecting and the technical configuration of Biomedical Concepts. Moreover, to ensure consistency between studies, it is good to pre-define and pre-configure a set of Biomedical Concepts which then can be linked to an activity. ",
+    "solution": "The solution directly links to CDISCs Biomedical Concept Library and enables the users to select and configure sets of Biomedical Concepts. Each company specific set can be stored in USDM format and can then be utilized for efficient and fast study design in a study design solution by medical writers. The configuration is not only including the selection of biomedical concepts, but also the relevant data element concepts (stored as properties in USDM) and responses that should be enabled. ",
+    "openSourceConsiderations": "This tool is developed to showcase how we can make the process of utilizing biomedical concepts efficient in practice by storing them as pre-configured sets tailored to the sponsor preferences and the therapeutic area needs.\nOpen-source distribution ensures that organizations can test and review the utilities and see how this can inform their own solutions.",
+    "maintenanceModel": "The tool is made available via the GitHub Repository. Request for updates and problems can be issued as tickets and will be followed-up by the ClinLine development team.",
+    "projectSize": "Medium. The MVP is available. The code base is currently being refactored to give more insight in the different steps and actions. Thereafter step by step improvements are planned. ",
+    "contributors": "issue/change requests, code contributions and pull request",
+    "userDetails": "Data Managers, Solution Designers and Builder",
+    "preRequisites": "Specified Python version and packages and access API key to CDISC Biomedical Concept library to be retrieved upon CDISC membership.",
+    "projectServiceOptions": "Implementation services and additional feature building.",
+    "sponsors": "The project is sponsored by ClinLine providing the time/effort to build and maintain the tool.",
+    "goalsObjectives": "Deliver an example tool that showcases the process of selecting Biomedical Concepts, Configuring a predefined set aligned to company and therapeutic area standard collection practices and storing it in USDM format.  ",
+    "communications": "GitHub Readme page, ClinLine Newsletter, ClinLine Break&Learn presentations, conference presentations.",
+    "additionalInformation": ""
+  }
+}
