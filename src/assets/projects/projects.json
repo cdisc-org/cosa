@@ -343,6 +343,14 @@
     ]
   },
   {
+    "id": "bc-to-usdm-configurator",
+    "name": "BC to USDM configurator",
+    "description": "Links directly to the CDISC Biomedical Concept Library so users can select and configure company-specific sets of Biomedical Concepts and store them in USDM format for fast, consistent study design.",
+    "categories": [
+      "USDM"
+    ]
+  },
+  {
     "id": "coreval",
     "name": "coreval",
     "description": "An R package that runs the CDISC Open Rules (CORE) conformance rules against SDTM, SEND and USDM data offline, so programmers can check datasets while building them.",
