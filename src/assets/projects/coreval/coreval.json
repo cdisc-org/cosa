@@ -1,0 +1,49 @@
+{
+  "projectInfo": {
+    "projectName": "coreval",
+    "projectOwner": "Hrach Gevorgyan (independent developer)",
+    "projectContact": [
+      "Hrach Gevorgyan <hrach.gevorgyan@yandex.com>"
+    ],
+    "projectLandingPage": "https://hrach-gevorgyan.github.io/coreval/",
+    "projectRepository": "https://github.com/hrach-gevorgyan/coreval",
+    "programmingLanguage": [
+      "R"
+    ],
+    "openSourceLicense": [
+      "MIT"
+    ],
+    "cdiscStandards": [
+      "SDTM",
+      "SEND",
+      "USDM",
+      "TIG",
+      "Dataset-JSON",
+      "Define-XML",
+      "CDISC CT"
+    ],
+    "projectMaturity": "Stable",
+    "agreeWithCdiscCodeOfEthics": true,
+    "user": [
+      "Clinical Programmers",
+      "Statistical Programmers",
+      "Data Managers"
+    ],
+    "logoUrl": "https://raw.githubusercontent.com/hrach-gevorgyan/coreval/master/man/figures/logo.png"
+  },
+  "detailedDescription": {
+    "problem": "Conformance problems in SDTM and SEND data are usually found late, when the\nfinished datasets are run through a separate validation tool shortly before\nsubmission. Fixing them then means going back through programs that were\nwritten weeks earlier. Programmers working in R have had no way to run\nCDISC's conformance rules from inside the session where they build the data.",
+    "solution": "coreval is an R package that runs the CDISC Open Rules on a data frame or on\na whole study folder, offline, with no API key. A programmer can check a\ndataset right after writing the code that builds it. Each finding names the\nrule, the record and the values involved, and results can be filtered and\nwritten to Excel together with the rules that could not be evaluated and the\nreason. The rules are shipped as data taken from a pinned commit of\ncdisc-open-rules, and that commit is recorded in every findings file.\n\nIt complements CDISC's rules engine rather than replacing it: coreval is a\nfirst check while programming, not a replacement for a validated tool.\nTo test its results, coreval was run on CDISC's pilot submission\n(22 datasets, 294,677 records) and every finding was compared rule by rule\nwith the reference engine. Rules are also run against the example data\nCDISC publishes for them, and coverage is documented:\nhttps://github.com/hrach-gevorgyan/coreval/blob/master/docs/REAL-STUDY.md\nhttps://github.com/hrach-gevorgyan/coreval/blob/master/docs/COVERAGE.md",
+    "openSourceConsiderations": "Conformance checking should be open to every programmer, including those\nat small companies and in academia. Publishing it as open source lets users\ninspect exactly how each rule is evaluated, report disagreements, and adopt\nit without licensing barriers. The CDISC material it uses is itself MIT\nlicensed, and its origin is documented in the package (inst/COPYRIGHTS).",
+    "maintenanceModel": "Issues are reported on GitHub\n(https://github.com/hrach-gevorgyan/coreval/issues). The package is\nreleased on CRAN with semantic versioning, and every change is recorded in\nNEWS.md. Each push is checked on Windows, macOS and Linux through GitHub\nActions, and the main branch is protected. When CDISC updates the Open\nRules, the pinned commit is updated, the conformance tests are re-run, and\nchanges in results are reviewed before release.",
+    "projectSize": "Medium (M). About 10,000 lines of R code evaluating 1,054 bundled rules\nthrough a general set of operators, with a test suite, a conformance test\nharness and a real-study comparison. Developed and maintained by one person.",
+    "contributors": "Contributions are welcome through GitHub issues and pull requests, under\nthe MIT licence and the project's code of conduct. No contributor licence\nagreement is required.",
+    "userDetails": "Working knowledge of SDTM or SEND and basic R. The getting-started guide\nand function reference are on the website:\nhttps://hrach-gevorgyan.github.io/coreval/",
+    "preRequisites": "R 4.1 or later on Windows, macOS or Linux. Installed from CRAN with\ninstall.packages(\"coreval\"). Required packages are data.table and haven;\na few optional packages add specific formats, such as Excel export.\nNo network access or API key is needed.",
+    "projectServiceOptions": "No paid services are offered. The MIT licence allows any company to\nprovide support, validation or integration services around the package.",
+    "sponsors": "Not sponsored.",
+    "goalsObjectives": "Keep the bundled rules in step with CDISC's published Open Rules releases.\nAdd ADaM once CDISC publishes CORE conformance rules for ADaM. Widen\ncoverage of areas the current test data exercises least, such as split\ndomains and define.xml driven rules. Make coreval part of the pharmaverse\nset of R packages (a request is under review).",
+    "communications": "Release notes in NEWS.md and GitHub releases, the package website, and\nannouncements on LinkedIn and R community channels (R Weekly, Posit\nCommunity). The package has been submitted for inclusion in pharmaverse.",
+    "additionalInformation": "coreval is an independent project and is not affiliated with or endorsed\nby CDISC. Happy to answer any questions by email."
+  }
+}
