@@ -1,4 +1,4 @@
-08 December 2025, 10:00 -11:30 AM ET
+08 December 2026, 10:00 -11:30 AM ET
 ---
 
 **Registration** is available [here](https://events.teams.microsoft.com/event/e8b11299-f0c3-4815-9c0f-75dc4e681b34@078244a1-de67-4c9e-9088-986d7f110a37/registration).
@@ -13,7 +13,7 @@ Join CDISC and Open-Source Developers for the COSA Spotlight Webinar on 8 Decemb
 
 <br/>
 
-<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/COSAlogo.png" class="blockMax100" alt="sasDatasetJSON">
+<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/sARDen.png" class="blockMax100" alt="sARDen">
 
 **sARDen**
 
@@ -25,6 +25,8 @@ Users define ARS-aligned study, output, and analysis metadata through simple mac
 <br/>
 <br/>
 
+<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/usdmBCM.png" class="blockMax100" alt="USDMBCM">
+
 **USDM Biomedical Concept Mapper**
 
 Mapping planned study activities to CDISC Biomedical Concepts within USDM is usually done by hand. That work is hard to replicate, audit, and scale, and it slows study startup. The USDM Biomedical Concept Mapper automates it with a lightweight Python command-line tool.
@@ -34,6 +36,8 @@ The tool retrieves candidate concepts from the latest CDISC Biomedical Concepts 
 * Chaitanya Repaka, AI Lens
 <br/>
 <br/>
+
+<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/htp42.png" class="blockMax100" alt="htp42">
 
 **HTP42 OSB USDM Uploader**
 
