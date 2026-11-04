@@ -243,5 +243,13 @@
     "logo": "",
     "startDate": "2025-12-09",
     "endDate": "2025-12-09"
+  },
+    {
+    "title": "COSA Spotlight Q4 2026",
+    "description": "2026_Q4_spotlight.md",
+    "type": "webinar",
+    "logo": "",
+    "startDate": "2026-12-08",
+    "endDate": "2026-12-08"
   }
 ]
