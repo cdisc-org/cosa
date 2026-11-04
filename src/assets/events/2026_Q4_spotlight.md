@@ -25,7 +25,7 @@ Users define ARS-aligned study, output, and analysis metadata through simple mac
 <br/>
 <br/>
 
-<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/usdmBCM.png" class="blockMax100" alt="USDMBCM">
+<img style="float: left; max-width: 173px; padding-right: 16px" src="./img/Event_Images/COSAlogo.png" class="blockMax100" alt="USDMBCM">
 
 **USDM Biomedical Concept Mapper**
 
