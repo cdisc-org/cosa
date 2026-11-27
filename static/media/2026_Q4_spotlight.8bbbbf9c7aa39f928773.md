@@ -41,7 +41,7 @@ The tool retrieves candidate concepts from the latest CDISC Biomedical Concepts 
 
 **HTP42 OSB USDM Uploader**
 
-Creating or updating studies manually in OpenStudyBuilder (OSB) is slow, error-prone, and inconsistent. The HTP42 OSB USDM Uploader reads a USDM JSON study definition and loads its objectives, endpoints, arms, visits, and other components into OSB automatically.
+USDM is set to become the standard, machine-readable format for protocols. OpenStudyBuilder aims to establish a single, standardized source of truth for study design specifications. It therefore makes sense that OSB should be able to import USDM protocols. Today, it cannot do it natively, and this is what this importer solves. The HTP42 OSB USDM Uploader reads a USDM JSON study definition and loads its objectives, endpoints, arms, visits, and other components into OSB automatically.
 
 This turns standardized protocol metadata into a working study specification that can drive downstream assets such as the SoA, CRFs, and EDC setup. Built in Python and aligned with CDISC Digital Data Flow (DDF), it is designed for programmers and study designers working with OSB and USDM.
 
